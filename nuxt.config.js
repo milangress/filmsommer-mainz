@@ -48,6 +48,7 @@ export default {
       directus: 'https://rypqx7qi.directus.app'
     },
     dir: 'static',
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
