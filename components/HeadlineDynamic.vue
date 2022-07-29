@@ -1,5 +1,5 @@
 <template lang="pug">
-.headline-dynamic
+.headline-dynamic(@mouseover="reloadAllRows")
   .top-row
     .top-row--item(
       v-for="item in topRow"
@@ -45,10 +45,10 @@ export default {
       this.setBottomRow()
     },
     setTopRow() {
-      this.topRow = Array.from({ length: 15 }).map(x => Math.random() - 0.5)
+      this.topRow = Array.from({ length: 10 }).map(x => Math.random() - 0.5)
     },
     setBottomRow() {
-      this.bottomRow = Array.from({ length: 15 }).map(x => Math.random() - 0.5)
+      this.bottomRow = Array.from({ length: 10}).map(x => Math.random() - 0.5)
     },
   },
 }
@@ -59,9 +59,9 @@ export default {
   width: var(--width-outer);
   margin: 0 auto;
   background-color: var(--pink);
-  margin-block: 4rem;
+  margin-block: 6rem;
   line-height: 1.2;
-  font-size: 2rem;
+  font-size: 1.7rem;
   /*display: inline-block;*/
   contain: layout;
 }
@@ -83,8 +83,8 @@ export default {
   z-index: -10;
 }
 .top-row--item, .bottom-row--item {
-  width: 100px;
-  height: 50px;
+  width: 200px;
+  aspect-ratio: 16/9;
   background-color: var(--pink);
   z-index: -1;
   transition: transform ease-in-out 0.5s;

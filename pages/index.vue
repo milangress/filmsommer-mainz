@@ -4,10 +4,10 @@
     nuxt-img.logo(
       src="/FilmsommerLogo.svg"
     )
-    headline-dynamic-old
-    timetable-block(:allDates="dates")
+    //headline-dynamic-old
     headline-dynamic
-      h1 Test
+      h1 Es geht weiter und wir legen wieder los!
+    timetable-block(:allDates="dates")
     headline-dynamic
       h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
