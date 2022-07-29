@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'filmsommer-2022',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'de',
     },
     meta: [
       { charset: 'utf-8' },
@@ -19,6 +19,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~assets/css/reset.css',
     '~assets/css/fonts.css',
   ],
 
