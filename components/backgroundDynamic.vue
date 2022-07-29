@@ -1,10 +1,10 @@
 <template lang="pug">
-.background
+.background(@click="setBar")
   .bar-left
   .wrapper--inner
     .bar(
       v-for="bar in bars"
-      :style="{backgroundColor: bar.color, flexGrow: bar.width * 100}"
+      :style="{backgroundColor: bar.color, flexGrow: bar.width}"
       )
   .bar-right
 
@@ -35,6 +35,21 @@ export default {
       ],
     }
   },
+  mounted() {
+    // setInterval(() => {
+    //   this.setBar()
+    // }, 1000)
+  },
+  methods: {
+    setBar() {
+      this.bars = this.bars.map(x => {
+        return {
+          width: Math.random() + 1,
+          color: x.color
+        }
+      })
+    }
+  }
 }
 </script>
 
@@ -54,6 +69,7 @@ export default {
 }
 .bar {
   min-width: 10px;
+  transition: all ease-in-out 0.5s;
 }
 .bar-left {
   height: 100%;
