@@ -1,8 +1,9 @@
 <template lang="pug">
   div
     p test
+    nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572")
     div(v-for="date in dates") {{date.name}}
-      img(
+      nuxt-img(
       :src="getImage(date.image)"
       )
 </template>

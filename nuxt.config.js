@@ -31,7 +31,24 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     'nuxt-windicss',
+    '@nuxt/image'
   ],
+
+  generate: {
+    dir: 'public'
+  },
+
+  image: {
+    domains: [
+      'rypqx7qi.directus.app',
+      'rypqx7qi.directus.app/',
+      'directus.app'
+    ],
+    alias: {
+      directus: 'https://rypqx7qi.directus.app'
+    },
+    dir: 'static',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
