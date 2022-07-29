@@ -18,13 +18,17 @@
           span.date {{getDate(date.date)}}
           br
           span.name {{date.name}}
-      .event(v-for="event in date.events")
-        strong {{event.time}} {{event.type}}
-        p {{event.title}}
-      nuxt-img(
-      provider="static"
-      :src="getImage(date.image)"
-      )
+      .content.inner
+        .event(v-for="event in date.events")
+          strong {{event.time}} {{event.type}}
+          p {{event.title}}
+        .event(v-for="event in date.events")
+          h3 {{event.title}}
+          p(v-html="event.content" )
+      //nuxt-img(
+      //provider="static"
+      //:src="getImage(date.image)"
+      //)
 </template>
 
 <script>
