@@ -13,10 +13,11 @@
 
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
-      headline-dynamic
-        h1 {{date.date}}
+      headline-dynamic.headline
+        h1
+          span.date {{getDate(date.date)}}
           br
-          | {{date.name}}
+          span.name {{date.name}}
       .event(v-for="event in date.events")
         strong {{event.time}} {{event.type}}
         p {{event.title}}
@@ -27,6 +28,8 @@
 </template>
 
 <script>
+import {DateTime} from "luxon"
+
 export default {
   name: 'IndexPage',
   data () {
@@ -51,6 +54,12 @@ export default {
     getImage (fileId) {
       const url = new URL(`${this.baseUrl}assets/${fileId}`)
       return url.href
+    },
+    getDate(date) {
+      const weekday = DateTime.fromISO(date).weekdayShort
+      // .toFormat("dd.MM.yyyy");
+      const day = DateTime.fromISO(date).toFormat("dd.MM")
+      return `${weekday}, ${day}`
     }
   },
 }
@@ -81,5 +90,8 @@ export default {
   margin-block: 3rem;
   padding: 0.5rem;
   font-size: 1.2rem;
+}
+.headline .date {
+  font-size: 0.8em;
 }
 </style>
