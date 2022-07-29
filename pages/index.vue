@@ -72,6 +72,9 @@ export default {
   --green: #37AD60;
   --yellow: #E4DF00;
 }
+body {
+  background: var(--pink);
+}
 .logo {
   width: var(--width-outer);
   margin: 0 auto;
