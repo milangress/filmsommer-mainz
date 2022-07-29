@@ -42,7 +42,7 @@ export default {
   z-index: -1;
   position: fixed;
   height: 100vh;
-  width: 1120px;
+  width: var(--width-inner);
   display: flex;
   justify-content: center
 }
