@@ -6,7 +6,7 @@
     )
     headline-dynamic
     timetable-block(:allDates="dates")
-    p test
+    h1 test
     nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates") {{date.name}}
       nuxt-img(
@@ -42,6 +42,9 @@ export default {
 :root {
   --width-outer: 90vw;
   --width-inner: calc(var(--width-outer) - 10rem);
+  --pink: #F9D1E4;
+  --green: #37AD60;
+  --yellow: #E4DF00;
 }
 .logo {
   width: var(--width-outer);
