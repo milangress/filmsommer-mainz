@@ -4,7 +4,7 @@
     nuxt-img.logo(
       src="/FilmsommerLogo.svg"
     )
-    headline-dynamic
+    headline-dynamic-old
     timetable-block(:allDates="dates")
     h1 test
     nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")

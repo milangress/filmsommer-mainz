@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: "HeadlineDynamic"
+  name: "HeadlineDynamicOld"
 }
 </script>
 
