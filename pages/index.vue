@@ -78,6 +78,22 @@ export default {
   --green: #37AD60;
   --yellow: #E4DF00;
 }
+@media (min-width: 1600px) {
+  :root {
+    --width-outer: 1500px;
+    --width-inner: calc(var(--width-outer) - 20rem);
+  }
+}
+@media (max-width: 1100px) {
+  :root {
+    --width-outer: 95vw;
+    --width-inner: calc(var(--width-outer) - 5vw);
+  }
+  html {
+    font-size: 0.8rem;
+  }
+}
+
 body {
   background: var(--pink);
   scroll-padding-top: 2rem;
@@ -85,7 +101,7 @@ body {
 
 .logo {
   width: var(--width-outer);
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   margin: 2rem auto;
   display: block;
 }

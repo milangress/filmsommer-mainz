@@ -53,6 +53,11 @@ export default {
   grid-auto-rows: auto;
   grid-gap: 2rem;
 }
+@media (max-width: 1100px) {
+  .timetable {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .day {
   cursor: pointer;
   background-color: var(--pink);
