@@ -11,6 +11,8 @@
 
     .content.inner(v-html="about.about" )
 
+    PathText
+
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
       headline-dynamic.headline
@@ -23,6 +25,7 @@
           strong {{event.time}} {{event.type}}
           p {{event.title}}
         .event(v-for="event in date.events")
+          path-text(:text="event.pathtext" v-if="event.pathtext" )
           h3 {{event.title}}
           p(v-html="event.content" )
       //nuxt-img(
