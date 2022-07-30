@@ -85,7 +85,8 @@ body {
 
 .logo {
   width: var(--width-outer);
-  margin: 0 auto;
+  min-height: 100vh;
+  margin: 2rem auto;
   display: block;
 }
 .inner {
