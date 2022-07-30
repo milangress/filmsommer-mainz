@@ -15,7 +15,7 @@
 
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
-      headline-dynamic.headline
+      headline-dynamic.headline(:id="'date-'+ date.date")
         h1
           span.date {{getDate(date.date)}}
           br
@@ -81,7 +81,9 @@ export default {
 }
 body {
   background: var(--pink);
+  scroll-padding-top: 2rem;
 }
+
 .logo {
   width: var(--width-outer);
   margin: 0 auto;
