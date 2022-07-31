@@ -31,5 +31,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.PASSWORD }}
           local-dir: ./public/
-          dry-run: true
           protocol: ftps
