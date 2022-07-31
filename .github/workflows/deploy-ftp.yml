@@ -1,5 +1,5 @@
 on: push
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website via FTPS
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -31,5 +31,6 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.PASSWORD }}
           local-dir: ./public/
-          dry-run: true
           protocol: ftps
+          state-name: do_not_edit_any_file-ftp-deploy-sync-state.json
+          dry-run: true
