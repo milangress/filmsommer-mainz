@@ -12,8 +12,8 @@
 
 <script>
 export default {
-  name: "BackgroundDynamic",
-  data () {
+  name: 'BackgroundDynamic',
+  data() {
     return {
       bars: [
         {
@@ -31,7 +31,7 @@ export default {
         {
           color: '#F9D1E4',
           width: '1',
-        }
+        },
       ],
     }
   },
@@ -42,14 +42,14 @@ export default {
   },
   methods: {
     setBar() {
-      this.bars = this.bars.map(x => {
+      this.bars = this.bars.map((x) => {
         return {
           width: Math.random() * 10,
-          color: x.color
+          color: x.color,
         }
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -65,7 +65,7 @@ export default {
   margin: 0 auto;
   width: var(--width-inner);
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .bar {
   min-width: 10px;
@@ -81,5 +81,4 @@ export default {
   flex-grow: 1;
   background-color: var(--yellow);
 }
-
 </style>

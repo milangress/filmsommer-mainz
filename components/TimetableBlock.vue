@@ -12,33 +12,33 @@
 </template>
 
 <script>
-const { DateTime } = require("luxon");
+const { DateTime } = require('luxon')
 
 export default {
-  name: "TimetableBlock",
+  name: 'TimetableBlock',
   props: {
     allDates: {
       type: Array,
       required: true,
-    }
+    },
   },
   methods: {
     getTime(time) {
-      return DateTime.fromISO(time).toFormat("HH:mm");
+      return DateTime.fromISO(time).toFormat('HH:mm')
     },
     getDate(date) {
       const weekday = DateTime.fromISO(date).weekdayShort
-        // .toFormat("dd.MM.yyyy");
-      const day = DateTime.fromISO(date).toFormat("dd.MM")
+      // .toFormat("dd.MM.yyyy");
+      const day = DateTime.fromISO(date).toFormat('dd.MM')
       return `${weekday}, ${day}`
     },
     goToDate(date) {
       this.$router.push({
-        path: "/",
-        hash: '#date-' + date
+        path: '/',
+        hash: '#date-' + date,
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -77,7 +77,6 @@ export default {
   transform: scale(1.2);
 }
 .event {
-  min-height: 5em
+  min-height: 5em;
 }
-
 </style>

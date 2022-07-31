@@ -35,20 +35,20 @@
 
 <script>
 export default {
-  name: "HeadlineDynamic",
-  data () {
+  name: 'HeadlineDynamic',
+  data() {
     return {
       topRow: [],
       bottomRow: [],
-      leftRow: []
+      leftRow: [],
     }
   },
   mounted() {
     this.reloadAllRows()
-    window.addEventListener('resize', this.reloadAllRows);
+    window.addEventListener('resize', this.reloadAllRows)
   },
   unmounted() {
-    window.removeEventListener('resize', this.reloadAllRows);
+    window.removeEventListener('resize', this.reloadAllRows)
   },
   methods: {
     reloadAllRows() {
@@ -57,14 +57,16 @@ export default {
       this.setLeftRow()
     },
     setTopRow() {
-      this.topRow = Array.from({ length: 10 }).map(x => Math.random() - 0.5)
+      this.topRow = Array.from({ length: 10 }).map((x) => Math.random() - 0.5)
     },
     setBottomRow() {
-      this.bottomRow = Array.from({ length: 10}).map(x => Math.random() - 0.5)
+      this.bottomRow = Array.from({ length: 10 }).map(
+        (x) => Math.random() - 0.5
+      )
     },
     setLeftRow() {
-      this.leftRow = Array.from({ length: 3}).map(x => Math.random() - 0.5)
-    }
+      this.leftRow = Array.from({ length: 3 }).map((x) => Math.random() - 0.5)
+    },
   },
 }
 </script>
@@ -88,7 +90,8 @@ export default {
   display: inline-block;
 }
 
-.top-row, .bottom-row {
+.top-row,
+.bottom-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -97,7 +100,8 @@ export default {
   overflow: visible;
   z-index: -10;
 }
-.top-row--item, .bottom-row--item {
+.top-row--item,
+.bottom-row--item {
   width: 200px;
   aspect-ratio: 16/9;
   background-color: var(--pink);
@@ -125,5 +129,4 @@ export default {
   /*outline: 1px red solid;*/
   transition: transform ease-in-out 0.5s;
 }
-
 </style>

@@ -43,38 +43,42 @@
 </template>
 
 <script>
-import {DateTime} from "luxon"
+import { DateTime } from 'luxon'
 
 export default {
   name: 'IndexPage',
-  data () {
+  data() {
     return {
       dates: [],
-      about: []
+      about: [],
     }
   },
   async fetch() {
-    const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json())
+    const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then(
+      (response) => response.json()
+    )
     this.dates = await dataDates.data
     // eslint-disable-next-line no-console
     console.log(this.dates)
 
-    const dataAbout = await fetch(process.env.baseUrl + 'items/about').then((response) => response.json())
+    const dataAbout = await fetch(process.env.baseUrl + 'items/about').then(
+      (response) => response.json()
+    )
     this.about = await dataAbout.data
     // eslint-disable-next-line no-console
     console.log(this.about)
   },
   methods: {
-    getImage (fileId) {
+    getImage(fileId) {
       const url = new URL(`${process.env.baseUrl}assets/${fileId}`)
       return url.href
     },
     getDate(date) {
       const weekday = DateTime.fromISO(date).weekdayShort
       // .toFormat("dd.MM.yyyy");
-      const day = DateTime.fromISO(date).toFormat("dd.MM")
+      const day = DateTime.fromISO(date).toFormat('dd.MM')
       return `${weekday}, ${day}`
-    }
+    },
   },
 }
 </script>

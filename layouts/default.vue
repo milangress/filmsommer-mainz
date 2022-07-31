@@ -8,7 +8,7 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "Default"
+  name: 'Default',
 }
 </script>
 
@@ -16,9 +16,9 @@ export default {
 :root {
   --width-outer: 90vw;
   --width-inner: calc(var(--width-outer) - 20rem);
-  --pink: #F9D1E4;
-  --green: #37AD60;
-  --yellow: #E4DF00;
+  --pink: #f9d1e4;
+  --green: #37ad60;
+  --yellow: #e4df00;
 }
 @media (min-width: 1600px) {
   :root {

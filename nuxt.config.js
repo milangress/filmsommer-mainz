@@ -18,10 +18,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '~assets/css/reset.css',
-    '~assets/css/fonts.css',
-  ],
+  css: ['~assets/css/reset.css', '~assets/css/fonts.css'],
 
   env: {
     baseUrl: 'https://rypqx7qi.directus.app/',
@@ -38,21 +35,21 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     'nuxt-windicss',
-    '@nuxt/image'
+    '@nuxt/image',
   ],
 
   generate: {
-    dir: 'public'
+    dir: 'public',
   },
 
   image: {
     domains: [
       'rypqx7qi.directus.app',
       'rypqx7qi.directus.app/',
-      'directus.app'
+      'directus.app',
     ],
     alias: {
-      directus: 'https://rypqx7qi.directus.app'
+      directus: 'https://rypqx7qi.directus.app',
     },
     dir: 'static',
     // staticFilename: '[publicPath]/images/[name]-[hash][ext]'
@@ -71,8 +68,11 @@ export default {
   build: {},
 
   rules: {
-    'vue/multi-word-component-names': ['error', {
-      'ignores': ['Impressum', 'default']
-    }]
-  }
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['Impressum', 'default'],
+      },
+    ],
+  },
 }
