@@ -44,7 +44,7 @@ export default {
     setBar() {
       this.bars = this.bars.map(x => {
         return {
-          width: Math.random() + 1,
+          width: Math.random() * 10,
           color: x.color
         }
       })
