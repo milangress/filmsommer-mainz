@@ -5,7 +5,10 @@
     //  type="image/svg+xml"
     //  :data="`logos/${logo.file}`"
     //  )
-    img.sponsor-logo(
+    nuxt-img.sponsor-logo(
+      format="png"
+      sizes="sm:100vw md:50vw lg:500px"
+      provider="static"
       :src="`logos-png/${logo.file}.png`"
     )
 </template>
