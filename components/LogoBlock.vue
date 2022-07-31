@@ -18,7 +18,8 @@ export default {
   },
   async fetch() {
     const dataDates = await fetch(
-      process.env.baseUrl + 'files?filter[folder][_eq]=dd889dad-a9de-4c9b-b8cd-f67ab74cb6d5'
+      process.env.baseUrl +
+        'files?filter[folder][_eq]=dd889dad-a9de-4c9b-b8cd-f67ab74cb6d5'
     ).then((response) => response.json())
     this.logos = await dataDates.data
     // eslint-disable-next-line no-console
@@ -29,7 +30,7 @@ export default {
       const url = new URL(`${process.env.baseUrl}assets/${fileId}`)
       return url.href
     },
-  }
+  },
 }
 </script>
 
@@ -40,5 +41,4 @@ export default {
   grid-auto-rows: auto;
   grid-gap: 2rem;
 }
-
 </style>
