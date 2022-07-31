@@ -23,6 +23,10 @@ export default {
     '~assets/css/fonts.css',
   ],
 
+  env: {
+    baseUrl: 'https://rypqx7qi.directus.app/',
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -65,6 +69,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  rules: {
+    'vue/multi-word-component-names': ['error', {
+      'ignores': ['Impressum', 'default']
+    }]
+  },
 
   router: {
     scrollBehavior: async (to, from, savedPosition) => {

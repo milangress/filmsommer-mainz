@@ -1,6 +1,5 @@
 <template lang="pug">
   div
-    background-dynamic
     nuxt-img.logo(
       src="/FilmsommerLogo.svg"
     )
@@ -40,25 +39,24 @@ export default {
   name: 'IndexPage',
   data () {
     return {
-      baseUrl: 'https://rypqx7qi.directus.app/',
       dates: [],
       about: []
     }
   },
   async fetch() {
-    const dataDates = await fetch(this.baseUrl + 'items/Dates').then((response) => response.json())
+    const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json())
     this.dates = await dataDates.data
     // eslint-disable-next-line no-console
     console.log(this.dates)
 
-    const dataAbout = await fetch(this.baseUrl + 'items/about').then((response) => response.json())
+    const dataAbout = await fetch(process.env.baseUrl + 'items/about').then((response) => response.json())
     this.about = await dataAbout.data
     // eslint-disable-next-line no-console
     console.log(this.about)
   },
   methods: {
     getImage (fileId) {
-      const url = new URL(`${this.baseUrl}assets/${fileId}`)
+      const url = new URL(`${process.env.baseUrl}assets/${fileId}`)
       return url.href
     },
     getDate(date) {
@@ -71,54 +69,7 @@ export default {
 }
 </script>
 <style>
-:root {
-  --width-outer: 90vw;
-  --width-inner: calc(var(--width-outer) - 20rem);
-  --pink: #F9D1E4;
-  --green: #37AD60;
-  --yellow: #E4DF00;
-}
-@media (min-width: 1600px) {
-  :root {
-    --width-outer: 1500px;
-    --width-inner: calc(var(--width-outer) - 20rem);
-  }
-}
-@media (max-width: 1100px) {
-  :root {
-    --width-outer: 95vw;
-    --width-inner: calc(var(--width-outer) - 5vw);
-  }
-  html {
-    font-size: 0.8rem;
-  }
-}
 
-body {
-  background: var(--pink);
-  scroll-padding-top: 2rem;
-}
-
-.logo {
-  width: var(--width-outer);
-  /*min-height: 100vh;*/
-  margin: 2rem auto;
-  display: block;
-}
-.inner {
-  width: var(--width-inner);
-  margin: 0 auto;
-}
-.outer {
-  width: var(--width-outer);
-  margin: 0 auto;
-}
-.content {
-  background-color: var(--pink);
-  margin-block: 3rem;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-}
 .headline .date {
   font-size: 0.8em;
 }
