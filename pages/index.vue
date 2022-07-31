@@ -25,13 +25,15 @@
           br
           span.name {{date.name}}
       .content.inner
-        .event(v-for="event in date.events")
-          strong {{event.time}} {{event.type}}
-          p {{event.title}}
-        .event(v-for="event in date.events")
-          path-text(:text="event.pathtext" v-if="event.pathtext" )
-          h3 {{event.title}}
-          p(v-html="event.content" )
+        .event-box-wrapper
+          .event-short(v-for="event in date.events")
+            strong {{getTime(event.time)}} {{event.type}}
+            p {{event.title}}
+        .events-text-wrapper
+          .event(v-for="event in date.events")
+            path-text(:text="event.pathtext" v-if="event.pathtext" )
+            h3 {{event.title}}
+            p(v-html="event.content" )
       //nuxt-img(
       //provider="static"
       //:src="getImage(date.image)"
@@ -77,6 +79,9 @@ export default {
       const url = new URL(`${process.env.baseUrl}assets/${fileId}`)
       return url.href
     },
+    getTime(time) {
+      return DateTime.fromISO(time).toFormat('HH:mm')
+    },
     getDate(date) {
       const weekday = DateTime.fromISO(date).weekdayShort
       // .toFormat("dd.MM.yyyy");
@@ -95,5 +100,15 @@ export default {
 }
 .headline .date {
   font-size: 0.8em;
+}
+.event-box-wrapper {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 5px 5px 0px 0px black;
+}
+.events-text-wrapper {
+
 }
 </style>
