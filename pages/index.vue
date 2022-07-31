@@ -13,6 +13,10 @@
     //PathText
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
+      nuxt-img.date-image(
+        provider="static"
+        :src="getImage(date.image)"
+      )
       headline-dynamic.headline(:id="'date-'+ date.date")
         h1
           span.date {{getDate(date.date)}}
@@ -69,7 +73,12 @@ export default {
 }
 </script>
 <style>
-
+.date-image {
+  width: var(--width-inner);
+  /*max-height: 60vh;*/
+  margin: 2rem auto 0 auto;
+  transform: translateX(25%);
+}
 .headline .date {
   font-size: 0.8em;
 }
