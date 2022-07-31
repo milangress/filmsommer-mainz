@@ -1,4 +1,4 @@
-name: CI Lint 👀 
+name: 👀 CI Lint
 
 on:
   push:
