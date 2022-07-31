@@ -1,13 +1,13 @@
 <template lang="pug">
 .logos
   template(v-for="logo in logos")
-    object.sponsor-logo(
-      type="image/svg+xml"
-      :data="`logos/${logo.file}`"
-      )
-    //img.sponsor-logo(
-    //  :src="`logos/${logo.file}`"
-    //)
+    //object.sponsor-logo(
+    //  type="image/svg+xml"
+    //  :data="`logos/${logo.file}`"
+    //  )
+    img.sponsor-logo(
+      :src="`logos-png/${logo.file}.png`"
+    )
 </template>
 
 <script>
@@ -27,7 +27,7 @@ export default {
     // // eslint-disable-next-line no-console
     // console.log(this.logos)
     this.logos = Array.from(Array(23).keys()).map((i) => ({
-      file: `sponsor_logo_${i}.svg`,
+      file: `sponsor_logo_${i}`,
     }))
   },
   methods: {
