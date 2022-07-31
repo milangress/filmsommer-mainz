@@ -32,4 +32,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           local-dir: ./public/
           protocol: ftps
+          state-name: do_not_edit_any_file-ftp-deploy-sync-state.json
           dry-run: true
