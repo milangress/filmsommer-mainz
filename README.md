@@ -1,7 +1,6 @@
 # filmsommer-2022
 
-[![👀 CI Lint](https://github.com/milangress/filmsommer-2022/actions/workflows/ci.yml/badge.svg)](https://github.com/milangress/filmsommer-2022/actions/workflows/ci.yml)  [![🚀 Deploy website via FTPS](https://github.com/milangress/filmsommer-2022/actions/workflows/deploy-ftp.yml/badge.svg)](https://github.com/milangress/filmsommer-2022/actions/workflows/deploy-ftp.yml)
-
+[![👀 CI Lint](https://github.com/milangress/filmsommer-2022/actions/workflows/ci.yml/badge.svg)](https://github.com/milangress/filmsommer-2022/actions/workflows/ci.yml) [![🚀 Deploy website via FTPS](https://github.com/milangress/filmsommer-2022/actions/workflows/deploy-ftp.yml/badge.svg)](https://github.com/milangress/filmsommer-2022/actions/workflows/deploy-ftp.yml)
 
 ## Build Setup
 
