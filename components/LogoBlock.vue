@@ -1,11 +1,9 @@
 <template lang="pug">
 .logos
   template(v-for="logo in logos")
-    nuxt-img.logo(
-      format="svg"
-      width="500px"
-      provider="static"
-      :src="getImage(logo.id)"
+    img.sponsor-logo(
+      sizes="sm:100vw md:50vw lg:1400px"
+      :src="`logos/${logo.file}`"
     )
 </template>
 
@@ -17,14 +15,17 @@ export default {
       logos: [],
     }
   },
-  async fetch() {
-    const dataDates = await fetch(
-      process.env.baseUrl +
-        'files?filter[folder][_eq]=dd889dad-a9de-4c9b-b8cd-f67ab74cb6d5'
-    ).then((response) => response.json())
-    this.logos = await dataDates.data
-    // eslint-disable-next-line no-console
-    console.log(this.logos)
+  fetch() {
+    // const dataDates = await fetch(
+    //   process.env.baseUrl +
+    //     'files?filter[folder][_eq]=dd889dad-a9de-4c9b-b8cd-f67ab74cb6d5'
+    // ).then((response) => response.json())
+    // this.logos = await dataDates.data
+    // // eslint-disable-next-line no-console
+    // console.log(this.logos)
+    this.logos = Array.from(Array(23).keys()).map((i) => ({
+      file: `sponsor_logo_${i}.svg`,
+    }))
   },
   methods: {
     getImage(fileId) {
@@ -41,5 +42,7 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 2rem;
+  background-color: white;
+  padding: 2rem;
 }
 </style>
