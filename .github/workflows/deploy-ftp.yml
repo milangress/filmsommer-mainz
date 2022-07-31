@@ -19,7 +19,7 @@ jobs:
         npm run generate
     
     - name: 🔒 Store Artifact on GH
-    - uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3
       with:
         name: Nuxt-Generate
         path: public/
