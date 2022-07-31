@@ -6,7 +6,7 @@ export default async function (to, from, savedPosition) {
   const findEl = (hash, x) => {
     return (
       document.querySelector(hash) ||
-      new Promise((resolve, reject) => {
+      new Promise((resolve) => {
         if (x > 50) {
           return resolve()
         }
