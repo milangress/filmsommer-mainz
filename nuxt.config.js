@@ -13,6 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      noIndexOnVercel(),
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -75,4 +76,21 @@ export default {
       },
     ],
   },
+}
+
+function noIndexOnVercel() {
+  if (
+    process.env.VERCEL_ENV === 'preview' ||
+    process.env.VERCEL_ENV === 'development'
+  ) {
+    return {
+      name: 'robots',
+      content: 'noindex',
+    }
+  } else {
+    return {
+      name: 'robots',
+      content: 'index, follow',
+    }
+  }
 }
