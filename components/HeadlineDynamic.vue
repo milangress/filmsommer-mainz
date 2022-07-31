@@ -78,7 +78,6 @@ export default {
   background-color: var(--pink);
   margin-block: 6rem;
   line-height: 1.2;
-  font-size: 1.7rem;
   /*display: inline-block;*/
   contain: layout;
 }
@@ -88,6 +87,7 @@ export default {
   margin-block-end: -0.3em;
   margin-left: -0.1em;
   display: inline-block;
+  font-size: 3.3rem;
 }
 
 .top-row,
