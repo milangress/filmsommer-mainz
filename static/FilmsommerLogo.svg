@@ -9,7 +9,7 @@
       .cls-2, .cls-3 {
       fill: #fff;
       stroke: #1d1d1b;
-      stroke-width: 1px;
+      stroke-width: 1.2px;
       vector-effect: non-scaling-stroke;
       }
 
@@ -22,7 +22,7 @@
       }
     </style>
   </defs>
-  <g id="Background">
+  <g id="Background" shape-rendering="crispEdges">
     <rect class="cls-1" x="103.95" y="15.38" width="56.16" height="30.75"/>
     <rect class="cls-1" x="229.97" y="60.03" width="56.16" height="30.75"/>
     <rect class="cls-1" x="229.97" y="60.03" width="56.16" height="30.75"/>
@@ -109,7 +109,7 @@
     <rect class="cls-1" x="102.9" y="133.31" width="56.16" height="30.75"/>
     <rect class="cls-1" x="75.87" y="161.12" width="56.16" height="30.75"/>
   </g>
-  <g id="text">
+  <g id="text" shape-rendering="geometricPrecision">
     <path class="cls-2"
           vector-effect="non-scaling-stroke"
           d="M26.27,21.19V22.7c11,0,21.51.05,30.87-.19C57,25.3,57,30.69,57,33.58c-9.21,0-19.75-.1-30.53-.1.15,2.8.3,5.54.49,8H6c.15-5.1.2-10.58.2-18.37s0-13.33-.1-18.38H57.82c0,1.62-.19,4.07-.19,6.18s0,4.31.14,5.83c-11.31-.05-22.34-.1-31.5-.1Z"
