@@ -2,6 +2,7 @@
 .logos
   template(v-for="logo in logos")
     nuxt-img.logo(
+      format="svg"
       width="500px"
       provider="static"
       :src="getImage(logo.id)"
