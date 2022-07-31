@@ -11,7 +11,7 @@
 
     .content.inner(v-html="about.about" )
 
-    PathText
+    //PathText
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
       headline-dynamic.headline(:id="'date-'+ date.date")
