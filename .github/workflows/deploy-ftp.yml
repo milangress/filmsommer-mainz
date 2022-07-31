@@ -32,3 +32,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           local-dir: ./public/
           protocol: ftps
+          dry-run: true
