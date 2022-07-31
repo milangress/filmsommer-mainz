@@ -1,9 +1,13 @@
 <template lang="pug">
 .logos
   template(v-for="logo in logos")
-    img.sponsor-logo(
-      :src="`logos/${logo.file}`"
-    )
+    object.sponsor-logo(
+      type="image/svg+xml"
+      :data="`logos/${logo.file}`"
+      )
+    //img.sponsor-logo(
+    //  :src="`logos/${logo.file}`"
+    //)
 </template>
 
 <script>
