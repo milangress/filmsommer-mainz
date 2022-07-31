@@ -2,7 +2,6 @@
 .logos
   template(v-for="logo in logos")
     img.sponsor-logo(
-      sizes="sm:100vw md:50vw lg:1400px"
       :src="`logos/${logo.file}`"
     )
 </template>
