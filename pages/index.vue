@@ -109,6 +109,5 @@ export default {
   box-shadow: 5px 5px 0px 0px black;
 }
 .events-text-wrapper {
-
 }
 </style>
