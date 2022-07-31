@@ -18,10 +18,18 @@ jobs:
         npm install
         npm run generate
     
-    - name: 📂 Sync files
+    - name: 🔒 Store Artifact on GH
+    - uses: actions/upload-artifact@v3
+      with:
+        name: Nuxt-Generate
+        path: public/
+    
+    - name: 📂 Sync files (FTPS)
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.bytecamp.net
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.PASSWORD }}
+        local-dir: ./public/
         dry-run: true
+        protocol: ftps
