@@ -36,6 +36,10 @@
       //provider="static"
       //:src="getImage(date.image)"
       //)
+    headline-dynamic
+      h1 Unsere Partner
+    .content.inner
+      logo-block
     .content.inner
       nuxt-link(
         to="/impressum"
