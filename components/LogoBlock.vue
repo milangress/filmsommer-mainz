@@ -1,15 +1,12 @@
 <template lang="pug">
 .logos
-  template(v-for="logo in logos")
+  div(v-for="logo in logos")
     //object.sponsor-logo(
     //  type="image/svg+xml"
     //  :data="`logos/${logo.file}`"
     //  )
-    nuxt-img.sponsor-logo(
-      format="png"
-      sizes="sm:100vw md:50vw lg:500px"
-      provider="static"
-      :src="`logos-png/${logo.file}.png`"
+    img.sponsor(
+      :src="`logos/${logo.file}.svg`"
     )
 </template>
 
@@ -51,4 +48,5 @@ export default {
   background-color: white;
   padding: 2rem;
 }
+
 </style>
