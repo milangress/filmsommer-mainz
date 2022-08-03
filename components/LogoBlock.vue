@@ -48,5 +48,4 @@ export default {
   background-color: white;
   padding: 2rem;
 }
-
 </style>

@@ -17,13 +17,17 @@ export default {
     ],
     link: [
       { rel: 'icon', href: 'favicon.svg' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', color: '#5bbad5', href: '/safari-pinned-tab.svg' },
     ],
   },
 
-            // Global CSS: https://go.nuxtjs.dev/config-css
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~assets/css/reset.css', '~assets/css/fonts.css'],
 
   env: {
