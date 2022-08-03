@@ -74,7 +74,7 @@ export default {
   color: var(--pink);
   box-shadow: 0 0 0.5rem 0.5rem var(--green);
   z-index: 100;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 .event {
   min-height: 5em;

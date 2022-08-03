@@ -106,7 +106,7 @@ export default {
   width: fit-content;
   padding: 2rem;
   margin: 2rem;
-  box-shadow: 5px 5px 0px 0px black;
+  /*box-shadow: 5px 5px 0px 0px black;*/
 }
 .events-text-wrapper {
 }
