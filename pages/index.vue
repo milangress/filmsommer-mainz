@@ -1,8 +1,9 @@
 <template lang="pug">
   div
-    nuxt-img.logo(
-      src="/FilmsommerLogo.svg"
-    )
+    //nuxt-img.logo(
+    //  src="/FilmsommerLogo.svg"
+    //)
+    LogoDynamic.logo
     //headline-dynamic-old
     headline-dynamic
       h1 Es geht weiter und wir legen wieder los!
@@ -13,12 +14,15 @@
     //PathText
     //nuxt-img(src="/directus/assets/caf65d7b-0788-42c8-8bfd-77c48535f572" provider="static")
     div(v-for="date in dates")
-      nuxt-img.date-image(
-        format="png"
-        sizes="sm:100vw md:50vw lg:1900px"
-        provider="static"
-        :src="getImage(date.image)"
-      )
+      figure.date-image
+        nuxt-img(
+          format="png"
+          sizes="sm:100vw md:50vw lg:1900px"
+          provider="static"
+          :src="getImage(date.image)"
+        )
+        figcaption {{date.events[1].title}}
+
       headline-dynamic.headline(:id="'date-'+ date.date")
         h1
           span.date {{getDate(date.date)}}
@@ -32,7 +36,7 @@
         .events-text-wrapper
           .event(v-for="event in date.events")
             path-text(:text="event.pathtext" v-if="event.pathtext" )
-            h3 {{event.title}}
+            h3 {{event.title_long ? event.title_long : event.title}}
             p(v-html="event.content" )
       //nuxt-img(
       //provider="static"
@@ -97,6 +101,11 @@ export default {
   /*max-height: 60vh;*/
   margin: 2rem auto 0 auto;
   transform: translateX(25%);
+}
+@media (max-width: 1100px) {
+  .date-image {
+    transform: translateX(0%);
+  }
 }
 .headline .date {
   font-size: 0.8em;
