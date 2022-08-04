@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'filmsommer-2022',
+    title: 'Filmsommer Festival Mainz 2022',
     htmlAttrs: {
       lang: 'de',
     },
