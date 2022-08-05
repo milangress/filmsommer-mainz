@@ -48,4 +48,14 @@ export default {
   background-color: white;
   padding: 2rem;
 }
+@media (max-width: 1100px) {
+  .logos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .logos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 </style>
