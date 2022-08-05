@@ -1,5 +1,5 @@
 <template lang="pug">
-.headline-dynamic(@mouseover="reloadAllRows")
+.headline-dynamic(@mouseover="reloadAllRows" ref="headline")
   .top-row
     .top-row--item(
       v-for="item in topRow"
@@ -41,6 +41,11 @@ export default {
       topRow: [],
       bottomRow: [],
       leftRow: [],
+      amountOfElems: {
+        top: 0,
+        bottom: 0,
+        left: 0,
+      },
     }
   },
   mounted() {
@@ -52,20 +57,28 @@ export default {
   },
   methods: {
     reloadAllRows() {
+      const {width, height} = this.$refs.headline.getBoundingClientRect()
+      this.amountOfElems = {
+        top: Math.ceil(width / 100),
+        bottom: Math.ceil(width / 100),
+        left: Math.ceil(height / 100),
+      }
+      // eslint-disable-next-line no-console
+      console.log(this.amountOfElems)
       this.setTopRow()
       this.setBottomRow()
       this.setLeftRow()
     },
     setTopRow() {
-      this.topRow = Array.from({ length: 10 }).map((x) => Math.random() - 0.5)
+      this.topRow = Array.from({ length: this.amountOfElems.top }).map((x) => Math.random() - 0.5)
     },
     setBottomRow() {
-      this.bottomRow = Array.from({ length: 10 }).map(
+      this.bottomRow = Array.from({ length: this.amountOfElems.bottom }).map(
         (x) => Math.random() - 0.5
       )
     },
     setLeftRow() {
-      this.leftRow = Array.from({ length: 3 }).map((x) => Math.random() - 0.5)
+      this.leftRow = Array.from({ length: this.amountOfElems.left }).map((x) => Math.random() - 0.5)
     },
   },
 }
@@ -122,7 +135,7 @@ export default {
   left: 100px;
 }
 .left-row--item {
-  width: 200px;
+  height: 100px;
   aspect-ratio: 16/9;
   background-color: var(--pink);
   z-index: -1;
