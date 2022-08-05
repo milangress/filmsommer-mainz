@@ -63,8 +63,6 @@ export default {
         bottom: Math.ceil(width / 100),
         left: Math.ceil(height / 100),
       }
-      // eslint-disable-next-line no-console
-      console.log(this.amountOfElems)
       this.setTopRow()
       this.setBottomRow()
       this.setLeftRow()
