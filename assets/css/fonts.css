@@ -5,6 +5,7 @@
   font-style: normal;
   src: url('~assets/fonts/Ob-Regular.woff2') format('woff2'),
     url('~assets/fonts/Ob-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
   font-style: italic;
   src: url('~assets/fonts/Ob-Italic.woff2') format('woff2'),
     url('~assets/fonts/Ob-Italic.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
   font-style: normal;
   src: url('~assets/fonts/Ob-Semibold.woff2') format('woff2'),
     url('~assets/fonts/Ob-Semibold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +35,7 @@
   font-style: normal;
   src: url('~assets/fonts/Ob-Extended_Bold.woff2') format('woff2'),
     url('~assets/fonts/Ob-Extended_Bold.woff') format('woff');
+  font-display: swap;
 }
 
 html {
