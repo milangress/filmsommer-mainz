@@ -86,6 +86,7 @@ h2 {
   /*text-align: center;*/
   transition: transform 0.15s ease-in-out;
   position: relative;
+  border: 1px solid transparent;
 }
 .day:after,
 .day:before {
