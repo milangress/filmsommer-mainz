@@ -40,7 +40,7 @@ export default {
       })
     },
     isDateToday(date) {
-      const today = DateTime.local().toISODate()
+      const today = DateTime.local()
       // const today = DateTime.fromISO('2022-08-18') // test date
       return DateTime.fromISO(date).toISODate() === today.toISODate()
     },
