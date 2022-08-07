@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build --modern=client",
     "start": "nuxt start --modern=client",
-    "generate": "nuxt generate --modern=client",
+    "generate": "nuxt generate --modern=client --fail-on-error",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check . --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:prettier",
