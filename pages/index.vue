@@ -16,12 +16,11 @@
     div(v-for="date in dates")
       figure.date-image
         nuxt-img(
-          format="png"
+          format="webp"
           sizes="sm:100vw md:50vw lg:1900px"
           provider="static"
           quality="70"
           loading="lazy"
-          format="webp"
           :src="getImage(date.image)"
           :alt="`An Image from the ${date.events[1].title} event`"
         )
