@@ -22,6 +22,7 @@
           quality="70"
           loading="lazy"
           :src="getImage(date.image)"
+          :alt="`An Image from the ${date.events[1].title} event`"
         )
         figcaption {{date.events[1].title}}
 
