@@ -58,23 +58,43 @@ export default {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+h2 {
+  padding-block-end: 1rem;
+}
+
 .day {
   cursor: pointer;
   background-color: var(--pink);
   /*color: var(--white);*/
   /*font-size: 1.5rem;*/
   /*font-weight: bold;*/
-  /*padding: 0.5rem;*/
+  padding: 0.5rem;
   /*text-align: center;*/
-  border-radius: 0.5rem;
-  transition: all 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out;
+  position: relative;
+}
+.day:after, .day:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: transparent;
+  border: 1px solid var(--green);
+  transition: transform 0.15s ease-in-out;
 }
 .day:hover {
   background-color: var(--green);
   color: var(--pink);
-  box-shadow: 0 0 0.5rem 0.5rem var(--green);
   z-index: 100;
-  transform: scale(1.05);
+  border: 1px solid var(--pink);
+  transform: scale(1.1) translate(-10px, -10px);
+}
+.day:hover:after {
+  transform: translate(5px, 5px);
+}
+.day:hover:before {
+  transform: translate(10px, 10px);
 }
 .event {
   min-height: 5em;

@@ -119,8 +119,27 @@ export default {
   /*box-shadow: 5px 5px 0px 0px black;*/
   background-color: var(--green);
   color: var(--pink);
-  box-shadow: 0 0 0.5rem 0.5rem var(--green);
-  z-index: 100;
+  /*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
+  position: relative;
+  contain: layout;
+}
+.event-box-wrapper:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: transparent;
+  transform: translate(5px, 5px);
+  border: 1px solid var(--green);
+}
+.event-box-wrapper:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: transparent;
+  transform: translate(10px, 10px);
+  border: 1px solid var(--green);
 }
 .events-text-wrapper {
 }
