@@ -19,6 +19,8 @@
           format="png"
           sizes="sm:100vw md:50vw lg:1900px"
           provider="static"
+          quality="70"
+          loading="lazy"
           :src="getImage(date.image)"
         )
         figcaption {{date.events[1].title}}

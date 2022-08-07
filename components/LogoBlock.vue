@@ -7,6 +7,7 @@
     //  )
     img.sponsor(
       :src="`logos/${logo.file}.svg`"
+      loading="lazy"
     )
 </template>
 
