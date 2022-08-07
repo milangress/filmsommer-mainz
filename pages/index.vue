@@ -21,6 +21,7 @@
           provider="static"
           quality="70"
           loading="lazy"
+          format="webp"
           :src="getImage(date.image)"
           :alt="`An Image from the ${date.events[1].title} event`"
         )
