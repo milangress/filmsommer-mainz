@@ -3,8 +3,9 @@
   .day(
     v-for="date in allDates"
     @click="goToDate(date.date)"
+    :class="{'isToday': isDateToday(date.date), 'isPast': isDatePast(date.date)}"
     )
-    h2 {{getDate(date.date)}}
+    h2 {{getDate(date.date)}} {{date.date}}
     .event(v-for="event in date.events")
       strong {{getTime(event.time)}} {{event.type}}
       p {{event.title}}
@@ -37,6 +38,18 @@ export default {
         path: '/',
         hash: '#date-' + date,
       })
+    },
+    isDateToday(date) {
+      const today = DateTime.local().toISODate()
+      // const today = DateTime.fromISO('2022-08-18') // test date
+      return DateTime.fromISO(date).toISODate() === today.toISODate()
+    },
+    isDatePast(date) {
+      const today = DateTime.local()
+      // const today = DateTime.fromISO('2022-08-18') // test date
+      const thisDate = DateTime.fromISO(date)
+      const diff = today.diff(thisDate, 'days').toObject().days
+      return diff > 0 && diff < 20
     },
   },
 }
@@ -82,6 +95,15 @@ h2 {
   background-color: transparent;
   border: 1px solid var(--green);
   transition: transform 0.15s ease-in-out;
+}
+.isToday {
+  border: 1px solid var(--green);
+}
+.isPast {
+  opacity: 0.5;
+}
+.isPast:before, .isPast:after{
+  border: none;
 }
 .day:hover {
   background-color: var(--green);
