@@ -87,7 +87,8 @@ h2 {
   transition: transform 0.15s ease-in-out;
   position: relative;
 }
-.day:after, .day:before {
+.day:after,
+.day:before {
   content: '';
   position: absolute;
   inset: 0;
@@ -102,7 +103,8 @@ h2 {
 .isPast {
   opacity: 0.5;
 }
-.isPast:before, .isPast:after{
+.isPast:before,
+.isPast:after {
   border: none;
 }
 .day:hover {

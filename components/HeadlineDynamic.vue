@@ -57,7 +57,7 @@ export default {
   },
   methods: {
     reloadAllRows() {
-      const {width, height} = this.$refs.headline.getBoundingClientRect()
+      const { width, height } = this.$refs.headline.getBoundingClientRect()
       this.amountOfElems = {
         top: Math.ceil(width / 100),
         bottom: Math.ceil(width / 100),
@@ -68,7 +68,9 @@ export default {
       this.setLeftRow()
     },
     setTopRow() {
-      this.topRow = Array.from({ length: this.amountOfElems.top }).map((x) => Math.random() - 0.5)
+      this.topRow = Array.from({ length: this.amountOfElems.top }).map(
+        (x) => Math.random() - 0.5
+      )
     },
     setBottomRow() {
       this.bottomRow = Array.from({ length: this.amountOfElems.bottom }).map(
@@ -76,7 +78,9 @@ export default {
       )
     },
     setLeftRow() {
-      this.leftRow = Array.from({ length: this.amountOfElems.left }).map((x) => Math.random() - 0.5)
+      this.leftRow = Array.from({ length: this.amountOfElems.left }).map(
+        (x) => Math.random() - 0.5
+      )
     },
   },
 }
