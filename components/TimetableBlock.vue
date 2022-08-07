@@ -5,7 +5,7 @@
     @click="goToDate(date.date)"
     :class="{'isToday': isDateToday(date.date), 'isPast': isDatePast(date.date)}"
     )
-    h2 {{getDate(date.date)}} {{date.date}}
+    h2 {{getDate(date.date)}}
     .event(v-for="event in date.events")
       strong {{getTime(event.time)}} {{event.type}}
       p {{event.title}}
