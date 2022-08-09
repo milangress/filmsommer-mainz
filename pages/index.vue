@@ -50,7 +50,7 @@
       h1 Unsere Partner
     .content.inner
       logo-block
-    .content.inner
+    footer.content.inner
       nuxt-link(
         to="/impressum"
         ) Impressum
@@ -146,5 +146,10 @@ export default {
   border: 1px solid var(--green);
 }
 .events-text-wrapper {
+}
+footer {
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
 }
 </style>
