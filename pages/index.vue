@@ -3,11 +3,12 @@
     //nuxt-img.logo(
     //  src="/FilmsommerLogo.svg"
     //)
+    BackToTopButton
     LogoDynamic.logo
     //headline-dynamic-old
     headline-dynamic
       h1 Es geht weiter und wir legen wieder los!
-    timetable-block(:allDates="dates")
+    timetable-block#timetable(:allDates="dates")
 
     .content.inner(v-html="about.about" )
 
