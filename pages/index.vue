@@ -147,9 +147,9 @@ export default {
 }
 .events-text-wrapper {
 }
-footer {
-  padding: 2rem;
-  margin-top: 2rem;
+footer.content {
+  padding: 4rem 0;
+  margin-top: 5rem;
   text-align: center;
 }
 </style>
