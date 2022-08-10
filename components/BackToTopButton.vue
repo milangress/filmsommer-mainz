@@ -1,6 +1,6 @@
 <template lang="pug">
   Transition(name="slideTop")
-    a.backToTopButton(
+    a.backToTopButton.button(
       v-if="isVisible"
       @click="scrollToTop"
       )

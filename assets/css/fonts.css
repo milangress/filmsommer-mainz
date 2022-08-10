@@ -40,7 +40,7 @@
 
 html {
   font-family: 'Obviously', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h1,
@@ -62,4 +62,16 @@ h5 {
 
 p + p {
   margin-block: 1em;
+}
+
+a:not(.button) {
+  color: inherit;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+}
+a:not(.button):hover {
+  color: var(--green);
+  text-decoration: underline;
+  transform: translate(-2px, -2px);
+  text-shadow: black 4px 4px 0;
 }
