@@ -63,6 +63,7 @@ body {
 }
 .content :where(h1, h2, h3, h4, h5) {
   padding-block-start: 1em;
+  padding-block-end: 0.5em;
   font-size: 1.5em;
 }
 </style>
