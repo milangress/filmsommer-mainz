@@ -86,7 +86,7 @@ export default {
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: ['Impressum', 'default'],
+        ignores: ['Impressum', 'default', 'error'],
       },
     ],
   },
