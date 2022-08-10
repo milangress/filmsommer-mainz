@@ -14,7 +14,7 @@
 export default {
   layout: 'default',
   // eslint-disable-next-line vue/require-prop-types
-  props: ['error'] // you can set a custom layout for the error page
+  props: ['error'], // you can set a custom layout for the error page
 }
 </script>
 
@@ -39,5 +39,4 @@ export default {
   background-color: var(--green);
   color: white;
 }
-
 </style>

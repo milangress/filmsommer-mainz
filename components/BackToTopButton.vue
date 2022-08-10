@@ -9,21 +9,21 @@
 
 <script>
 export default {
-  name: "BackToTopButton",
+  name: 'BackToTopButton',
   data() {
     return {
       isVisible: false,
     }
   },
-  mounted () {
-    window.addEventListener('scroll', this.handleScroll);
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
   },
-  destroyed () {
-    window.removeEventListener('scroll', this.handleScroll);
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll() {
-      this.isVisible = window.scrollY > 1500;
+      this.isVisible = window.scrollY > 1500
     },
     scrollToTop(date) {
       this.$router.push({
@@ -32,7 +32,7 @@ export default {
       })
     },
   },
-};
+}
 </script>
 
 <style scoped>
@@ -53,7 +53,7 @@ export default {
   transform: scale(1.1);
   background-color: var(--green);
   color: white;
-  }
+}
 /*.backToTopButton:after {*/
 /*  content: '';*/
 /*  position: absolute;*/
@@ -72,7 +72,8 @@ export default {
   transition: all 0.6s ease-in-out;
 }
 
-.slideTop-enter, .slideTop-leave-to {
+.slideTop-enter,
+.slideTop-leave-to {
   transform: translateY(50px);
 }
 </style>
