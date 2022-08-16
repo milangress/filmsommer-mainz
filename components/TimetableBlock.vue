@@ -49,7 +49,7 @@ export default {
       // const today = DateTime.fromISO('2022-08-18') // test date
       const thisDate = DateTime.fromISO(date)
       const diff = today.diff(thisDate, 'days').toObject().days
-      return diff > 0 && diff < 20
+      return diff > 1 && diff < 20
     },
   },
 }
