@@ -119,6 +119,11 @@ export default {
   margin: 2rem auto 0 auto;
   transform: translateX(25%);
 }
+.date-image img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
 @media (max-width: 1100px) {
   .date-image {
     transform: translateX(0%);
