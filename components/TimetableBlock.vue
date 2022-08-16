@@ -99,15 +99,15 @@ h2 {
   transition: transform 0.15s ease-in-out;
 }
 .isToday {
-  border: 1px solid var(--green);
+  border: 2px solid var(--green);
 }
-.isPast {
-  opacity: 0.5;
-}
-.isPast:before,
-.isPast:after {
-  border: none;
-}
+/*.isPast {*/
+/*  opacity: 0.5;*/
+/*}*/
+/*.isPast:before,*/
+/*.isPast:after {*/
+/*  border: none;*/
+/*}*/
 .day:hover {
   background-color: var(--green);
   color: var(--pink);
