@@ -1,6 +1,7 @@
 <script>
 	import LogoDynamic from '../components/LogoDynamic.svelte';
 	import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte';
+	import Footer from "../components/Footer.svelte";
 </script>
 
 <LogoDynamic />
@@ -23,6 +24,9 @@
 <!--        Wir freuen uns auf euch!-->
 <!--    </p>-->
 <!--</div>-->
+
+
+<Footer></Footer>
 
 <style>
 	.teaser {

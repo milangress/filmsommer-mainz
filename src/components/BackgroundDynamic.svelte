@@ -15,8 +15,12 @@
 		}));
 	}
 
+	export const animate = false
+
 	onMount(() => {
-		// setInterval(setBar, 1000);
+		if (animate) {
+			setInterval(setBar, 5000);
+		}
 	});
 </script>
 
