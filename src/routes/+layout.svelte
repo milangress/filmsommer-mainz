@@ -1,10 +1,8 @@
 <script>
-    import BackgroundDynamic from "../components/BackgroundDynamic.svelte"
+	import BackgroundDynamic from '../components/BackgroundDynamic.svelte';
 </script>
 
 <div>
-    <BackgroundDynamic></BackgroundDynamic>
-    <slot></slot>
+	<BackgroundDynamic />
+	<slot />
 </div>
-
-
