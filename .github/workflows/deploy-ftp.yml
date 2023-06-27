@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Use Node.js 14
-        uses: actions/setup-node@v2
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18'
           cache: 'npm'
 
       - name: 🔨 Build Project
@@ -25,11 +25,11 @@ jobs:
       - name: 🔒 Store Artifact on GH
         uses: actions/upload-artifact@v3
         with:
-          name: Nuxt-Generate
+          name: Svelte-Static
           path: public/
 
       - name: 📂 Sync files (FTPS)
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
           server: ftp.bytecamp.net
           username: ${{ secrets.FTP_USER }}
@@ -37,4 +37,4 @@ jobs:
           local-dir: ./public/
           protocol: ftps
           state-name: do_not_edit_any_file-ftp-deploy-sync-state.json
-          dry-run: false
+          dry-run: true
