@@ -1,6 +1,6 @@
 <script>
     import LogoDynamic from "../components/LogoDynamic.svelte"
-    import HeadlineDynamic from "../components/HeadlineDynamic.svelte"
+    import HeadlineDynamic from "/src/components/HeadlineDynamic.svelte"
 </script>
 
 <LogoDynamic></LogoDynamic>

@@ -1,14 +1,14 @@
 <script>
     import { DateTime } from 'luxon';
-    import LogoDynamic from "../components/LogoDynamic.svelte"
-    import BackToTopButton from '../components/BackToTopButton.svelte';
-    import HeadlineDynamic from '../components/HeadlineDynamic.svelte';
-    import TimetableBlock from '../components/TimetableBlock.svelte';
-    import PathText from '../components/PathText.svelte';
-    import LogoBlock from '../components/LogoBlock.svelte';
+    import LogoDynamic from "/src/components/LogoDynamic.svelte"
+    import BackToTopButton from '/src/components/BackToTopButton.svelte';
+    import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte';
+    import TimetableBlock from '/src/components/TimetableBlock.svelte';
+    import PathText from '/src/components/PathText.svelte';
+    import LogoBlock from '/src/components/LogoBlock.svelte';
 
-    import {dates} from "../data/2022.js"
-    import {about} from "../data/2022.js"
+    import {dates} from "/src/data/2022.js"
+    import {about} from "/src/data/2022.js"
 
     // onMount(async () => {
     //     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
