@@ -181,21 +181,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="23535000" />
-    </task>
-    <task id="LOCAL-00085" summary="🐛 remove debug date">
-      <created>1659906343782</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1659906343782</updated>
-    </task>
-    <task id="LOCAL-00086" summary="🐛 fix moving timetable">
-      <created>1659906435767</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1659906435767</updated>
+      <workItem from="1687770116862" duration="23668000" />
     </task>
     <task id="LOCAL-00087" summary="🐛 remove modern">
       <created>1659906849224</created>
@@ -526,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688036904358</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="add og data">
+      <created>1688037025812</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1688037025812</updated>
+    </task>
+    <task id="LOCAL-00135" summary="add og data">
+      <created>1688037133412</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1688037133412</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
