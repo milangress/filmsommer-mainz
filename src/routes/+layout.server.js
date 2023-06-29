@@ -1,5 +1,3 @@
-export const prerender = true;
-
 import { VERCEL_ENV } from '$env/static/private';
 
 function noIndexOnVercel() {

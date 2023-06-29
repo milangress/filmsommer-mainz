@@ -6,7 +6,6 @@
 
 <svelte:head>
 	<meta name="robots" content="{data.noIndexOnVercel}">
-	{data.noIndexOnVercel}
 </svelte:head>
 <div>
 	<BackgroundDynamic />
