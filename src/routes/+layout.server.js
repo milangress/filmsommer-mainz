@@ -1,5 +1,3 @@
-import env from '$env/static/private';
-
 // const VERCEL_ENV = 'development'
 
 // get vercel env from process.env
@@ -17,9 +15,8 @@ function noIndexOnVercel() {
 }
 
 export function load() {
-  console.log('load layout', env, VERCEL_ENV)
+  console.log('load layout', VERCEL_ENV)
   return {
-    env: env,
     VERCEL_ENV: VERCEL_ENV,
     noIndexOnVercel: noIndexOnVercel()
   }
