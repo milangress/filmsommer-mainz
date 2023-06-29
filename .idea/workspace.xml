@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,14 +182,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="23668000" />
-    </task>
-    <task id="LOCAL-00087" summary="🐛 remove modern">
-      <created>1659906849224</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1659906849224</updated>
+      <workItem from="1687770116862" duration="24375000" />
     </task>
     <task id="LOCAL-00088" summary="🐛 fix headline color fill">
       <created>1660038421068</created>
@@ -526,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688037133412</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="add og data">
+      <created>1688037156843</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1688037156843</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
