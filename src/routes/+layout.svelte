@@ -8,7 +8,7 @@
 	<meta name="robots" content="{data.noIndexOnVercel}">
 </svelte:head>
 <div>
-	{data.env}
+	{data.env} {data.VERCEL_ENV}
 	<BackgroundDynamic />
 	<slot />
 </div>
