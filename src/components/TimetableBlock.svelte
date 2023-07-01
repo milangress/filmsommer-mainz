@@ -40,7 +40,7 @@
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
 			on:click={() => goToDate(date.date)}
 		>
-			<h2>{getDate(date.date)}</h2>
+			<h3>{getDate(date.date)}</h3>
 			{#each date.events as event}
 				<div class="event">
 					<strong>{getTime(event.time)} {event.type}</strong>

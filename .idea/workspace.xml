@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundDynamic.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/fonts.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,8 @@
         <option value="Vue Single File Component" />
         <option value="Footer" />
         <option value="JavaScript File" />
+        <option value="EssenTRickenModal" />
+        <option value="Modal" />
       </list>
     </option>
   </component>
@@ -182,14 +184,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="28341000" />
-    </task>
-    <task id="LOCAL-00089" summary="✨ add simple back to top button">
-      <created>1660041218940</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1660041218940</updated>
+      <workItem from="1687770116862" duration="33371000" />
     </task>
     <task id="LOCAL-00090" summary="✨ center footer">
       <created>1660041437971</created>
@@ -527,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688038156737</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="background">
+      <created>1688227686030</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1688227686030</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ font sizing" />
     <MESSAGE value="✨ remove content" />
     <MESSAGE value="✨ remove png img" />
     <MESSAGE value="✨ add 404 page" />
@@ -576,6 +577,7 @@
     <MESSAGE value="no follow on vercel" />
     <MESSAGE value="test" />
     <MESSAGE value="add og data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add og data" />
+    <MESSAGE value="background" />
+    <option name="LAST_COMMIT_MESSAGE" value="background" />
   </component>
 </project>

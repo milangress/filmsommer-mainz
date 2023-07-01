@@ -10,6 +10,7 @@
 	import { dates } from '/src/data/2022.js';
 	import { about } from '/src/data/2022.js';
 	import Footer from "/src/components/Footer.svelte";
+	import EssenTRickenModal from "../components/EssenTRickenModal.svelte";
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -37,6 +38,7 @@
 
 <div>
 	<BackToTopButton />
+	<EssenTRickenModal></EssenTRickenModal>
 	<LogoDynamic />
 	<HeadlineDynamic>
 		<h1>Es geht weiter und wir legen wieder los!</h1>
