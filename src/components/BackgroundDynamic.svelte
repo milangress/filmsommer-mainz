@@ -24,7 +24,7 @@
 	});
 </script>
 
-<div class="background" on:click={setBar}>
+<div class="background">
 	<div class="bar-left" />
 	<div class="wrapper--inner">
 		{#each bars as bar}
@@ -37,7 +37,7 @@
 <style lang="scss">
 	.background {
 		inset: 0;
-		z-index: -1;
+		z-index: -10;
 		position: fixed;
 		height: 100vh;
 		display: flex;

@@ -1,7 +1,7 @@
 :root {
 	--width-outer: 90vw;
-	--width-inner: calc(var(--width-outer) - 20rem);
-	--pink: #f9d1e4;
+	--width-inner: 815px;
+	--pink: #C8D500;
 	--green: #37ad60;
 	--yellow: #e4df00;
 }
@@ -22,7 +22,10 @@
 }
 
 body {
-	background: var(--pink);
+	background: url("/FS_Website_Hintergrund-cut.svg"), linear-gradient(90deg, rgba(239,111,31,1) 0%, rgba(239,111,31,1) 40%, rgba(49,172,98,1) 59%, rgba(49,172,98,1) 100%);
+	background-repeat: repeat-y;
+	background-position-x: center;
+	/*background-size: cover;*/
 	scroll-padding-top: 2rem;
 }
 

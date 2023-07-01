@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundDynamic.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test-vercel" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,20 +45,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="2023" />
+                    <option name="lastUsedInstant" value="1688038447" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1688031691" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="test-vercel" />
-                    <option name="lastUsedInstant" value="1687879117" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="Archive-2022" />
                     <option name="lastUsedInstant" value="1687878730" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="toSvelte" />
-                    <option name="lastUsedInstant" value="1687856354" />
                   </RecentBranch>
                 </list>
               </option>
@@ -81,7 +81,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "2023",
     "last_opened_file_path": "/Users/milan/gh/filmsommer-2022",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -182,14 +182,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="24375000" />
-    </task>
-    <task id="LOCAL-00088" summary="🐛 fix headline color fill">
-      <created>1660038421068</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1660038421068</updated>
+      <workItem from="1687770116862" duration="28341000" />
     </task>
     <task id="LOCAL-00089" summary="✨ add simple back to top button">
       <created>1660041218940</created>
@@ -527,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688037156843</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="add og data">
+      <created>1688038156737</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1688038156737</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

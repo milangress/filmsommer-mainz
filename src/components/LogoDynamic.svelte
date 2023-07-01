@@ -8,7 +8,7 @@
 	<defs>
 		<style>
 			.cls-1 {
-				fill: #f9d1e4;
+				fill: var(--pink);
 			}
 
 			.cls-2,

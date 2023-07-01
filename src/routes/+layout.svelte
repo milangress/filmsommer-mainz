@@ -1,5 +1,4 @@
 <script>
-	import BackgroundDynamic from '../components/BackgroundDynamic.svelte';
 	export let data
 </script>
 
@@ -17,6 +16,5 @@
 	<meta name="robots" content="{data.noIndexOnVercel}">
 </svelte:head>
 <div>
-	<BackgroundDynamic />
 	<slot />
 </div>
