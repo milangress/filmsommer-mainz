@@ -132,24 +132,24 @@
 		position: relative;
 		contain: layout;
 	}
-	.event-box-wrapper:after {
-		content: '';
-		position: absolute;
-		inset: 0;
-		z-index: -1;
-		background-color: transparent;
-		transform: translate(5px, 5px);
-		border: 1px solid var(--green);
-	}
-	.event-box-wrapper:before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		z-index: -1;
-		background-color: transparent;
-		transform: translate(10px, 10px);
-		border: 1px solid var(--green);
-	}
+	/*.event-box-wrapper:after {*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	inset: 0;*/
+	/*	z-index: -1;*/
+	/*	background-color: transparent;*/
+	/*	transform: translate(5px, 5px);*/
+	/*	border: 1px solid var(--green);*/
+	/*}*/
+	/*.event-box-wrapper:before {*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	inset: 0;*/
+	/*	z-index: -1;*/
+	/*	background-color: transparent;*/
+	/*	transform: translate(10px, 10px);*/
+	/*	border: 1px solid var(--green);*/
+	/*}*/
 	.events-text-wrapper {
 	}
 </style>

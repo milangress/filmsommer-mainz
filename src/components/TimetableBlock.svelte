@@ -60,7 +60,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-auto-rows: auto;
-		grid-gap: 2rem;
+		grid-gap: 1rem;
 	}
 	@media (max-width: 1100px) {
 		.timetable {
@@ -78,7 +78,7 @@
 		padding: 0.5rem;
 		transition: transform 0.15s ease-in-out;
 		position: relative;
-		border: 1px solid transparent;
+		/*border: 5px solid transparent;*/
 	}
 	/*.day:after,*/
 	/*.day:before {*/
@@ -97,8 +97,9 @@
 		background-color: var(--green);
 		color: var(--pink);
 		z-index: 100;
-		border: 1px solid var(--pink);
-		transform: scale(1.1) translate(-10px, -10px);
+		/*border: 5px solid var(--pink);*/
+		transform: scale(1.1);
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
 	}
 	/*.day:hover:after {*/
 	/*	transform: translate(5px, 5px);*/
