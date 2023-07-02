@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="styling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackToTopButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackToTopButton.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+    <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/data/2022.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/2022.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,13 +180,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00095" summary="✨ font sizing">
-      <created>1660128287569</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1660128287569</updated>
     </task>
     <task id="LOCAL-00096" summary="✨ remove content">
       <created>1660128328771</created>
@@ -527,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688300174034</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="buttons">
+      <created>1688305914315</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1688305914315</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ fix today" />
     <MESSAGE value="✨ fix date" />
     <MESSAGE value="✨ set image apect ratio" />
     <MESSAGE value="✨ new favicon" />
@@ -576,6 +572,7 @@
     <MESSAGE value="remove borders" />
     <MESSAGE value="button pos" />
     <MESSAGE value="styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling" />
+    <MESSAGE value="buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttons" />
   </component>
 </project>
