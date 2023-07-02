@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/fonts.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,14 +183,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="33371000" />
-    </task>
-    <task id="LOCAL-00090" summary="✨ center footer">
-      <created>1660041437971</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1660041437971</updated>
+      <workItem from="1687770116862" duration="34943000" />
     </task>
     <task id="LOCAL-00091" summary="✨ padding footer">
       <created>1660048563091</created>
@@ -529,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688227686030</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="add modal">
+      <created>1688233073647</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1688233073647</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ remove content" />
     <MESSAGE value="✨ remove png img" />
     <MESSAGE value="✨ add 404 page" />
     <MESSAGE value=" lint" />
@@ -578,6 +576,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="add og data" />
     <MESSAGE value="background" />
-    <option name="LAST_COMMIT_MESSAGE" value="background" />
+    <MESSAGE value="add modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modal" />
   </component>
 </project>

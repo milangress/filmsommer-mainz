@@ -1,3 +1,4 @@
+
 <svg
 	id="Ebene_1"
 	data-name="Ebene 1"
@@ -369,4 +370,13 @@
 			transform="translate(-0.9)"
 		/>
 	</g>
+	<image href="FS_Website_Stern_Schriftzug.svg" width="110px" height="110px" x="250px" y="0px" id="stern10jahre"></image>
 </svg>
+
+
+<style>
+	#stern10jahre {
+		position: absolute;
+		box-shadow: #1d1d1b 1px 1px 5px;
+	}
+</style>

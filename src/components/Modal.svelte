@@ -31,6 +31,7 @@
         top: auto;
         background: var(--pink);
         contain: layout;
+        box-shadow: rgba(0,0,0,0.2) 0px 0px 15px;
     }
     dialog::backdrop {
         background: rgba(0, 0, 0, 0);

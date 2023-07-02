@@ -71,4 +71,7 @@ let showModal = false;
         background-color: var(--green);
         color: white;
     }
+    h3 {
+        margin-block-end: 0.5em;
+    }
  </style>
