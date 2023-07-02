@@ -55,6 +55,7 @@ let showModal = false;
     .EssenTrinkenBtn {
         background-color: #fff;
         border-radius: 1em;
+        border: 0;
         padding: 0.5rem;
         font-size: 0.8rem;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -88,6 +89,7 @@ let showModal = false;
         transform: scale(1.1);
         background-color: var(--green);
         color: white;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
     }
     h3 {
         margin-block-end: 0.5em;
