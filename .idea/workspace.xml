@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeadlineDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadlineDynamic.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/FilmsommerLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/FilmsommerLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/og-filmsommer.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/og-filmsommer.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,21 +183,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="35503000" />
-    </task>
-    <task id="LOCAL-00092" summary="✨ add socials buttons">
-      <created>1660126480687</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1660126480687</updated>
-    </task>
-    <task id="LOCAL-00093" summary="✨ remove windi">
-      <created>1660126526190</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1660126526190</updated>
+      <workItem from="1687770116862" duration="37715000" />
     </task>
     <task id="LOCAL-00094" summary="✨ styling a tag">
       <created>1660128272584</created>
@@ -525,7 +514,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688290606201</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="remove borders">
+      <created>1688291201147</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1688291201147</updated>
+    </task>
+    <task id="LOCAL-00142" summary="button pos">
+      <created>1688292077209</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1688292077209</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,8 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ add 404 page" />
-    <MESSAGE value=" lint" />
     <MESSAGE value="✨ increase fontsize" />
     <MESSAGE value="✨ fix today" />
     <MESSAGE value="✨ fix date" />
@@ -574,6 +575,8 @@
     <MESSAGE value="background" />
     <MESSAGE value="add modal" />
     <MESSAGE value="stern" />
-    <option name="LAST_COMMIT_MESSAGE" value="stern" />
+    <MESSAGE value="remove borders" />
+    <MESSAGE value="button pos" />
+    <option name="LAST_COMMIT_MESSAGE" value="button pos" />
   </component>
 </project>
