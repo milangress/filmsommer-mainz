@@ -38,12 +38,14 @@
 
 <div>
 	<BackToTopButton />
-	<EssenTRickenModal></EssenTRickenModal>
 	<LogoDynamic />
 	<HeadlineDynamic>
 		<h1>Es geht weiter und wir legen wieder los!</h1>
 	</HeadlineDynamic>
 	<TimetableBlock allDates={dates} />
+
+	<EssenTRickenModal></EssenTRickenModal>
+
 
 	<div class="content inner">{@html about.text}</div>
 

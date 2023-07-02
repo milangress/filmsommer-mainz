@@ -53,10 +53,6 @@ let showModal = false;
 
 <style>
     .EssenTrinkenBtn {
-        position: fixed;
-        bottom: 1rem;
-        left: 1rem;
-        z-index: 100;
         background-color: #fff;
         border-radius: 1em;
         padding: 0.5rem;
@@ -64,6 +60,28 @@ let showModal = false;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
         cursor: pointer;
         transition: all 0.2s ease-in-out;
+    }
+
+    @media (max-width: 800px) {
+        .EssenTrinkenBtn {
+            background-color: var(--green);
+            font-size: 1.3rem;
+            display: block;
+            margin-block: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+    @media (min-width: 800px) {
+        .EssenTrinkenBtn {
+            position: fixed;
+            bottom: 1rem;
+            left: 1rem;
+            z-index: 100;
+            background-color: #fff;
+            padding: 0.5rem;
+        }
     }
 
     .EssenTrinkenBtn:hover {
