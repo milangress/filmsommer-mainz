@@ -80,16 +80,16 @@
 		position: relative;
 		border: 1px solid transparent;
 	}
-	.day:after,
-	.day:before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		z-index: -1;
-		background-color: transparent;
-		border: 1px solid var(--green);
-		transition: transform 0.15s ease-in-out;
-	}
+	/*.day:after,*/
+	/*.day:before {*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	inset: 0;*/
+	/*	z-index: -1;*/
+	/*	background-color: transparent;*/
+	/*	border: 1px solid var(--green);*/
+	/*	transition: transform 0.15s ease-in-out;*/
+	/*}*/
 	.isToday {
 		border: 2px solid var(--green);
 	}
@@ -100,12 +100,12 @@
 		border: 1px solid var(--pink);
 		transform: scale(1.1) translate(-10px, -10px);
 	}
-	.day:hover:after {
-		transform: translate(5px, 5px);
-	}
-	.day:hover:before {
-		transform: translate(10px, 10px);
-	}
+	/*.day:hover:after {*/
+	/*	transform: translate(5px, 5px);*/
+	/*}*/
+	/*.day:hover:before {*/
+	/*	transform: translate(10px, 10px);*/
+	/*}*/
 	.event {
 		min-height: 5em;
 	}

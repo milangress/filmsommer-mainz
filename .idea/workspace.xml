@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,14 +180,7 @@
       <workItem from="1660658498099" duration="3110000" />
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
-      <workItem from="1687770116862" duration="34943000" />
-    </task>
-    <task id="LOCAL-00091" summary="✨ padding footer">
-      <created>1660048563091</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1660048563091</updated>
+      <workItem from="1687770116862" duration="35503000" />
     </task>
     <task id="LOCAL-00092" summary="✨ add socials buttons">
       <created>1660126480687</created>
@@ -528,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688233073647</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="stern">
+      <created>1688290606201</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1688290606201</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ remove png img" />
     <MESSAGE value="✨ add 404 page" />
     <MESSAGE value=" lint" />
     <MESSAGE value="✨ increase fontsize" />
@@ -577,6 +573,7 @@
     <MESSAGE value="add og data" />
     <MESSAGE value="background" />
     <MESSAGE value="add modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="add modal" />
+    <MESSAGE value="stern" />
+    <option name="LAST_COMMIT_MESSAGE" value="stern" />
   </component>
 </project>
