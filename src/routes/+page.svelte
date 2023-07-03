@@ -115,6 +115,9 @@
 		object-fit: cover;
 		background: lightgrey;
 	}
+	.date-image figcaption {
+		font-weight: bold;
+	}
 	@media (max-width: 1100px) {
 		.date-image {
 			transform: translateX(0%);

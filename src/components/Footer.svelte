@@ -42,4 +42,23 @@
         height: 1em;
         width: 1em;
     }
+    @media (max-width: 768px) {
+        .social-media-link {
+            height: 1.5em;
+            width: 1.5em;
+        }
+    }
+    @media (max-width: 500px) {
+        .social-media-link {
+            height: 2.5em;
+            width: 2.5em;
+        }
+        footer.content {
+            flex-direction: column;
+            align-items: center;
+        }
+        footer.content > * {
+            margin: 0.5rem;
+        }
+    }
 </style>
