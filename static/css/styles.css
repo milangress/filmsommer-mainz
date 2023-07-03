@@ -22,26 +22,21 @@
 }
 
 body {
-	background: url("/FS_Website_Hintergrund-cut.svg"), linear-gradient(90deg, rgba(239,111,31,1) 0%, rgba(239,111,31,1) 40%, rgba(49,172,98,1) 59%, rgba(49,172,98,1) 100%);
+	background: url("/FS_Website_Hintergrund-cut.svg");
 	background-repeat: repeat-y;
 	background-position-x: center;
 	/*background-size: 100% auto;*/
 	background-size: 1920px;
 	scroll-padding-top: 2rem;
 }
-@media (max-width: 1100px){
-	body {
-		background-size: 100% auto;
-	}
-}
-body:before {
-	position: fixed;
-	content: "";
-	inset: 0;
-	z-index: -100;
+/*body:after {*/
+/*	position: fixed;*/
+/*	content: "";*/
+/*	inset: 0;*/
+/*	z-index: -100;*/
 
-    background: linear-gradient(90deg, rgba(239,111,31,1) 0%, rgba(239,111,31,1) 40%, rgba(49,172,98,1) 59%, rgba(49,172,98,1) 100%);
-}
+/*    background: linear-gradient(90deg, rgba(239,111,31,1) 0%, rgba(239,111,31,1) 40%, rgba(49,172,98,1) 59%, rgba(49,172,98,1) 100%);*/
+/*}*/
 /*body:before {*/
 /*	display: none;*/
 /*	content: "";*/
@@ -60,7 +55,8 @@ body:before {
 .logo {
 	width: var(--width-outer);
 	/*min-height: 100vh;*/
-	margin: 2rem auto;
+	margin: 0 auto;
+	padding-top: 2rem;
 	display: block;
 }
 .inner {
@@ -74,7 +70,7 @@ body:before {
 .content {
 	background-color: var(--pink);
 	margin-block: 3rem;
-	padding: 0.5rem;
+	padding: 1rem 2rem;
 	font-size: 1.2rem;
 }
 .content :where(h1, h2, h3, h4, h5) {

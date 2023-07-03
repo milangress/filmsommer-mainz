@@ -1,4 +1,6 @@
 <script>
+	import BackgroundBackBack from "../components/BackgroundBackBack.svelte";
+
 	export let data
 </script>
 
@@ -16,5 +18,7 @@
 	<meta name="robots" content="{data.noIndexOnVercel}">
 </svelte:head>
 <div>
-	<slot />
+	<BackgroundBackBack>
+		<slot />
+	</BackgroundBackBack>
 </div>
