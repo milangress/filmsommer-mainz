@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BackgroundBackBack.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PathText.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PathText.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,13 +183,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00103" summary="✨ set image apect ratio">
-      <created>1660659505918</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1660659505918</updated>
     </task>
     <task id="LOCAL-00104" summary="✨ new favicon">
       <created>1660661006499</created>
@@ -528,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688395494556</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="fix background">
+      <created>1688397417783</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1688397417783</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix imports" />
     <MESSAGE value="use static" />
     <MESSAGE value="http error" />
     <MESSAGE value="-&gt; public" />
@@ -577,6 +575,7 @@
     <MESSAGE value="background" />
     <MESSAGE value="event box styling" />
     <MESSAGE value="styling timetable" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling timetable" />
+    <MESSAGE value="fix background" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix background" />
   </component>
 </project>

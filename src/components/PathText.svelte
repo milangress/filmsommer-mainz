@@ -24,9 +24,9 @@
 
 <style>
 	svg {
-		position: absolute;
-		transform: translateX(-60%);
+		/*position: absolute;*/
+		/*transform: translateX(-60%);*/
 		/*mix-blend-mode: difference;*/
-		z-index: -1;
+		z-index: 5;
 	}
 </style>

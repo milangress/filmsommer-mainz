@@ -81,8 +81,8 @@
 				<div class="events-text-wrapper">
 					{#each date.events as event}
 						<div class="event">
-							{#if event.pathtext}
-								<PathText text={event.pathtext} />
+							{#if typeof event.pathText === 'string'}
+								<PathText text="{event.pathText}" />
 							{/if}
 							<h3>{event.title_long ? event.title_long : event.title}</h3>
 							<p>{@html event.content}</p>
