@@ -26,7 +26,7 @@ body {
 	background-repeat: repeat-y;
 	background-position-x: center;
 	/*background-size: 100% auto;*/
-	/*background-size: 1920px;*/
+	background-size: 1920px;
 	scroll-padding-top: 2rem;
 }
 body:after {
