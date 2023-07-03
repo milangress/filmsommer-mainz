@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/data/2022.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/2022.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/FS_Website_Hintergrund-cut.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/FS_Website_Hintergrund-cut.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,13 +182,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00096" summary="✨ remove content">
-      <created>1660128328771</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1660128328771</updated>
     </task>
     <task id="LOCAL-00097" summary="✨ remove png img">
       <created>1660128372095</created>
@@ -524,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688305914315</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="fix link">
+      <created>1688306476805</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1688306476806</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ fix date" />
     <MESSAGE value="✨ set image apect ratio" />
     <MESSAGE value="✨ new favicon" />
     <MESSAGE value="delete" />
@@ -573,6 +574,7 @@
     <MESSAGE value="button pos" />
     <MESSAGE value="styling" />
     <MESSAGE value="buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons" />
+    <MESSAGE value="fix link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix link" />
   </component>
 </project>
