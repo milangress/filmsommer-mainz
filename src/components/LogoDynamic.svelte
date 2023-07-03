@@ -379,10 +379,13 @@
 <style>
 	#stern10jahre {
 		position: absolute;
-		box-shadow: #1d1d1b 1px 1px 5px;
+		/*box-shadow: #1d1d1b 1px 1px 5px;*/
+		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
 	}
 	#stern10jahre-mobil {
 		display: none;
+		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
+
 	}
 	@media (max-width: 768px) {
 		#stern10jahre {

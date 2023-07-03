@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PathText.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PathText.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoDynamic.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/FS_Website_Stern_Schriftzug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/FS_Website_Stern_Schriftzug.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Cc6Xz0efCVlw8SfTlq38XJlXei" />
   <component name="ProjectViewState">
@@ -183,13 +183,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00104" summary="✨ new favicon">
-      <created>1660661006499</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1660661006499</updated>
     </task>
     <task id="LOCAL-00105" summary="delete">
       <created>1687856422399</created>
@@ -527,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688397417783</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="text path">
+      <created>1688398129239</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1688398129240</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use static" />
     <MESSAGE value="http error" />
     <MESSAGE value="-&gt; public" />
     <MESSAGE value="format" />
@@ -576,6 +575,7 @@
     <MESSAGE value="event box styling" />
     <MESSAGE value="styling timetable" />
     <MESSAGE value="fix background" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix background" />
+    <MESSAGE value="text path" />
+    <option name="LAST_COMMIT_MESSAGE" value="text path" />
   </component>
 </project>
