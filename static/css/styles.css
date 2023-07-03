@@ -29,6 +29,11 @@ body {
 	background-size: 1920px;
 	scroll-padding-top: 2rem;
 }
+@media (max-width: 1100px){
+	body {
+		background-size: 205% auto;
+	}
+}
 body:after {
 	content: "";
 	inset: 0;
