@@ -31,30 +31,31 @@ body {
 }
 @media (max-width: 1100px){
 	body {
-		background-size: 205% auto;
+		background-size: 100% auto;
 	}
 }
-body:after {
+body:before {
+	position: fixed;
 	content: "";
 	inset: 0;
 	z-index: -100;
 
     background: linear-gradient(90deg, rgba(239,111,31,1) 0%, rgba(239,111,31,1) 40%, rgba(49,172,98,1) 59%, rgba(49,172,98,1) 100%);
 }
-body:before {
-	display: none;
-	content: "";
-	position: absolute;
-	height: 100%;
-	inset: 0;
-	z-index: -1;
+/*body:before {*/
+/*	display: none;*/
+/*	content: "";*/
+/*	position: absolute;*/
+/*	height: 100%;*/
+/*	inset: 0;*/
+/*	z-index: -1;*/
 
-	background: url("/FS_Website_Hintergrund-cut.svg");
-	background-repeat: repeat-y;
-	background-position-x: center;
-	/*background-size: 100% auto;*/
-	background-size: 1920px;
-}
+/*	background: url("/FS_Website_Hintergrund-cut.svg");*/
+/*	background-repeat: repeat-y;*/
+/*	background-position-x: center;*/
+/*	!*background-size: 100% auto;*!*/
+/*	background-size: 1920px;*/
+/*}*/
 
 .logo {
 	width: var(--width-outer);

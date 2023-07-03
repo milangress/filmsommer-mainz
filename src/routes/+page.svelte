@@ -113,6 +113,7 @@
 		width: 100%;
 		aspect-ratio: 16/9;
 		object-fit: cover;
+		background: lightgrey;
 	}
 	@media (max-width: 1100px) {
 		.date-image {
