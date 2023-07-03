@@ -7,7 +7,6 @@
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,13 +181,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00100" summary="✨ increase fontsize">
-      <created>1660135945859</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1660135945860</updated>
     </task>
     <task id="LOCAL-00101" summary="✨ fix today">
       <created>1660659037347</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688391483507</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="background">
+      <created>1688394811355</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1688394811355</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +564,6 @@
     <MESSAGE value="no follow on vercel" />
     <MESSAGE value="test" />
     <MESSAGE value="add og data" />
-    <MESSAGE value="background" />
     <MESSAGE value="add modal" />
     <MESSAGE value="stern" />
     <MESSAGE value="remove borders" />
@@ -575,6 +573,7 @@
     <MESSAGE value="fix link" />
     <MESSAGE value="make bg fixed" />
     <MESSAGE value="bg scaling mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg scaling mobile" />
+    <MESSAGE value="background" />
+    <option name="LAST_COMMIT_MESSAGE" value="background" />
   </component>
 </project>

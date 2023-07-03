@@ -124,11 +124,11 @@
 		/*border: 1px solid black;*/
 		width: fit-content;
 		padding: 2rem;
-		margin: 2rem;
+		margin: 2rem 0;
 		/*background-color: var(--green);*/
 		/*box-shadow: 5px 5px 0px 0px black;*/
 		background-color: var(--green);
-		color: var(--pink);
+		color: black;
 		/*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
 		position: relative;
 		contain: layout;
