@@ -43,7 +43,7 @@
 			<h3>{getDate(date.date)}</h3>
 			{#each date.events as event}
 				<div class="event">
-					<strong>{getTime(event.time)} {event.type}</strong>
+					<strong>{getTime(event.time)} • {event.type}</strong>
 					<p>{event.title}</p>
 				</div>
 			{/each}
@@ -61,6 +61,7 @@
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-auto-rows: auto;
 		grid-gap: 1rem;
+		line-height: 1.25;
 	}
 	@media (max-width: 1100px) {
 		.timetable {
@@ -68,8 +69,9 @@
 		}
 	}
 
-	h2 {
+	h3 {
 		padding-block-end: 1rem;
+		/*font-family: 'Obviously', sans-serif;*/
 	}
 
 	.day {
@@ -95,7 +97,7 @@
 	}
 	.day:hover {
 		background-color: var(--green);
-		color: var(--pink);
+		/*color: var(--pink);*/
 		z-index: 100;
 		/*border: 5px solid var(--pink);*/
 		transform: scale(1.1);

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,13 +181,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00101" summary="✨ fix today">
-      <created>1660659037347</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1660659037347</updated>
     </task>
     <task id="LOCAL-00102" summary="✨ fix date">
       <created>1660659248282</created>
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688394811355</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="event box styling">
+      <created>1688394956098</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1688394956098</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="delete" />
     <MESSAGE value="add svelte" />
     <MESSAGE value="fix imports" />
     <MESSAGE value="use static" />
@@ -574,6 +573,7 @@
     <MESSAGE value="make bg fixed" />
     <MESSAGE value="bg scaling mobile" />
     <MESSAGE value="background" />
-    <option name="LAST_COMMIT_MESSAGE" value="background" />
+    <MESSAGE value="event box styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="event box styling" />
   </component>
 </project>
