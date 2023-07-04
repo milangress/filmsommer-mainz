@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/2022.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/2022.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/impressum/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/impressum/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,13 +182,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00110" summary="use static">
-      <created>1687857707689</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1687857707689</updated>
     </task>
     <task id="LOCAL-00111" summary="http error">
       <created>1687857928485</created>
@@ -527,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688459327255</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="default images">
+      <created>1688460381947</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1688460381947</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-&gt; public" />
     <MESSAGE value="format" />
     <MESSAGE value="update actions" />
     <MESSAGE value="do deploy" />
@@ -576,6 +574,7 @@
     <MESSAGE value="fix star" />
     <MESSAGE value="fix background" />
     <MESSAGE value="typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo" />
+    <MESSAGE value="default images" />
+    <option name="LAST_COMMIT_MESSAGE" value="default images" />
   </component>
 </project>

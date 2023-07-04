@@ -2,19 +2,22 @@
 	import HeadlineDynamic from '../../components/HeadlineDynamic.svelte';
 </script>
 
+<br>
+<br>
 <HeadlineDynamic>
 	<h1>Impressum</h1>
 </HeadlineDynamic>
 
 <div class="content inner">
-	<h2>IMPRESSUM</h2>
 	<h3>ANGABEN GEMÄSS § 5 TMG:</h3>
 	<p>TIDI VON TIEDEMANN KONTRASTFILM GMBH &amp; CO. KG WALLSTRASSE 11 HINTERHAUS 55122 MAINZ</p>
 	<h3>KONTAKT:</h3>
 	<p>
-		Telefon: +49 (0) 6131 90 60 781<br />Telefax: +49 (0) 6131 90 60 780<br />E-Mail:
-		filmsommer@kontrastfilm.de.de<br />Facebook<br />Umsatzsteuer-ID:<br />Steuernummer:
-		26/092/6369/6<br />USt-ID: DE 232 748 589
+		Telefon: +49 (0) 6131 90 60 781<br />
+		Telefax: +49 (0) 6131 90 60 780<br />
+		E-Mail: filmsommer@kontrastfilm.de<br />
+		Steuernummer: 26/092/6369/6<br />
+		USt-ID: DE 232 748 589
 	</p>
 	<p>Finanzamt Mainz Mitte</p>
 	<h3>VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV:</h3>
@@ -24,12 +27,16 @@
 			class="">55122 Mainz</span
 		>
 	</p>
+	<h3>Design & Code</h3>
 	<p>
-		Design &amp; Code<br />Pisa Peng<br /><a
+		Design:
+		Pisa Peng<br /><a
 			href="https://pisapeng.de/"
 			target="_blank"
 			rel="noopener">pisapeng.de</a
-		><br />Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
+		><br />
+		Code:
+		Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
 			>milangress.de</a
 		>
 	</p>
@@ -298,3 +305,6 @@
 		(https://www.privacyshield.gov/participant?id=a2zt0000000TNo9AAG&amp;status=Active).
 	</p>
 </div>
+<br>
+<br>
+<br>
