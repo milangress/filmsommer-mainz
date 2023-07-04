@@ -21,7 +21,7 @@ const dates = [
 				pathText: 'test'
 			}
 		],
-		image: '85d2f7fe-5464-49d0-ba47-484c8245fbef'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 2,
@@ -45,7 +45,7 @@ const dates = [
 				pathText: 'asdfc'
 			}
 		],
-		image: '6e9a8dab-5280-471e-b55b-4ad02fd17761'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 5,
@@ -69,7 +69,7 @@ const dates = [
 				title_long: 'test'
 			}
 		],
-		image: '35253a0c-7738-48ce-8814-f75b010bb62a'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 5,
@@ -94,7 +94,7 @@ const dates = [
 				title_long: 'Nosferatu – Eine Symphonie des Grauens'
 			}
 		],
-		image: '77700253-b251-4155-9302-1849ff5e80c4'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 7,
@@ -118,7 +118,7 @@ const dates = [
 				pathText: 'sdafsdsa'
 			}
 		],
-		image: '73ce90c0-b2ba-4cc6-b091-a101489ff669'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 8,
@@ -142,7 +142,7 @@ const dates = [
 				pathText: 'afs'
 			}
 		],
-		image: '31d19acd-d2d0-483e-a19b-13fc7c94e73c'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 9,
@@ -166,7 +166,7 @@ const dates = [
 				pathText: 'Drama • Familienfilm'
 			}
 		],
-		image: 'e5c7f8ad-cd04-487a-8357-d173cd1f1c4e'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 10,
@@ -190,7 +190,7 @@ const dates = [
 				pathText: 'sdfg'
 			}
 		],
-		image: '5bc87951-2448-4311-8ed7-f14f6b7cbb43'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 11,
@@ -214,7 +214,7 @@ const dates = [
 				pathText: 'adf'
 			}
 		],
-		image: 'e5d59603-6b12-4001-8ad9-622c30432424'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		date: '2022-08-27',
@@ -245,7 +245,7 @@ const dates = [
 				title_long: 'wfa'
 			}
 		],
-		image: 'd8b40bc2-5c19-4e67-bba0-51e410ec542b'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	}
 ];
 const about = {

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundBackBack.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundBackBack.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EssenTRickenModal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/2022.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/2022.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,13 +183,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00109" summary="use static">
-      <created>1687857558939</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1687857558939</updated>
     </task>
     <task id="LOCAL-00110" summary="use static">
       <created>1687857707689</created>
@@ -529,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688458168305</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="typo">
+      <created>1688459327255</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1688459327255</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,8 +574,8 @@
     <MESSAGE value="styling timetable" />
     <MESSAGE value="text path" />
     <MESSAGE value="fix star" />
-    <MESSAGE value="typo" />
     <MESSAGE value="fix background" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix background" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
 </project>

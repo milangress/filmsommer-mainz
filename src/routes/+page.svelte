@@ -21,8 +21,8 @@
 	// });
 
 	function getImage(fileId) {
-		const url = new URL(`https://milan.place/assets/${fileId}`);
-		return url.href;
+		// const url = new URL(`/fotos2023/${fileId}`);
+		return `/fotos2023/${fileId}`;
 	}
 
 	function getTime(time) {
