@@ -14,6 +14,7 @@
         /*background-size: 100% auto;*/
         background-size: 1920px;
         scroll-padding-top: 2rem;
+
     }
     @media (max-width: 1100px){
         .background {

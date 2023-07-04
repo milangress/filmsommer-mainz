@@ -63,6 +63,12 @@
         color: white;
         transform: scale(1.1);
     }
+    @media (max-width: 800px) {
+        button {
+            font-size: 2.5em;
+            left: 85%;
+        }
+    }
     @keyframes zoom {
         from {
             transform: scale(0.95) translateX(-5%);

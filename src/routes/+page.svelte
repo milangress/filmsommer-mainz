@@ -72,7 +72,7 @@
 				<div class="event-box-wrapper">
 					{#each date.events as event}
 						<div class="event-short">
-							<strong>{getTime(event.time)} {event.type}</strong>
+							<strong>{getTime(event.time)} • {event.type}</strong>
 							<p>{event.title}</p>
 						</div>
 					{/each}
@@ -135,6 +135,9 @@
 		/*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
 		position: relative;
 		contain: layout;
+	}
+	.event-box-wrapper .event-short + .event-short {
+		margin-top: 0.6em;
 	}
 	/*.event-box-wrapper:after {*/
 	/*	content: '';*/

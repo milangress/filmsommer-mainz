@@ -65,12 +65,14 @@ let showModal = false;
 
     @media (max-width: 800px) {
         .EssenTrinkenBtn {
-            background-color: var(--green);
-            font-size: 1.3rem;
+            /*background-color: var(--green);*/
+            box-shadow: 0 0.5rem 1rem var(--green);
+            font-size: 1.6rem;
             display: block;
             margin-block: 3rem;
             margin-left: auto;
             margin-right: auto;
+            padding: 0.8em 2em;
         }
 
     }
