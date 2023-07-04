@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,13 +182,6 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00106" summary="add svelte">
-      <created>1687856518507</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1687856518507</updated>
     </task>
     <task id="LOCAL-00107" summary="fix imports">
       <created>1687857208092</created>
@@ -527,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688403169603</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="typo">
+      <created>1688404164006</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1688404164006</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +553,6 @@
     <MESSAGE value="-&gt; public" />
     <MESSAGE value="format" />
     <MESSAGE value="update actions" />
-    <MESSAGE value="typo" />
     <MESSAGE value="do deploy" />
     <MESSAGE value="add favicons" />
     <MESSAGE value="add footer" />
@@ -576,6 +574,7 @@
     <MESSAGE value="fix background" />
     <MESSAGE value="text path" />
     <MESSAGE value="fix star" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix star" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
 </project>

@@ -2,8 +2,9 @@
 	--width-outer: 90vw;
 	--width-inner: 815px;
 	--pink: #C8D500;
-	--green: #37ad60;
-	--yellow: #e4df00;
+	--green: #31AC62;
+	--yellow: #C8D500;
+	--red: #EF6F1F
 }
 @media (min-width: 1600px) {
 	:root {
@@ -19,6 +20,11 @@
 	html {
 		font-size: 0.8rem;
 	}
+}
+
+::selection {
+	color: var(--yellow);
+	background: var(--red);
 }
 
 body {
