@@ -13,7 +13,7 @@
   on:click|self={() => dialog.close()}
 >
   <!-- svelte-ignore a11y-autofocus -->
-  <button autofocus on:click={() => dialog.close()}>X</button>
+  <button autofocus on:click={() => dialog.close()}>×</button>
 
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div on:click|stopPropagation>
@@ -56,6 +56,12 @@
         color: black;
         box-shadow: var(--green) 3px 3px 5px;
         aspect-ratio: 1;
+        transition: transform 0.2s ease-out;
+    }
+    button:hover {
+        background: var(--green);
+        color: white;
+        transform: scale(1.1);
     }
     @keyframes zoom {
         from {
