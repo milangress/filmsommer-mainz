@@ -93,7 +93,11 @@
 	/*	transition: transform 0.15s ease-in-out;*/
 	/*}*/
 	.isToday {
-		border: 2px solid var(--green);
+		/*border-top: 2px solid black;*/
+		background-color: var(--green);
+	}
+	.isPast {
+		opacity: 0.7;
 	}
 	.day:hover {
 		background-color: var(--green);

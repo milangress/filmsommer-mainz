@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="">
+    <list default="true" id="960f751f-3e05-4db8-801e-f45563cc90ed" name="Changes" comment="impressum">
+      <change afterPath="$PROJECT_DIR$/src/data/2023.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/impressum/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/impressum/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimetableBlock.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +77,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2023&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/milan/gh/filmsommer-2022&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/milan/gh/filmsommer-2022/node_modules/prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/milan/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5921.27/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "2023",
+    "last_opened_file_path": "/Users/milan/gh/filmsommer-2022/src/data",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/milan/gh/filmsommer-2022/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "ts.external.directory.path": "/Users/milan/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5921.27/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +107,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -157,10 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lintfix" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.generate" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -182,13 +185,8 @@
       <workItem from="1661353911675" duration="1259000" />
       <workItem from="1662037403181" duration="589000" />
       <workItem from="1687770116862" duration="37715000" />
-    </task>
-    <task id="LOCAL-00111" summary="http error">
-      <created>1687857928485</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1687857928486</updated>
+      <workItem from="1688543362032" duration="58000" />
+      <workItem from="1688543428151" duration="3718000" />
     </task>
     <task id="LOCAL-00112" summary="-&gt; public">
       <created>1687858052490</created>
@@ -526,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688460381947</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="impressum">
+      <created>1688462622017</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1688462622017</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="format" />
     <MESSAGE value="update actions" />
     <MESSAGE value="do deploy" />
     <MESSAGE value="add favicons" />
@@ -575,6 +579,7 @@
     <MESSAGE value="fix background" />
     <MESSAGE value="typo" />
     <MESSAGE value="default images" />
-    <option name="LAST_COMMIT_MESSAGE" value="default images" />
+    <MESSAGE value="impressum" />
+    <option name="LAST_COMMIT_MESSAGE" value="impressum" />
   </component>
 </project>

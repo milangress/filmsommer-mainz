@@ -7,8 +7,8 @@
 	import PathText from '/src/components/PathText.svelte';
 	import LogoBlock from '/src/components/LogoBlock.svelte';
 
-	import { dates } from '/src/data/2022.js';
-	import { about } from '/src/data/2022.js';
+	import { dates } from '/src/data/2023.js';
+	import { about } from '/src/data/2023.js';
 	import Footer from "/src/components/Footer.svelte";
 	import EssenTRickenModal from "../components/EssenTRickenModal.svelte";
 
