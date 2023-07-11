@@ -1,6 +1,6 @@
 <script>
-	export let text = 'ERROR';
-	export let color = '#000';
+	export let text = 'ERROR'
+	export let color = '#000'
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="391.108" height="147.962" viewBox="0 0 400 160">

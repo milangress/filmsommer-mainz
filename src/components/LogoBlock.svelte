@@ -1,13 +1,13 @@
 <script>
-	let logos = [];
+	let logos = []
 
 	async function fetchLogos() {
 		logos = Array.from(Array(23).keys()).map((i) => ({
 			file: `sponsor_logo_${i}`
-		}));
+		}))
 	}
 
-	fetchLogos();
+	fetchLogos()
 </script>
 
 <div class="logos">

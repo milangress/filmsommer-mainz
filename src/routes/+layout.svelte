@@ -1,7 +1,7 @@
 <script>
-	import BackgroundBackBack from '../components/BackgroundBackBack.svelte';
+	import BackgroundBackBack from '../components/BackgroundBackBack.svelte'
 
-	export let data;
+	export let data
 </script>
 
 <svelte:head>

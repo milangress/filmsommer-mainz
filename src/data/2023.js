@@ -247,9 +247,9 @@ const dates = [
 		],
 		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	}
-];
+]
 const about = {
 	text: '\u003Cp class="p2"\u003EHerzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielf&auml;ltiger und legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit.\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EWir freuen uns, vom 16. &ndash; 27. August an unserem wundersch&ouml;nen Spielort \u003Cstrong\u003E\u003Cem\u003EKulturei\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EZitadelle Mainz\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, wieder gelebte Filmkultur zu pr&auml;sentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude &hellip; Sommerwetter trifft Filmkultur &ndash; ein Genuss!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003ENach 2 Jahren Pandemie starten wir wieder voll durch. Der Eintritt zu unseren Veranstaltungen ist wie immer frei, f&uuml;r Speis und Trank ist bestens gesorgt. Seid herzlich willkommen bei unserer tollen Open-Air-Reihe!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EBeste Gr&uuml;&szlig;e und &bdquo;Film ab!&ldquo;\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EEuer Filmsommer-Team\u003C\u002Fp\u003E'
-};
+}
 
-export { about, dates };
+export { about, dates }

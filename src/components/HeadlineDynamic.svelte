@@ -1,45 +1,45 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from 'svelte'
 
-	let topRow = [];
-	let bottomRow = [];
-	let leftRow = [];
+	let topRow = []
+	let bottomRow = []
+	let leftRow = []
 	let amountOfElems = {
 		top: 0,
 		bottom: 0,
 		left: 0
-	};
+	}
 
-	let headlineRef;
-	export let className = '';
-	export let id = '';
+	let headlineRef
+	export let className = ''
+	export let id = ''
 
 	onMount(() => {
-		reloadAllRows();
-	});
+		reloadAllRows()
+	})
 
 	function reloadAllRows() {
-		const { width, height } = headlineRef.getBoundingClientRect();
+		const { width, height } = headlineRef.getBoundingClientRect()
 		amountOfElems = {
 			top: Math.ceil(width / 100),
 			bottom: Math.ceil(width / 100),
 			left: Math.ceil(height / 100)
-		};
-		setTopRow();
-		setBottomRow();
-		setLeftRow();
+		}
+		setTopRow()
+		setBottomRow()
+		setLeftRow()
 	}
 
 	function setTopRow() {
-		topRow = Array.from({ length: amountOfElems.top }, () => Math.random() - 0.5);
+		topRow = Array.from({ length: amountOfElems.top }, () => Math.random() - 0.5)
 	}
 
 	function setBottomRow() {
-		bottomRow = Array.from({ length: amountOfElems.bottom }, () => Math.random() - 0.5);
+		bottomRow = Array.from({ length: amountOfElems.bottom }, () => Math.random() - 0.5)
 	}
 
 	function setLeftRow() {
-		leftRow = Array.from({ length: amountOfElems.left }, () => Math.random() - 0.5);
+		leftRow = Array.from({ length: amountOfElems.left }, () => Math.random() - 0.5)
 	}
 </script>
 

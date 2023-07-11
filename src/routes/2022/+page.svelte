@@ -1,15 +1,15 @@
 <script>
-	import { DateTime } from 'luxon';
-	import LogoDynamic from '/src/components/LogoDynamic.svelte';
-	import BackToTopButton from '/src/components/BackToTopButton.svelte';
-	import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte';
-	import TimetableBlock from '/src/components/TimetableBlock.svelte';
-	import PathText from '/src/components/PathText.svelte';
-	import LogoBlock from '/src/components/LogoBlock.svelte';
+	import { DateTime } from 'luxon'
+	import LogoDynamic from '/src/components/LogoDynamic.svelte'
+	import BackToTopButton from '/src/components/BackToTopButton.svelte'
+	import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte'
+	import TimetableBlock from '/src/components/TimetableBlock.svelte'
+	import PathText from '/src/components/PathText.svelte'
+	import LogoBlock from '/src/components/LogoBlock.svelte'
 
-	import { dates } from '/src/data/2022.js';
-	import { about } from '/src/data/2022.js';
-	import Footer from '../../components/Footer.svelte';
+	import { dates } from '/src/data/2022.js'
+	import { about } from '/src/data/2022.js'
+	import Footer from '../../components/Footer.svelte'
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -20,18 +20,18 @@
 	// });
 
 	function getImage(fileId) {
-		const url = new URL(`https://milan.place/assets/${fileId}`);
-		return url.href;
+		const url = new URL(`https://milan.place/assets/${fileId}`)
+		return url.href
 	}
 
 	function getTime(time) {
-		return DateTime.fromISO(time).toFormat('HH:mm');
+		return DateTime.fromISO(time).toFormat('HH:mm')
 	}
 
 	function getDate(date) {
-		const weekday = DateTime.fromISO(date).weekdayShort;
-		const day = DateTime.fromISO(date).toFormat('dd.MM');
-		return `${weekday}, ${day}`;
+		const weekday = DateTime.fromISO(date).weekdayShort
+		const day = DateTime.fromISO(date).toFormat('dd.MM')
+		return `${weekday}, ${day}`
 	}
 </script>
 

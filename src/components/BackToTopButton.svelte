@@ -1,15 +1,15 @@
 <script>
-	let y;
+	let y
 
-	$: isVisible = y > 1500;
+	$: isVisible = y > 1500
 
 	function scrollToTop() {
-		const el = document.querySelector(`#timetable`);
-		console.log(el);
-		if (!el) return;
+		const el = document.querySelector(`#timetable`)
+		console.log(el)
+		if (!el) return
 		el.scrollIntoView({
 			behavior: 'smooth'
-		});
+		})
 	}
 </script>
 

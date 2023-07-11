@@ -1,27 +1,27 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from 'svelte'
 
 	let bars = [
 		{ color: '#F9D1E4', width: '1' },
 		{ color: '#E4DF00', width: '2' },
 		{ color: '#37AD60', width: '1' },
 		{ color: '#F9D1E4', width: '1' }
-	];
+	]
 
 	function setBar() {
 		bars = bars.map((bar) => ({
 			width: Math.random() * 10,
 			color: bar.color
-		}));
+		}))
 	}
 
-	export const animate = false;
+	export const animate = false
 
 	onMount(() => {
 		if (animate) {
-			setInterval(setBar, 5000);
+			setInterval(setBar, 5000)
 		}
-	});
+	})
 </script>
 
 <div class="background">
