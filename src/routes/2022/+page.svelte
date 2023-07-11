@@ -9,7 +9,7 @@
 
 	import { dates } from '/src/data/2022.js';
 	import { about } from '/src/data/2022.js';
-	import Footer from "../../components/Footer.svelte";
+	import Footer from '../../components/Footer.svelte';
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -95,7 +95,7 @@
 	<div class="content inner">
 		<LogoBlock />
 	</div>
-	<Footer></Footer>
+	<Footer />
 </div>
 
 <style global>

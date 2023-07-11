@@ -1,4 +1,3 @@
-
 <svg
 	id="Ebene_1"
 	data-name="Ebene 1"
@@ -370,11 +369,16 @@
 			transform="translate(-0.9)"
 		/>
 	</g>
-	<image href="FS_Website_Stern_Schriftzug.svg" width="110px" height="110px" x="250px" y="0px" id="stern10jahre"></image>
+	<image
+		href="FS_Website_Stern_Schriftzug.svg"
+		width="110px"
+		height="110px"
+		x="250px"
+		y="0px"
+		id="stern10jahre"
+	/>
 </svg>
-<img src="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" alt="10 Jahre Filmsommer">
-
-
+<img src="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" alt="10 Jahre Filmsommer" />
 
 <style>
 	#stern10jahre {
@@ -385,7 +389,6 @@
 	#stern10jahre-mobil {
 		display: none;
 		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
-
 	}
 	@media (max-width: 768px) {
 		#stern10jahre {

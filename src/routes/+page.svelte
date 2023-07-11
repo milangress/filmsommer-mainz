@@ -9,8 +9,8 @@
 
 	import { dates } from '/src/data/2023.js';
 	import { about } from '/src/data/2023.js';
-	import Footer from "/src/components/Footer.svelte";
-	import EssenTrinkenModal from "../components/EssenTrinkenModal.svelte";
+	import Footer from '/src/components/Footer.svelte';
+	import EssenTrinkenModal from '../components/EssenTrinkenModal.svelte';
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -44,8 +44,7 @@
 	</HeadlineDynamic>
 	<TimetableBlock allDates={dates} />
 
-	<EssenTrinkenModal></EssenTrinkenModal>
-
+	<EssenTrinkenModal />
 
 	<div class="content inner">{@html about.text}</div>
 
@@ -82,7 +81,7 @@
 					{#each date.events as event}
 						<div class="event">
 							{#if typeof event.pathText === 'string'}
-								<PathText text="{event.pathText}" />
+								<PathText text={event.pathText} />
 							{/if}
 							<h3>{event.title_long ? event.title_long : event.title}</h3>
 							<p>{@html event.content}</p>
@@ -99,7 +98,7 @@
 	<div class="content inner">
 		<LogoBlock />
 	</div>
-	<Footer></Footer>
+	<Footer />
 </div>
 
 <style global>

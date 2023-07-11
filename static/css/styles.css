@@ -1,10 +1,10 @@
 :root {
 	--width-outer: 90vw;
 	--width-inner: 815px;
-	--pink: #C8D500;
-	--green: #31AC62;
-	--yellow: #C8D500;
-	--red: #EF6F1F
+	--pink: #c8d500;
+	--green: #31ac62;
+	--yellow: #c8d500;
+	--red: #ef6f1f;
 }
 @media (min-width: 1600px) {
 	:root {
@@ -28,7 +28,7 @@
 }
 
 body {
-	background: url("/FS_Website_Hintergrund-cut.svg");
+	background: url('/FS_Website_Hintergrund-cut.svg');
 	background-repeat: repeat-y;
 	background-position-x: center;
 	/*background-size: 100% auto;*/
@@ -90,7 +90,6 @@ body {
 .headline .date {
 	font-size: 0.8em;
 }
-
 
 .headline-dynamic h1 {
 	padding: 0;

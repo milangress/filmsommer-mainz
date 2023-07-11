@@ -15,7 +15,7 @@
 		}));
 	}
 
-	export const animate = false
+	export const animate = false;
 
 	onMount(() => {
 		if (animate) {

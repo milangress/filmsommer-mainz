@@ -2,8 +2,8 @@
 	import HeadlineDynamic from '../../components/HeadlineDynamic.svelte';
 </script>
 
-<br>
-<br>
+<br />
+<br />
 <HeadlineDynamic>
 	<h1>Impressum</h1>
 </HeadlineDynamic>
@@ -29,14 +29,10 @@
 	</p>
 	<h3>Design & Code</h3>
 	<p>
-		Design:
-		Pisa Peng<br /><a
-			href="https://pisapeng.de/"
-			target="_blank"
-			rel="noopener">pisapeng.de</a
+		Design: Pisa Peng<br /><a href="https://pisapeng.de/" target="_blank" rel="noopener"
+			>pisapeng.de</a
 		><br />
-		Code:
-		Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
+		Code: Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
 			>milangress.de</a
 		>
 	</p>
@@ -305,6 +301,6 @@
 		(https://www.privacyshield.gov/participant?id=a2zt0000000TNo9AAG&amp;status=Active).
 	</p>
 </div>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />

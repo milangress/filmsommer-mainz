@@ -62,8 +62,6 @@ p + p {
 	margin-block: 1em;
 }
 
-
-
 a:not(.button) {
 	color: inherit;
 	text-decoration: underline;

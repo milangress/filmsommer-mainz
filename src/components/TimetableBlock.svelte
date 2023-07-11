@@ -105,7 +105,7 @@
 		z-index: 100;
 		/*border: 5px solid var(--pink);*/
 		transform: scale(1.1);
-		box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 	}
 	/*.day:hover:after {*/
 	/*	transform: translate(5px, 5px);*/
