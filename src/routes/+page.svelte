@@ -10,7 +10,7 @@
 	import { dates } from '/src/data/2023.js';
 	import { about } from '/src/data/2023.js';
 	import Footer from "/src/components/Footer.svelte";
-	import EssenTRickenModal from "../components/EssenTRickenModal.svelte";
+	import EssenTrinkenModal from "../components/EssenTrinkenModal.svelte";
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -44,7 +44,7 @@
 	</HeadlineDynamic>
 	<TimetableBlock allDates={dates} />
 
-	<EssenTRickenModal></EssenTRickenModal>
+	<EssenTrinkenModal></EssenTrinkenModal>
 
 
 	<div class="content inner">{@html about.text}</div>
