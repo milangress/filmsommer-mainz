@@ -51,7 +51,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="top-row">
@@ -59,7 +59,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -67,7 +67,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -75,7 +75,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<slot />
@@ -84,7 +84,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="bottom-row">
@@ -92,7 +92,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 </div>
