@@ -12,7 +12,7 @@
 
 <div class="content inner">
 	Liebe Filmsommer Freund*innen,<br />
-	Wir feiern 10 Jahre Filmsommer vom <b>18.8.</b> bis <b>26.8.2013.</b>
+	Wir feiern 10 Jahre Filmsommer vom <b>18.8.</b> bis <b>26.8.2023.</b>
 	Hier gibt es bald das komplette Programm zu sehen.<br />
 	Wir freuen uns auf euch!
 </div>
