@@ -1,255 +1,250 @@
 const dates = [
 	{
-		date: '2023-07-04',
-		name: 'Eröffnungsabend',
+		date: '2023-08-18',
+		name: 'Eröffnungs-/ Geburtstagsabend',
 		events: [
 			{
-				time: '16:00:00',
-				type: 1,
-				title: 'Ballhaus Miezen',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'Youloosie',
 				fskHidden: false,
 				content:
-					'\u003Cp class="p2"\u003EGrammophonesk scheppernder Swing. Rotzig und musikalisch kunstvoll geschrammelt, geknarzt, getr&ouml;tet und gegrowlt. Tanzbar und geradeheraus.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EFlorian Wehse, Gesang &amp; Trompete, Jens Mackenthun, Banjo und Gitarre und Jonathan Sell am Kontrabass.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Die Band Youloosie begeistert mit ihrem einzigartigen Mix aus energie- geladenem Rock und eingängigen Melodien. Ihre mitreißenden Live-Auftritte und charismatische Bühnenpräsenz machen sie zu einem unvergesslichen Erlebnis auf dem diesjährigen Festival. Eine mitreißende Show voller Energie, Leidenschaft und Rock’n’Roll.'
 			},
 			{
-				time: '17:00:00',
-				type: 'Komödie',
-				title: 'Das schwarze Quadrat',
-				fsk: true,
-				content:
-					'\u003Cp class="p2"\u003EBei dem Versuch, ein millionenschweres Gem&auml;lde auf einer Kreuzfahrt zu verkaufen, geraten die Kunstdiebe Vincent (Bernhard Sch&uuml;tz) und Nils (Jacob Matschenz) in eine wilde Katz-und-Maus-Jagd. Auch Martha (Sandra H&uuml;ller), die vermeintlich arglose Bekanntschaft von der Bordbar, will nur eines: Das &bdquo;Schwarze Quadrat&ldquo;.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EBuch und Regie \u003C\u002Fstrong\u003EPeter Meister \u003Cbr \u002F\u003E\u003Cstrong\u003ERedaktion \u003C\u002Fstrong\u003EChristian Cloos (\u003Cstrong\u003E\u003Cem\u003EZDF\u002FDas kleine Fernsehspiel\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E), Olaf Grunert (\u003Cstrong\u003E\u003Cem\u003EZDF\u002FARTE\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E), Daniela Muck (\u003Cstrong\u003E\u003Cem\u003EARTE\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E) \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 12 \u003Cbr \u002F\u003E\u003Cstrong\u003E97 Min.\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'test'
+				time: '20:30:00',
+				type: 'Spielfim',
+				title: 'Alki Alki',
+				fsk: '12',
+				content: `Tobias und Flasche – die unzertrennlichen Partyprofis! Doch Tobias‘ rebellische Jugend und seine ständigen Saufgelage geraten ins Wanken,als er sich dem Erwachsenenleben stellen muss. Seine Familie sucht nach Stabilität, während Tobias um Veränderungen kämpft. Eine epische Suche nach einer erwachseneren Existenz beginnt. Weniger Tequila, mehr Verantwortung.<br><br>
+				<b>Buch</b> Heiko Pinkowski, Axel Ranisch, Peter Trabner<br>
+				<b>Regie</b> Axel Ranisch <br>
+				<b>Redaktion</b> ZDF/Das kleine Fernsehspiel <br>
+				<b>Produktion</b> Sehr gute Filme GmbH <br>
+				<b>Erscheinungsjahr</b> Deutschland 2015 <br>
+				<b>FSK</b> ab 12, Pädagogische Empfehlung ab 16 <br>
+				<b>97 Min</b><br>
+				<i>Mit Unterstützung: ZDF/ Das kleine Fernsehspiel</i>`,
+				pathText: 'Spielfilm'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: 'ALKIALKI_2_FLASCHE_peter_trabner_ANIKA_christina_grosse_TOBIAS_heiko_pinkowski_BETT.png'
 	},
 	{
 		id: 2,
-		date: '2023-07-05',
-		name: 'Kurzfilm Abend „ZU KRASS“',
+		date: '2023-08-19',
+		name: 'Stummfilmabend und ...',
 		events: [
 			{
-				time: '16:00:00',
-				type: 1,
-				title: 'DJ Kandels',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJ Matt K',
 				content:
-					'\u003Cp class="p2"\u003EGude Leute, ich bin &bdquo;Kandels&ldquo; und freue mich darauf, euch zur Einleitung des Filmsommers mit warmen, sommerlichen B&auml;ssen zu versorgen.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben sei- ner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente'
 			},
 			{
-				time: '16:00:00',
-				type: 'Kurzfilmabend',
-				title: 'ZU KRASS',
+				time: '20:30:00',
+				type: 'Stummfilm',
+				title: 'Das Blumenwunder',
 				fsk: true,
 				content:
-					'\u003Cp class="p2"\u003EEs geht um Rebellion, darum geh&ouml;rt zu werden, eigene Entscheidungen zu treffen und die Dynamiken, die sich daraus ergeben. Das klingt vielleicht nach sehr egoistischen Protagonist*innen \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Esind sie aber nicht, zumindest nicht nur. Und sie haben etwas zu sagen. Mal voller Wut, manchmal auch leise, aber immer mit Gef&uuml;hl. Protest, Aktion, Mut, Freundschaft, Brisanz, Eigenleben, Raserei und auch Liebe \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Edas alles ist \u003Cstrong\u003E\u003Cem\u003ETraces of Youth &ndash; Eine Spur zu krass\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003E&nbsp;\u003C\u002Fp\u003E\n\u003Cp\u003E\u003Ca title="" href="https://www.shortfilm.com" target="_blank" rel="noopener"\u003Ewww.shortfilm.com&nbsp;\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EFilme \u003Cem\u003EFest\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EShe-Pack\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003ETrain Robbers\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EThree Centimetres\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EEmpreintes &ndash; Abdr&uuml;cke\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EFuck You \u003Cbr \u002F\u003E\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003Everschiedene Regisseure \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u003C\u002Fstrong\u003EKurzfilmagentur HH \u003Cbr \u002F\u003E\u003Cstrong\u003ELizenzgebiet \u003C\u002Fstrong\u003EDeutschland \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 16 \u003Cbr \u002F\u003E\u003Cstrong\u003E140 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'asdfc'
+					`<i>Das Blumenwunder</i> – Ein „Erstes Mal“, ein Zeitraffer-Erlebnis, durch das das Wunder der Pflanzenwelt, das Wachstum, die fließenden Bewegungen in noch nie dagewesener Weise filmisch erlebt werden konnten. Ursprünglich als Werbefilm für ein Düngemittel geplant, entwickelte sich das Material, montiert mit Solisten-Tanzszenen der Berliner Staatsoper, zu einem einzigartigen Kinoerlebnis und ist mittlerweile ein Kultfilm. Der Filmsommer Mainz nimmt euch mit auf diese einzigartige Reise, auf der der renommierte DJ Matt K diesen Stummfilm von Max Reichmann aus dem Jahr 1925 neu vertont.<br><br>
+						<b>Regie & Drehbuch</b> Max Reichmann <br>
+						<b>Erscheinungsjahr</b> Deutschland 1926 <br>
+						<b>FSK 0</b><br>
+						<i>Kooperation: Medien.rlp</i>`,
+				pathText: 'Stummfilm'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: 'DasBlumenwunderl_2.jpg'
 	},
 	{
 		id: 5,
-		date: '2022-08-18',
-		name: 'test',
+		date: '2022-08-21',
+		name: 'Kurzfilm und mittellanger Film des FILMZ-Festivals',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'Jens Mackenthun & Gregor Schor',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJ Shadi',
 				content:
-					'\u003Cp class="p2"\u003EDas Duo aus Saxophon und Gitarre liefert chillige Grooves und relaxte Melodien aus Jazz und Pop in einem sommerlichen musikalischen Cocktail.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Elektronische Musik eines echten Elektro-Fanatikers. In Aleppo zum Leben erweckt, in Mainz erfahrbar gemacht. Von Experimental, Ambient, Dub und IDM bis hin zu Dancefloor House und Deep House, Breakbeats, Electro, Old School & Modern Trance – und alles dazwischen.'
 			},
 			{
-				time: '16:00:00',
-				type: 'Kurzfilme & Produktionen',
-				title: 'des rheinlandpfälzischen Mediennachwuchses',
+				time: '20:30:00',
+				type: 'Doku & Best-of-Filme',
+				title: 'Das zieh ich an wenn ich tot bin & Best-of-Filme',
 				content:
-					'\u003Cp\u003EDie Branchen Games, Design, Film und Medien in RLP treffen sich zum Sommerempfang der Kreativforen Rheinland-Pfalz in Mainz. Der Filmsommer Mainz bietet mit der Kulturei eine perfekte Kulisse zum Kennenlernen und Vernetzen. Im Talk mit Vertreter*innen der Branchen gibt es Einblicke in aktuelle Themen und Ausblicke in die Zukunft der Branchen. Die Veranstaltung ist kostenfrei und willkommen sind alle &ndash; alte Hasen genauso wie Newcomer*innen und Interessierte.&nbsp;\u003C\u002Fp\u003E\n\u003Cp\u003EAnmeldung: redaktion@descom.de&nbsp;\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003EDas \u003Cstrong\u003E\u003Cem\u003EDesignforum Rheinland-Pfalz\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EGame Up! Software-\u002F Gamesforum \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eund \u003Cstrong\u003E\u003Cem\u003EFilm- und Medienforum RLP \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eladen alle Kreativschaffenden und Interessierten herzlich zum Sommerempfang der Kreativforen ein.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EFilmauswahl: \u003C\u002Fstrong\u003EDer rheinland-pf&auml;lzische Nachwuchs im Bereich Medien ist au&szlig;ergew&ouml;hnlich, voller Tatendrang und stets super sympathisch \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Ewie unsere Auswahl an Filmen und Medienproduktionen unter Beweis stellt.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E',
+					`<h3>Das zieh ich an wenn ich tot bin</h3>
+					Drei über-80-Jährige erzählen auf einfühlsame und persönliche Weise von ihren Gedanken über das Unausweichliche, das, was schon war, das Leben, das sie gelebt haben und über die, die schon vorausgegangen sind. <br><br>
+					<b>Regie</b> Marvin Menné <br>
+					<b>Erscheinungsjahr</b> 2022 <br>
+					<b>FSK 12</b> <br>
+					<b>20 Min.</b>`,
 				pathText: 'asdfc',
-				title_long: 'test'
+				title_long: 'Das zieh ich an wenn ich tot bin & Best-of-Filme'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: 'AndersARTig22_Danzamatta_VanjaTognola_praeferenz.jpg'
 	},
 	{
 		id: 5,
-		date: '2022-08-19',
-		name: 'test',
+		date: '2022-08-22',
+		name: 'Wild & Wunderbar – Pride & Queerer Filmabend',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'Janeck & Arturo Iturriaga',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJane Genie',
 				content:
-					'\u003Cp class="p2"\u003ESie pr&auml;gen seit vielen Jahren das Rhein-Main Gebiet mit Projekten wie \u003Cstrong\u003E\u003Cem\u003ELa Bolschevita\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EOriental Tropical \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eund \u003Cstrong\u003E\u003Cem\u003EMach Mal Langsam \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eim Bereich globale Rhythmen und Entschleunigung.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Ihr Sound ist so bunt wie die Farben der LGBTIQ+Flaggen. Sie gibt queeren Musiker*innen und Soundkreativen einen Raum und spielt eingängige Fem-Pop-Hymnen neben einer gehörigen Portion Disco-Grooves, Hip-Hop, House und Electronica.'
 			},
 			{
-				time: '16:00:00',
-				type: 'Kurzfilme & Produktionen',
-				title: 'Nosferatu',
+				time: '20:30:00',
+				type: 'Spielfilm',
+				title: 'Die Mitte der Welt',
 				fsk: 'FSK 12',
 				content:
-					'\u003Cp class="p2"\u003EMit \u003Cstrong\u003E\u003Cem\u003ENosferatu \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eschuf Friedrich Wilhelm Murnau nicht nur einen der ersten Vorl&auml;ufer des Horrorfilmgenres und sp&auml;terer Dracula-Verfilmungen, sondern auch eines der vielschichtigsten Meisterwerke des filmischen Expressionismus. Neu vertont wird der Stummfilmklassiker von \u003Cstrong\u003E\u003Cem\u003EJaneck &amp; Arturo Iturriaga \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eals Duo Hybrid DJ und LIVE Soundtrack.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EFriedrich Wilhelm Murnau \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u002F Filmauswahl \u003Cem\u003EMurnau Stiftung \u003Cbr \u002F\u003E\u003C\u002Fem\u003EFSK \u003C\u002Fstrong\u003Eab 12 \u003Cbr \u002F\u003E\u003Cstrong\u003E94 Min.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'nosferatu',
-				title_long: 'Nosferatu – Eine Symphonie des Grauens'
+					`Die Mitte der Welt – Ein turbulenter Mix aus Familienleben und schwärmerischen Gedanken. Regisseur Jakob M. Erwa jongliert mit Teenagererfahrungen und Familiengeheimnissen. Schnelle Bildabfolgen katapultieren uns in die Gefühlswelt des Protagonisten Phil, thematisieren seine Emotionen und seine Homosexualität. Louis Hofmann brilliert als verträumter Protagonist. Ein mitreißendes Comingof-Age-Drama zum Lachen und Mitfühlen.<br><br>
+					<b>Buch & Regie</b> Jakob M. Erwa <br>
+					<b>Produktion</b> Neue Schönhauser Filmproduktion GmbH <br>
+					<b>Erscheinungsjahr</b> Deutschland/Österreich 2016 <br>
+					<b>FSK</b> ab 12<br>
+					<b>115 Min</b> <br><br>
+					Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., Queernet&nbsp;RLP`,
+				pathText: 'Spielfilm',
+				// title_long: 'Die Mitte der Welt'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: '300_DieMittederWelt_main_.jpg'
 	},
 	{
 		id: 7,
-		date: '2022-08-20',
-		name: 'LUCAS',
+		date: '2022-08-23',
+		name: 'SI Star – Filmabend',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'nilsonsound',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJane Løra Papi',
 				content:
-					'\u003Cp class="p2"\u003E\u003Cstrong\u003E\u003Cem\u003Enilsonsound \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eist ein Projekt, dass aus der Coronazeit hervorgegangen ist. Als mobiler Soundsystem-Anh&auml;nger auf 12 Volt Basis versucht es, die Soundsystem-Culture auf die Stra&szlig;e zu bringen. King Nilson legt alles von Roots Reggae &uuml;ber Dub bis zu basslastigem Stepper auf.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'sorgt für einen Klangteppich aus bekannten und unbekannten Sounds. Eine treibende Mischung aus Indie, Pop und elektronischen Beats sorgt für die richtige Stimmung.'
 			},
 			{
-				time: '16:00:00',
-				type: 'film',
-				title: 'The Reason I Jump',
-				fsk: true,
+				time: '20:30:00',
+				type: 'Spielfilm',
+				title: 'The Ordinaries',
+				fsk: 'FSK 12',
 				content:
-					'\u003Cp class="p2"\u003ET&ouml;ne, Bilder, Assoziationen und Worte &ouml;ffnen ein Fenster zu einem &uuml;berw&auml;ltigenden, sensorischen Universum. Sie stammen aus der ganzen Welt und doch eint sie ein Schicksal: Junge Autist*innen, die nicht sprechen k&ouml;nnen. Ausgehend von Naoki Higashidas gleichnamigen Bestseller, der bereits im Alter von 13 Jahren sein Leben als Autist beschrieb, portr&auml;tiert \u003Cstrong\u003E\u003Cem\u003EThe Reason I Jump \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Ebemerkenswerte Menschen, die einen intimen Einblick in ihr Leben geben.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EJerry Rothwell \u003Cbr \u002F\u003E\u003Cstrong\u003EDrehbuch \u003C\u002Fstrong\u003ENaoki Higashida USA \u002F GBR 2020 Dokumentarfilm \u002F OmU. \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u003Cem\u003ELUCAS &ndash; Internationales Festival f&uuml;r junge Filmfans \u003Cbr \u002F\u003E\u003C\u002Fem\u003EFSK \u003C\u002Fstrong\u003Eab 6 (\u003Cstrong\u003EEmpfohlen \u003C\u002Fstrong\u003Eab 14)\u003Cbr \u002F\u003E\u003Cstrong\u003E94 Min.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'sdafsdsa'
+					`Das Mainzer Team des SI STAR Filmpreis, der seit 2015 an herausragende Regisseurinnen verliehen wird, präsentiert die junge Regisseurin Sophie Linnenbaum mit ihrem preisgekrönten Spielfilmdebüt The Ordinaries. Eine originell erzählte Geschichte über eine junge Heldin, die sich in einer besonderen Welt durchsetzt und dabei gesellschaftlicher Ausgrenzung und großem Anpassungsdruck trotzt. Die Produzentin Britta Strampe wird vor Ort sein, ebenso die SI STAR Jury: ein Abend mit starken Filmfrauen in Mainz!<br><br>
+					<b>Buch</b> Sophie Linnenbaum, Michael Fetter Nathansky <br>
+					<b>Regie</b> Sophie Linnenbaum <br>
+					<b>Produktion</b> Bandenfilm <br>
+					<b>Koproduktion</b> ZDF/Das kleine Fernsehspiel, Filmuniversität Babelsberg KONRADWOLF <br>
+					<b>Erscheinungsjahr</b> Deutschland 2022 <br>
+					<b>FSK</b> ab 12 <br>
+					<b>115 Min</b><br><br>
+					Kooperation: SI Club Mainz`,
+				pathText: 'Spielfilm'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: 'THE_ORDINARIES_02_FilmStill_by_Valentin Selmke_copyright_Bandenfilm_ZDF scale.png'
 	},
 	{
 		id: 8,
-		date: '2022-08-23',
-		name: 'FILMZ Abend',
+		date: '2022-08-24',
+		name: 'Politischer Filmabend',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'DJ Eddy',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'Absinto Orkestra',
 				content:
-					'\u003Cp class="p2"\u003EDer kolumbianische DJ, bekannt auch als \u003Cstrong\u003E\u003Cem\u003EEl Garcia \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Ebesch&auml;ftigt sich seit 2004 mit Musik und ist seit 2016 auch in Deutschlands Szene aktiv.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003EEntdecke Eddy Hern&aacute;ndez auf #SoundCloud\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'EINEWELTMUSIK – eine Band zwischen Balkan-Beat und Gipsy-Swing, tanzbar, melancholisch und vor allem handgemacht.'
 			},
 			{
-				time: '16:00:00',
-				type: 'film',
-				title: 'Flatliner',
-				fsk: true,
+				time: '20:30:00',
+				type: 'Thriller',
+				title: 'Holy Spider',
+				fsk: 'FSK 16',
 				content:
-					'\u003Cp class="p2"\u003EEin junger Mann besucht aus Einsamkeit WG-Castings und trifft auf die lebensfrohe junge Frau Lotte, die sein Leben auf den Kopf stellt.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E(2020) \u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EJulian Richberg \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperation \u003Cem\u003EFILMZ &ndash; FESTIVAL DES DEUTSCHEN KINOS \u003Cbr \u002F\u003E\u003C\u002Fem\u003EFSK \u003C\u002Fstrong\u003Eab 16 \u003Cbr \u002F\u003E\u003Cstrong\u003E29 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'afs'
+					`Ein vermeintlich gewöhnlicher Familienvater entpuppt sich als Serienmörder im Namen Gottes. Journalistin Rahimi aus Teheran will dem „Spinnenmörder“ auf die Spur kommen. Doch Behörden und Bewohner feiern ihn. Basierend auf einem wahren Fall feierte der Film auf den 75. Filmfestspielen in Cannes Premiere und setzt ein Zeichen gegen Femizide und für mutigen Journalismus inmitten der iranischen Proteste seit September 2022.<br><br>
+					<b>Buch & Regie</b> Ali Abbasi <br>
+					<b>Erscheinungsjahr</b> Dänemark, Deutschland, Schweden, Frankreich 2022 <br>
+					<b>FSK</b> 16<br>
+					<b>119 Min</b><br><br>
+					Kooperation: Rosa Luxemburg Stiftung RLP`,
+				pathText: 'Thriller • Krimi • Drama'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: '300_HolySpider1.jpg'
 	},
 	{
 		id: 9,
-		date: '2022-08-24',
-		name: 'Für Frauen von Frauen',
+		date: '2022-08-25',
+		name: 'Generation Now – Jugendfilmabend',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'DJ Shadi',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJ Janeck',
 				content:
-					'\u003Cp class="p2"\u003EElektronische Musik eines echten Elektro- Fanatikers. In Aleppo zum Leben erweckt, in Mainz erfahrbar gemacht. Von Experimental, Ambient, Dub und IDM bis hin zu Dancefloor House und Deep House, Breakbeats, Electro, Old School &amp; Modern Trance und allem dazwischen.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Er prägt seit vielen Jahren das Rhein-Main Gebiet mit Projekten wie La Bolschevita, Oriental Tropical und Mach-Mal-Langsam im Bereich globale Rhythmen und Entschleunigung.'
 			},
 			{
-				time: '16:00:00',
-				type: 'Drama \u002F Familienfilm',
-				title: 'Ivie wie Ivie',
-				fsk: true,
+				time: '20:30:00',
+				type: 'Spielfilm',
+				title: 'SONNE',
+				fsk: 'FSK 12',
 				content:
-					'\u003Cp class="p2"\u003EZwei afrodeutsche Halbschwestern, die sich nicht kannten, n&auml;hern sich &uuml;ber den Tod ihres gemeinsamen Vaters an, suchen ihre Wurzeln und finden sich selbst.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003EF&uuml;r diesen originellen, mitrei&szlig;enden Film wurde Regisseurin Sarah Bla&szlig;kiewitz mit dem \u003Cstrong\u003E\u003Cem\u003ESI STAR 2022 \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eausgezeichnet.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003ESarah Bla&szlig;kiewitz \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u003Cem\u003ESI STAR &ndash; Filmpreis f&uuml;r herausragende Regisseurinnen \u003Cbr \u002F\u003E\u003C\u002Fem\u003ERedaktion \u003C\u002Fstrong\u003EVarinka Link (\u003Cstrong\u003E\u003Cem\u003EZDF\u002F Das kleine Fernsehspiel\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E), Claudia Tronnier \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 12 \u003Cbr \u002F\u003E\u003Cstrong\u003E110 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'Drama • Familienfilm'
+					`Ein virales Tik-Tok-Video mit Hijab-tragenden Freundinnen führt zu plötzlichem Ruhm und fragwürdigen Auftritten als A-cappella-Trio. Für Yesmin, die gläubige Muslima, wird es kompliziert. Regisseurin Kurdwin Ayub präsentiert in SONNE ein wildes Gen-Z-Porträt. Ein kraftvoller Film, der den besten Erstlingsfilm-Preis auf der Berlinale gewann und Religion, Freundschaft und Identitätsspiele eindringlich thematisiert.<br><br>
+					<b>Buch und Regie</b> Kurdwin Ayub <br>
+					<b>Produktion</b> Ulrich Seidl Filmproduktion GmbH <br>
+					<b>Erscheinungsjahr</b> Österreich 2022 <br>
+					<b>FSK</b> 12 <br>
+					<b>88 Min</b><br><br>
+					Kooperation: LUCAS – Internationales Festival für junge Filmfans`,
+				pathText: 'Spielfilm'
 			}
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		image: ''
 	},
 	{
 		id: 10,
-		date: '2022-08-25',
-		name: 'Politischer Film',
-		events: [
-			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'Absinto Orkestra',
-				content:
-					'\u003Cp class="p2"\u003EEINEWELTMUSIK &ndash; eine Band zwischen Balkan-Beat und Gipsy-Swing, tanzbar, melancholisch, und vor allem handgemacht.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
-			},
-			{
-				time: '16:00:00',
-				type: 'drama',
-				title: 'Toubab',
-				fsk: true,
-				content:
-					'\u003Cp class="p2"\u003ENach seiner Entlassung aus der JVA wartet eine spontane Willkommensparty auf Babtou (Farba Dieng), doch die l&auml;uft derma&szlig;en schief, dass er gleich wieder verhaftet wird und in sein &bdquo;Heimatland&ldquo; Senegal ausgewiesen werden soll. Um das zu verhindern, ist sein Kumpel Dennis (Julius Nitschkoff) mit ihm zu allem bereit.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EDeutschland \u002F Senegal 2021\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EBuch \u003C\u002Fstrong\u003EFlorian Dietrich, Arne Dechow \u003Cbr \u002F\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EFlorian Dietrich \u003Cbr \u002F\u003E\u003Cstrong\u003ERedaktion \u003C\u002Fstrong\u003EJ&ouml;rg Schneider \u003Cbr \u002F\u003E\u003Cstrong\u003EUnterst&uuml;tzer \u003C\u002Fstrong\u003EZDF\u002FDas kleine Fernsehspiel\u003Cstrong\u003E\u003Cem\u003E \u003Cbr \u002F\u003E\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E\u003Cstrong\u003EKooperationspartner\u003C\u002Fstrong\u003E Rosa Luxemburg Stiftung\u003Cstrong\u003E\u003Cem\u003E \u003Cbr \u002F\u003E\u003C\u002Fem\u003EFSK \u003C\u002Fstrong\u003Eab 12 \u003Cbr \u002F\u003E\u003Cstrong\u003E92 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'sdfg'
-			}
-		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
-	},
-	{
-		id: 11,
 		date: '2022-08-26',
-		name: 'LGBTQIA+ - Community Filmabend',
+		name: 'Klangfilmnacht – Musikvideos & Abschlussparty',
 		events: [
 			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'DJane Jasmin & DJ Alex',
+				time: '18:00:00',
+				type: 'Live-Musik',
+				title: 'DJ Psycho-Jones',
 				content:
-					'\u003Cp class="p2"\u003E1\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003EHerz &amp; 1 Seele: F&uuml;r das Warm-up vor dem Film sorgt ab 18.00 Uhr das DJ-Team \u003Cstrong\u003E\u003Cem\u003EJasmin &amp; Alex \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eaus MZ\u002FWI. Die beiden legen schon seit Jahren mit viel Spa&szlig; &amp; Erfolg zusammen auf (\u003Cstrong\u003E\u003Cem\u003EKUZ\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EQ-Kaff\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EOrange Peel\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E) und erg&auml;nzen sich mit ihren coolen Dance Remixes einfach gro&szlig;artig.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
+					'Seit 1998 infiltriert Psycho-Jones das vorher eher eintönige Mainzer Nachtleben – von Anfang an illustriert  & gefärbt von seiner musikalisch und visuell einzigartigen Handschrift. Er bewegt sich zwischen 60s, Indie, Elektro, Pop & Trash, feinst abgestimmt mit Deko, Visuals, Livepercussion, Gameshows, Gast DJs, Liveacts uvm. • <a href="https://www.psycho-jones.com">psycho-jones.com</a>'
 			},
 			{
-				time: '16:00:00',
-				type: 'awf',
-				title: 'Futur Drei',
-				fsk: true,
+				time: '20:30:00',
+				type: 'Musikvideos',
+				title: 'Musikvideos',
 				content:
-					'\u003Cp class="p2"\u003EEbenso erfrischender wie wegweisender Gegenentwurf zu den konventionellen Erz&auml;hlungen (post)migrantischer Geschichten im deutschen Kino: Das autobiographisch gepr&auml;gte Regiedeb&uuml;t von Faraz Shariat portr&auml;tiert Parvis, den schwulen Sohn iranischer Eltern, der in einer Unterkunft f&uuml;r Gefl&uuml;chtete Sozialstunden ableisten muss und dort das iranische Geschwisterpaar Banafshe und Amon kennenlernt. Die \u003Cstrong\u003E\u003Cem\u003EM&eacute;nage-&agrave;-trois \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Egewann 2020 den \u003Cstrong\u003E\u003Cem\u003ETeddy-Award \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Ein der Kategorie \u003Cstrong\u003E\u003Cem\u003EBester Spielfilm\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EFaraz Shariat \u003Cbr \u002F\u003E\u003Cstrong\u003EUnterst&uuml;tzer \u003C\u002Fstrong\u003EBar jeder Sicht &amp; Schwuguntia e.V.\u003Cstrong\u003E\u003Cem\u003E \u003Cbr \u002F\u003E\u003C\u002Fem\u003EFSK \u003C\u002Fstrong\u003Eab 16 \u003Cbr \u002F\u003E\u003Cstrong\u003E92 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'adf'
-			}
-		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
-	},
-	{
-		date: '2022-08-27',
-		name: 'Abschlussabend Disco Night',
-		events: [
-			{
-				time: '16:00:00',
-				type: 'party',
-				title: 'DJ Lichi',
-				content:
-					'\u003Cp class="p2"\u003E\u003Cstrong\u003E\u003Cem\u003EDJ Lichi \u003C\u002Fem\u003E\u003C\u002Fstrong\u003E(Resident Elektrobecher und Lichi-tronic) &ndash; erhellender House, herrlicher Elektro und angemessener Techno.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E'
-			},
-			{
-				time: '16:00:00',
-				type: 'concert',
-				title: 'Leif in Concert',
-				fsk: 0,
-				content:
-					'\u003Cp class="p2"\u003ELeif soll ein Konzert spielen &ndash; in einer Jazz- Blues-Bar irgendwo in Deutschland. Auf der B&uuml;hne hei&szlig;t er \u003Cstrong\u003E\u003Cem\u003EPoorboy \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eund er kommt aus Kopenhagen. Dort hat die Barfrau Lene sein Konzert gesehen. Fasziniert von Leifs Musik hat sie ihn in ihre Bar nach Deutschland ein-geladen.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003E\u003Cem\u003ELeif in Concert \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Eist eine Liebeserkl&auml;rung an die Musik und an diese eine Kneipe, die jeder kennt, das verl&auml;ngerte Wohnzimmer, wo du dich zu Hause f&uuml;hlst, wo du sein kannst, wie du bist, und wo es keine Klassenunterschiede gibt.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003EChristian Klandt, Deutschland 2019 \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 0 \u003Cbr \u002F\u003E\u003Cstrong\u003E114 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
-				pathText: 'concert'
+					`Der Ventil Verlag präsentiert eine Reise in die Welt der Musikvideos. Taucht ein in eine Welt voller spannender, klingender Bildwelten. Unser Musikvideo-Abend nimmt euch mit auf eine Reise zu fesselnden Klängen und visuellen Meisterwerken. Einführend wird der Filmwissenschaftler und langjährige Ventil-Autor Dr. Andreas Rauscher einen kurzen Vortrag zur Geschichte des Musikvideos halten; Bücher des Ventil Verlags gibt es vor Ort zu erwerben.<br><br>
+					Kooperation: Ventil Verlag`,
 			},
 			{
 				time: '22:00:00',
-				type: 'party',
-				title: 'mit DJ Eddy, DJ Matt K B2B Cesare und DJ Lichi',
+				type: 'Jubiläumsparty',
+				title: 'mit DJ Psycho-Jones',
 				content:
-					'\u003Cp class="p2"\u003EAbschlussparty plus Kontrastfilm Sommerfest &ndash; mal ganz anders. Wir freuen uns auf musikalische Beitr&auml;ge zum Tanzen von und mit:&nbsp;\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003EDJ Eddy Hern&aacute;ndez\u003Cbr \u002F\u003EDJ&nbsp;\u003Cspan class=""\u003EMatt K B2B Cesare\u003C\u002Fspan\u003E\u003Cspan class=""\u003E&nbsp;\u003Cbr \u002F\u003E\u003C\u002Fspan\u003EDJ Lichi\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003ETeilnahme nur nach vorheriger Anmeldung und Best&auml;tigung unter: sommer@kontrastfilm.de\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E',
-				title_long: 'wfa'
-			}
+					'Heute zelebriert Mr. PJ zusammen mit dem Team vom Filmsommer Festival – Mainz das Jubiläum im Gewölbe!'
+			},
 		],
-		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
+		// image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	}
 ]
 const about = {
-	text: '\u003Cp class="p2"\u003EHerzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielf&auml;ltiger und legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit.\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EWir freuen uns, vom 16. &ndash; 27. August an unserem wundersch&ouml;nen Spielort \u003Cstrong\u003E\u003Cem\u003EKulturei\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EZitadelle Mainz\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, wieder gelebte Filmkultur zu pr&auml;sentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude &hellip; Sommerwetter trifft Filmkultur &ndash; ein Genuss!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003ENach 2 Jahren Pandemie starten wir wieder voll durch. Der Eintritt zu unseren Veranstaltungen ist wie immer frei, f&uuml;r Speis und Trank ist bestens gesorgt. Seid herzlich willkommen bei unserer tollen Open-Air-Reihe!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EBeste Gr&uuml;&szlig;e und &bdquo;Film ab!&ldquo;\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EEuer Filmsommer-Team\u003C\u002Fp\u003E'
+	text: `<p>Liebe Freund*innen der Film- kultur und des Umsonst-und- draußen-Kinos, liebe treue Besucher*innen des Filmsommer Festival–Mainz, wir möchten mit euch feiern!</p>
+<p>Ganze 10 Jahre ist es her, da startete der Filmsom­mer Mainz mit vier Filmen an vier Tagen und vier Locations. Mittlerweile umfasst er nicht nur – wie passend – 10 Tage mit 9 Filmen und einer Party, sondern er hat auch ein festes Zuhause: Die Kulturei an der Mainzer Zitadelle. Freut euch auch dieses Jahr auf wunderbare Sommerabende voller Filmkultur an einem der idyllischsten Spielorte der Stadt! Vom 18.08.2023 bis zum 26.08.2023 gibt es unser Jubiläumsprogramm mit unvergesslichen Filmen, toller Livemusik und verschiedenen Kunstaktionen. Der Eintritt ist frei, für Speisen und Getränke ist wie immer gesorgt. Also kommt vorbei, wir freuen uns auf euch!</p>
+Beste Grüße und „Film ab!“<br>
+Euer Filmsommer-Team`
 }
 
 export { about, dates }

@@ -4,47 +4,20 @@
 </script>
 
 <Modal bind:showModal>
+	<!-- svelte-preprocess-import-assets-ignore -->
 	<img src="/essentrinken.svg" width="80%" alt="Essen und Trinken Headline" />
 	<br />
 	<h3>Kulturei Festivaltheke</h3>
 	<p>
-		Wir freuen uns auf regionale, bio-zertifizierte Weine aus Rheinhessen aus dem Weingut Gutzler,
-		auf Wasser, Saftschorlen und Bier aus der Region und vieles mehr. Ganz bewusst legen wir bei
-		Speisen & Getränken den Fokus auf regionale Anbieter*innen, mit dem Schwerpunkt saisonal,
-		biologisch, vegetarisch bzw. vegan, fair hergestellt und fair gehandelt. Schon bei ökologisch
-		vermeintlich harmlosen Freizeitaktivitäten können wir durch ein bewusstes Planen ALLE einen
-		wesentlichen Beitrag zum Umweltschutz leisten.
+		Wir freuen uns auf regionale, biozertifizierte Weine aus Rheinhessen aus dem Weingut Gutzler, auf Wasser, Saftschorlen und Bier aus der Region und vieles mehr.
 	</p>
 	<p>
-		Herzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielfältiger und
-		legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit. Wir freuen uns, vom 16. –
-		27. August an unserem wunderschönen Spielort Kulturei, Zitadelle Mainz, wieder gelebte
-		Filmkultur zu präsentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude … Sommerwetter
-		trifft Filmkultur – ein Genuss! Nach 2 Jahren Pandemie starten wir wieder voll durch. Der
-		Eintritt zu unseren Veranstaltungen ist wie immer frei, für Speis und Trank ist bestens gesorgt.
-		Seid herzlich willkommen bei unserer tollen Open-Air-Reihe! Beste Grüße und „Film ab!“ Euer
-		Filmsommer-Team
+		Ganz bewusst legen wir bei Speisen & Getränken den Fokus auf regionale Anbieter*innen, mit dem Schwerpunkt saisonal, biologisch, vegetarisch bzw. vegan, fair hergestellt und fair gehandelt.
 	</p>
 	<p>
-		Herzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielfältiger und
-		legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit. Wir freuen uns, vom 16. –
-		27. August an unserem wunderschönen Spielort Kulturei, Zitadelle Mainz, wieder gelebte
-		Filmkultur zu präsentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude … Sommerwetter
-		trifft Filmkultur – ein Genuss! Nach 2 Jahren Pandemie starten wir wieder voll durch. Der
-		Eintritt zu unseren Veranstaltungen ist wie immer frei, für Speis und Trank ist bestens gesorgt.
-		Seid herzlich willkommen bei unserer tollen Open-Air-Reihe! Beste Grüße und „Film ab!“ Euer
-		Filmsommer-Team
+		Schon bei ökologisch vermeintlich harmlosen Freizeitaktivitäten können wir durch ein bewusstes Planen ALLE einen wesentlichen Beitrag zum Umweltschutz leisten.
 	</p>
-	<p>
-		Herzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielfältiger und
-		legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit. Wir freuen uns, vom 16. –
-		27. August an unserem wunderschönen Spielort Kulturei, Zitadelle Mainz, wieder gelebte
-		Filmkultur zu präsentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude … Sommerwetter
-		trifft Filmkultur – ein Genuss! Nach 2 Jahren Pandemie starten wir wieder voll durch. Der
-		Eintritt zu unseren Veranstaltungen ist wie immer frei, für Speis und Trank ist bestens gesorgt.
-		Seid herzlich willkommen bei unserer tollen Open-Air-Reihe! Beste Grüße und „Film ab!“ Euer
-		Filmsommer-Team
-	</p>
+
 </Modal>
 
 <button class="EssenTrinkenBtn" on:click={() => (showModal = true)}>

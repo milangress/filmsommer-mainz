@@ -369,8 +369,9 @@
 			transform="translate(-0.9)"
 		/>
 	</g>
+	<!-- svelte-preprocess-import-assets-ignore -->
 	<image
-		href="FS_Website_Stern_Schriftzug.svg"
+		href="/src/assets/FS_Website_Stern_Schriftzug.svg"
 		width="110px"
 		height="110px"
 		x="250px"
@@ -378,7 +379,8 @@
 		id="stern10jahre"
 	/>
 </svg>
-<img src="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" alt="10 Jahre Filmsommer" />
+<!-- svelte-preprocess-import-assets-ignore -->
+<img src="/src/assets/FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" alt="10 Jahre Filmsommer" />
 
 <style>
 	#stern10jahre {

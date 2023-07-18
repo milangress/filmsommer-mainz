@@ -11,6 +11,7 @@
 	import { about } from '/src/data/2023.js'
 	import Footer from '/src/components/Footer.svelte'
 	import EssenTrinkenModal from '../components/EssenTrinkenModal.svelte'
+	import ImageComponent from "../components/ImageComponent.svelte";
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -50,14 +51,15 @@
 
 	{#each dates as date}
 		<div>
+			{#if date.image}
 			<figure class="date-image">
-				<img
-					src={getImage(date.image)}
-					alt="An Image from the {date.events[1].title} event"
-					loading="lazy"
+				<ImageComponent
+					imgSrc={getImage(date.image)}
+					altText="An Image from the {date.events[1].title} event"
 				/>
 				<figcaption>{date.events[1].title}</figcaption>
 			</figure>
+			{/if}
 
 			<HeadlineDynamic className="headline" id={'date-' + date.date}>
 				<h1>
