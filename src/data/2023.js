@@ -60,7 +60,7 @@ const dates = [
 	},
 	{
 		id: 5,
-		date: '2022-08-21',
+		date: '2023-08-21',
 		name: 'Kurzfilm und mittellanger Film des FILMZ-Festivals',
 		events: [
 			{
@@ -98,7 +98,7 @@ const dates = [
 	},
 	{
 		id: 5,
-		date: '2022-08-22',
+		date: '2023-08-22',
 		name: 'Wild & Wunderbar – Pride & Queerer Filmabend',
 		events: [
 			{
@@ -129,7 +129,7 @@ const dates = [
 	},
 	{
 		id: 7,
-		date: '2022-08-23',
+		date: '2023-08-23',
 		name: 'SI Star – Filmabend',
 		events: [
 			{
@@ -161,7 +161,7 @@ const dates = [
 	},
 	{
 		id: 8,
-		date: '2022-08-24',
+		date: '2023-08-24',
 		name: 'Politischer Filmabend',
 		events: [
 			{
@@ -220,7 +220,7 @@ const dates = [
 	},
 	{
 		id: 10,
-		date: '2022-08-26',
+		date: '2023-08-26',
 		name: 'Klangfilmnacht – Musikvideos & Abschlussparty',
 		events: [
 			{
