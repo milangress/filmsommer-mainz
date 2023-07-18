@@ -190,7 +190,7 @@ const dates = [
 	},
 	{
 		id: 9,
-		date: '2022-08-25',
+		date: '2023-08-25',
 		name: 'Generation Now – Jugendfilmabend',
 		events: [
 			{
