@@ -2,7 +2,7 @@
 export let imgSrc = ''
 export let altText = ''
 
-const imagePath = `src/assets${imgSrc}?w=70`
+const imagePath = `${imgSrc}`
 
 // import webp from 'example.jpg?w=500;900;1200&format=webp&as=srcset'
 
