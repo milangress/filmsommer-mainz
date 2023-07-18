@@ -378,7 +378,7 @@
 		id="stern10jahre"
 	/>
 </svg>
-<img src="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" alt="10 Jahre Filmsommer" />
+<object data="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" title="10 Jahre Filmsommer"></object>
 
 <style>
 	#stern10jahre {

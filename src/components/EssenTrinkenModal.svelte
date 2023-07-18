@@ -4,7 +4,7 @@
 </script>
 
 <Modal bind:showModal>
-	<img src="/essentrinken.svg" width="80%" alt="Essen und Trinken Headline" />
+	<object data="/essentrinken.svg" width="80%" title="Essen und Trinken Headline"></object>
 	<br />
 	<h3>Kulturei Festivaltheke</h3>
 	<p>
