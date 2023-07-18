@@ -58,12 +58,17 @@
 		margin: 0 auto;
 		background-color: var(--pink);
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-auto-rows: auto;
 		grid-gap: 1rem;
 		line-height: 1.25;
 	}
-	@media (max-width: 1100px) {
+	@media (max-width: 1000px) {
+		.timetable {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+	@media (max-width: 700px) {
 		.timetable {
 			grid-template-columns: 1fr 1fr;
 		}
