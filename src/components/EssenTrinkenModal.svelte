@@ -4,7 +4,6 @@
 </script>
 
 <Modal bind:showModal>
-	<!-- svelte-preprocess-import-assets-ignore -->
 	<img src="/essentrinken.svg" width="80%" alt="Essen und Trinken Headline" />
 	<br />
 	<h3>Kulturei Festivaltheke</h3>
