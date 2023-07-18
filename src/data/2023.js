@@ -80,9 +80,18 @@ const dates = [
 					<b>Regie</b> Marvin Menné <br>
 					<b>Erscheinungsjahr</b> 2022 <br>
 					<b>FSK 12</b> <br>
-					<b>20 Min.</b>`,
-				pathText: 'asdfc',
-				title_long: 'Das zieh ich an wenn ich tot bin & Best-of-Filme'
+					<b>20 Min.</b>
+					<h3>Best-of-Filme</h3>
+					aus dem FILMZ-Festivaljahr 2022. Neben dem Gewinner des lokalen Kurzfilmwettbewerbs zeigen wir ebenfalls Best-of-Filme aus dem mittellangen Filmwettbewerb und den anderen Kurzfilm-Wettbewerben.<br><br>
+					<b>Nakam (Rache)</b> • 33 Min.<br>
+					Gewinner des mittellangen Wettbewerbs 2022<br>
+					<b>Clown Wars</b> • 10 Min.<br>
+					Gewinner des andersARTig Wettbewerbs 2022<br>
+					<b>Danzamatta</b> • 5 Min.<br>
+					Film der im andersARTig Wettbewerb lief<br><br>
+					<i>Kooperation: FILMZ-Festival des deutschen Kinos</i>`,
+				pathText: 'Doku • Best-of-Filme',
+				title_long: ''
 			}
 		],
 		image: 'AndersARTig22_Danzamatta_VanjaTognola_praeferenz.jpg'
@@ -207,7 +216,7 @@ const dates = [
 				pathText: 'Spielfilm'
 			}
 		],
-		image: ''
+		image: 'sonne.jpg'
 	},
 	{
 		id: 10,
