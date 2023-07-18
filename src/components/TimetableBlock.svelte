@@ -63,12 +63,12 @@
 		grid-gap: 1rem;
 		line-height: 1.25;
 	}
-	@media (max-width: 1000px) {
+	@media (max-width: 700px) {
 		.timetable {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
-	@media (max-width: 700px) {
+	@media (max-width: 500px) {
 		.timetable {
 			grid-template-columns: 1fr 1fr;
 		}
