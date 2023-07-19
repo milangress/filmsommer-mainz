@@ -75,13 +75,13 @@ const dates = [
 				type: 'Doku & Best-of-Filme',
 				title: 'Das zieh ich an wenn ich tot bin & Best-of-Filme',
 				content:
-					`<h3>Das zieh ich an wenn ich tot bin</h3>
+					`<h4>Das zieh ich an wenn ich tot bin</h4>
 					Drei über-80-Jährige erzählen auf einfühlsame und persönliche Weise von ihren Gedanken über das Unausweichliche, das, was schon war, das Leben, das sie gelebt haben und über die, die schon vorausgegangen sind. <br><br>
 					<b>Regie</b> Marvin Menné <br>
 					<b>Erscheinungsjahr</b> 2022 <br>
 					<b>FSK 12</b> <br>
 					<b>20 Min.</b>
-					<h3>Best-of-Filme</h3>
+					<h4>Best-of-Filme</h4>
 					aus dem FILMZ-Festivaljahr 2022. Neben dem Gewinner des lokalen Kurzfilmwettbewerbs zeigen wir ebenfalls Best-of-Filme aus dem mittellangen Filmwettbewerb und den anderen Kurzfilm-Wettbewerben.<br><br>
 					<b>Nakam (Rache)</b> • 33 Min.<br>
 					Gewinner des mittellangen Wettbewerbs 2022<br>
