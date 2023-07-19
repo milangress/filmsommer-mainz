@@ -27,6 +27,8 @@
 			class="">55122 Mainz</span
 		>
 	</p>
+</div>
+<div class="content inner">
 	<h3>Design & Code</h3>
 	<p>
 		Design: Pisa Peng<br /><a href="https://pisapeng.de/" target="_blank" rel="noopener"
@@ -36,6 +38,27 @@
 			>milangress.de</a
 		>
 	</p>
+	<h3>Bildnachweise</h3>
+	Markus Müller: Andreas Etter<br>
+	Michael Ebling: MdI RLP/T. Silz<br>
+	Katrin Eder: MKUEM/Heike Rost<br>
+	18.08. Live-Musik: Youloosie – Uzi Mayer<br>
+	Film: Copyright ZDF/ Dennis Pauls<br>
+	19.08. Live-Musik: Matthias Kornecki<br>
+	Film: absolut MEDIEN GmbH<br>
+	21.08. Live-Musik: DJ Shadi<br>
+	Film: FILMZ e.V.<br>
+	22.08. Live-Musik: DJane Genie<br>
+	Film: Screenshots ©Diana Keienburg<br>
+	23.08. Live-Musik: DJane Løra Papi<br>
+	Film: ZDF/Valentin Selmke<br>
+	24.08. Live-Musik: Dario Ölke<br>
+	Film: ©One Two Films GmbH<br>
+	25.08. Live-Musik: DJ Janeck<br>
+	Film: ©Neue Visionen Filmverleih<br>
+	26.08. Live-Musik: Dominik Asbach<br>
+</div>
+<div class="content inner">
 	<h3>HAFTUNG FÜR INHALTE</h3>
 	<p>
 		Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
