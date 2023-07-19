@@ -40,7 +40,7 @@ const dates = [
 				type: 'Live-Musik',
 				title: 'DJ Matt K',
 				content:
-					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben sei- ner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente'
+					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben sei- ner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente.'
 			},
 			{
 				time: '20:30:00',
