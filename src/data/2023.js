@@ -23,8 +23,8 @@ const dates = [
 				<b>Produktion</b> Sehr gute Filme GmbH <br>
 				<b>Erscheinungsjahr</b> Deutschland 2015 <br>
 				<b>FSK</b> ab 12, Pädagogische Empfehlung ab 16 <br>
-				<b>97 Min</b><br>
-				<i>Mit Unterstützung: ZDF/ Das kleine Fernsehspiel</i>`,
+				<b>97 Min</b><br><br>
+				<b>Mit Unterstützung: ZDF/ Das kleine Fernsehspiel</b>`,
 				pathText: 'Spielfilm'
 			}
 		],
@@ -51,8 +51,8 @@ const dates = [
 					`<i>Das Blumenwunder</i> – Ein „Erstes Mal“, ein Zeitraffer-Erlebnis, durch das das Wunder der Pflanzenwelt, das Wachstum, die fließenden Bewegungen in noch nie dagewesener Weise filmisch erlebt werden konnten. Ursprünglich als Werbefilm für ein Düngemittel geplant, entwickelte sich das Material, montiert mit Solisten-Tanzszenen der Berliner Staatsoper, zu einem einzigartigen Kinoerlebnis und ist mittlerweile ein Kultfilm. Der Filmsommer Mainz nimmt euch mit auf diese einzigartige Reise, auf der der renommierte DJ Matt K diesen Stummfilm von Max Reichmann aus dem Jahr 1925 neu vertont.<br><br>
 						<b>Regie & Drehbuch</b> Max Reichmann <br>
 						<b>Erscheinungsjahr</b> Deutschland 1926 <br>
-						<b>FSK 0</b><br>
-						<i>Kooperation: Medien.rlp</i>`,
+						<b>FSK 0</b><br><br>
+						<b>Kooperation: Medien.rlp</b>`,
 				pathText: 'Stummfilm'
 			}
 		],
@@ -89,7 +89,7 @@ const dates = [
 					Gewinner des andersARTig Wettbewerbs 2022<br>
 					<b>Danzamatta</b> • 5 Min.<br>
 					Film der im andersARTig Wettbewerb lief<br><br>
-					<i>Kooperation: FILMZ-Festival des deutschen Kinos</i>`,
+					<b>Kooperation: FILMZ-Festival des deutschen Kinos</b>`,
 				pathText: 'Doku • Best-of-Filme',
 				title_long: ''
 			}
@@ -120,7 +120,7 @@ const dates = [
 					<b>Erscheinungsjahr</b> Deutschland/Österreich 2016 <br>
 					<b>FSK</b> ab 12<br>
 					<b>115 Min</b> <br><br>
-					Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., Queernet&nbsp;RLP`,
+					<b>Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., Queernet&nbsp;RLP</b>`,
 				pathText: 'Spielfilm',
 				// title_long: 'Die Mitte der Welt'
 			}
@@ -153,7 +153,7 @@ const dates = [
 					<b>Erscheinungsjahr</b> Deutschland 2022 <br>
 					<b>FSK</b> ab 12 <br>
 					<b>115 Min</b><br><br>
-					Kooperation: SI Club Mainz`,
+					<b>Kooperation: SI Club Mainz</b>`,
 				pathText: 'Spielfilm'
 			}
 		],
@@ -182,7 +182,7 @@ const dates = [
 					<b>Erscheinungsjahr</b> Dänemark, Deutschland, Schweden, Frankreich 2022 <br>
 					<b>FSK</b> 16<br>
 					<b>119 Min</b><br><br>
-					Kooperation: Rosa Luxemburg Stiftung RLP`,
+					<b>Kooperation: Rosa Luxemburg Stiftung RLP</b>`,
 				pathText: 'Thriller • Krimi • Drama'
 			}
 		],
@@ -212,7 +212,7 @@ const dates = [
 					<b>Erscheinungsjahr</b> Österreich 2022 <br>
 					<b>FSK</b> 12 <br>
 					<b>88 Min</b><br><br>
-					Kooperation: LUCAS – Internationales Festival für junge Filmfans`,
+					<b>Kooperation: LUCAS – Internationales Festival für junge Filmfans</b>`,
 				pathText: 'Spielfilm'
 			}
 		],
