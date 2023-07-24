@@ -38,7 +38,10 @@
 	{#each allDates as date}
 		<div
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
+			role="button"
+			tabindex="0"
 			on:click={() => goToDate(date.date)}
+			on:keydown={() => goToDate(date.date)}
 		>
 			<h3>{getDate(date.date)}</h3>
 			{#each date.events as event}
