@@ -34,7 +34,7 @@
 	export let allDates = []
 </script>
 
-<div class="timetable" id="timetable">
+<nav class="timetable" id="timetable">
 	{#each allDates as date}
 		<div
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
@@ -42,6 +42,7 @@
 			tabindex="0"
 			on:click={() => goToDate(date.date)}
 			on:keydown={() => goToDate(date.date)}
+			aria-label="Scroll to date: {getDate(date.date)}"
 		>
 			<h3>{getDate(date.date)}</h3>
 			{#each date.events as event}
@@ -52,7 +53,7 @@
 			{/each}
 		</div>
 	{/each}
-</div>
+</nav>
 
 <style>
 	.timetable {

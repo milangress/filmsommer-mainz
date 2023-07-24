@@ -4,6 +4,7 @@
 		href="https://www.instagram.com/filmsommerfestivalmainz/"
 		target="_blank"
 		title="Filmsommerfestival Mainz auf Instagram"
+		aria-label="Filmsommerfestival Mainz auf Instagram, opens in new window"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
 			<path
@@ -16,6 +17,7 @@
 		href="https://www.facebook.com/filmsommer"
 		target="_blank"
 		title="Filmsommerfestival Mainz auf Facebook"
+		aria-label="Filmsommerfestival Mainz auf Facebook, opens in new window"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 			<path

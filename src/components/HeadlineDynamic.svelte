@@ -12,7 +12,7 @@
 
 	let headlineRef
 	export let className = ''
-	export let id = ''
+	export let id = 'UNSET-' + Math.random()
 
 	onMount(() => {
 		reloadAllRows()

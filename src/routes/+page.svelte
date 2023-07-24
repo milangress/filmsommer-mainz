@@ -38,19 +38,24 @@
 </script>
 
 <div>
-	<BackToTopButton />
-	<LogoDynamic />
-	<HeadlineDynamic>
-		<h1>Es geht weiter und wir legen wieder los!</h1>
-	</HeadlineDynamic>
+	<header>
+		<BackToTopButton />
+
+		<LogoDynamic />
+		<HeadlineDynamic>
+			<h1>Es geht weiter und wir legen wieder los!</h1>
+		</HeadlineDynamic>
+	</header>
+
 	<TimetableBlock allDates={dates} />
 
+	<main>
 	<EssenTrinkenModal />
 
 	<div class="content inner">{@html about.text}</div>
 
 	{#each dates as date}
-		<div>
+		<section>
 			{#if date.image}
 			<figure class="date-image">
 				<ImageComponent
@@ -70,29 +75,31 @@
 			</HeadlineDynamic>
 
 			<div class="content inner">
-				<div class="event-box-wrapper">
+				<article class="event-box-wrapper">
 					{#each date.events as event}
 						<div class="event-short">
 							<strong>{getTime(event.time)} • {event.type}</strong>
 							<p>{event.title}</p>
 						</div>
 					{/each}
-				</div>
+				</article>
 
 				<div class="events-text-wrapper">
 					{#each date.events as event}
-						<div class="event">
+						<section class="event">
 							{#if typeof event.pathText === 'string'}
 								<PathText text={event.pathText} />
 							{/if}
-							<h3>{event.title_long ? event.title_long : event.title}</h3>
+							<h2>{event.title_long ? event.title_long : event.title}</h2>
 							<p>{@html event.content}</p>
-						</div>
+						</section>
 					{/each}
 				</div>
 			</div>
-		</div>
+		</section>
 	{/each}
+
+	</main>
 
 	<HeadlineDynamic>
 		<h1>Unsere Partner</h1>
