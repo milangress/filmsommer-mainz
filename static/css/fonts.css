@@ -76,3 +76,12 @@ a:not(.button):hover {
 	transform: translate(-2px, -2px);
 	text-shadow: black 4px 4px 0;
 }
+
+.visually-hidden {
+	position: absolute;
+	left:     -10000px;
+	top:      auto;
+	width:    1px;
+	height:   1px;
+	overflow: hidden;
+}

@@ -35,6 +35,7 @@
 </script>
 
 <nav class="timetable" id="timetable">
+	<h2 class="visually-hidden">Timetable</h2>
 	{#each allDates as date}
 		<a
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
@@ -65,6 +66,8 @@
 		grid-auto-rows: auto;
 		grid-gap: 1rem;
 		line-height: 1.25;
+
+		scroll-margin-top: 15vh;
 	}
 	@media (max-width: 700px) {
 		.timetable {

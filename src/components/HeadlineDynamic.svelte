@@ -105,6 +105,8 @@
 		margin-block: 6rem;
 		line-height: 1.2;
 		contain: layout;
+
+		scroll-margin-top: 10vh;
 	}
 
 	.top-row,

@@ -27,6 +27,10 @@
 	background: var(--red);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: url('/FS_Website_Hintergrund-cut.svg');
 	background-repeat: repeat-y;
