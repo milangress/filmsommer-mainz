@@ -20,6 +20,9 @@
 </div>
 
 <style>
+	img {
+		aspect-ratio: 900/1258;
+	}
 	.logos {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
