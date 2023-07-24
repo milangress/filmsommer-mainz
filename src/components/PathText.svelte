@@ -1,12 +1,14 @@
 <script>
 	export let text = 'ERROR'
 	export let color = '#000'
+
+	const localID = 'curve' + Math.random().toString(36).substring(2, 15)
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="391.108" height="147.962" viewBox="0 0 400 160">
 	<!-- SVG path element -->
 	<path
-		id="curve"
+		id="{localID}"
 		d="M.13,113.538s76.3,46.339,169.446,30.993S356.609,67.017,390.886.114"
 		transform="translate(0 0)"
 		fill="none"
@@ -16,7 +18,7 @@
 	<!-- Text element -->
 	<text fill={color}>
 		<!-- TextPath element referencing the path with id "curve" -->
-		<textPath alignment-baseline="top" xlink:href="#curve">
+		<textPath alignment-baseline="top" xlink:href="#{localID}">
 			{text}
 		</textPath>
 	</text>

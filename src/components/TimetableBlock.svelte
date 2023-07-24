@@ -36,22 +36,21 @@
 
 <nav class="timetable" id="timetable">
 	{#each allDates as date}
-		<div
+		<a
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
-			role="button"
 			tabindex="0"
 			on:click={() => goToDate(date.date)}
 			on:keydown={() => goToDate(date.date)}
-			aria-label="Scroll to date: {getDate(date.date)}"
+			href="#{date.date}"
 		>
-			<h3>{getDate(date.date)}</h3>
+			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>
 			{#each date.events as event}
-				<div class="event">
-					<strong>{getTime(event.time)} • {event.type}</strong>
+				<section class="event">
+					<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
 					<p>{event.title}</p>
-				</div>
+				</section>
 			{/each}
-		</div>
+		</a>
 	{/each}
 </nav>
 
@@ -78,6 +77,10 @@
 		}
 	}
 
+	.timetable a {
+		text-decoration: none;
+		display: block;
+	}
 	h3 {
 		padding-block-end: 1rem;
 		/*font-family: 'Obviously', sans-serif;*/
@@ -115,6 +118,9 @@
 		/*border: 5px solid var(--pink);*/
 		transform: scale(1.1);
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+		color: unset;
+		text-decoration: none;
+		text-shadow: none;
 	}
 	/*.day:hover:after {*/
 	/*	transform: translate(5px, 5px);*/

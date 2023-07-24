@@ -68,21 +68,21 @@
 
 			<HeadlineDynamic className="headline" id={'date-' + date.date}>
 				<h1>
-					<span class="date">{getDate(date.date)}</span>
+					<time class="date" datetime="{date.date}">{getDate(date.date)}</time>
 					<br />
 					<span class="name">{date.name}</span>
 				</h1>
 			</HeadlineDynamic>
 
 			<div class="content inner">
-				<article class="event-box-wrapper">
+				<section class="event-box-wrapper" aria-label="Events for {getDate(date.date)}">
 					{#each date.events as event}
 						<div class="event-short">
-							<strong>{getTime(event.time)} • {event.type}</strong>
+							<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
 							<p>{event.title}</p>
 						</div>
 					{/each}
-				</article>
+				</section>
 
 				<div class="events-text-wrapper">
 					{#each date.events as event}
@@ -101,12 +101,15 @@
 
 	</main>
 
-	<HeadlineDynamic>
-		<h1>Unsere Partner</h1>
-	</HeadlineDynamic>
-	<div class="content inner">
-		<LogoBlock />
-	</div>
+	<aside aria-labelledby="unsere-partner">
+		<HeadlineDynamic id="unsere-partner">
+			<h1>Unsere Partner</h1>
+		</HeadlineDynamic>
+		<div class="content inner">
+			<LogoBlock />
+		</div>
+	</aside>
+
 	<Footer />
 </div>
 
