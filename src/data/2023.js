@@ -253,7 +253,16 @@ const about = {
 	text: `<p>Liebe Freund*innen der Film- kultur und des Umsonst-und- draußen-Kinos, liebe treue Besucher*innen des Filmsommer Festival–Mainz, wir möchten mit euch feiern!</p>
 <p>Ganze 10 Jahre ist es her, da startete der Filmsom­mer Mainz mit vier Filmen an vier Tagen und vier Locations. Mittlerweile umfasst er nicht nur – wie passend – 10 Tage mit 9 Filmen und einer Party, sondern er hat auch ein festes Zuhause: Die Kulturei an der Mainzer Zitadelle. Freut euch auch dieses Jahr auf wunderbare Sommerabende voller Filmkultur an einem der idyllischsten Spielorte der Stadt! Vom 18.08.2023 bis zum 26.08.2023 gibt es unser Jubiläumsprogramm mit unvergesslichen Filmen, toller Livemusik und verschiedenen Kunstaktionen. Der Eintritt ist frei, für Speisen und Getränke ist wie immer gesorgt. Also kommt vorbei, wir freuen uns auf euch!</p>
 Beste Grüße und „Film ab!“<br>
-Euer Filmsommer-Team`
+Euer Filmsommer-Team<br>
+<br>
+<p>
+<b>Veranstaltungsort:</b><br>
+<address>
+Zitadelle Mainz<br>
+Kulturei<br>
+Zitadellenweg, 55131 Mainz<br>
+</address>
+</p>`
 }
 
 export { about, dates }
