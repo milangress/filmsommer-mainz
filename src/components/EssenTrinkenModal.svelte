@@ -1,10 +1,12 @@
 <script>
 	import Modal from './Modal.svelte'
 	let showModal = false
+
+	import image from "/src/assets/essentrinken.svg"
 </script>
 
 <Modal bind:showModal>
-	<object data="/essentrinken.svg" width="80%" title="Essen und Trinken Headline" type="image/svg+xml"></object>
+	<object data="{image}" width="80%" title="Essen und Trinken Headline" type="image/svg+xml"></object>
 	<br />
 	<h3>Kulturei Festivaltheke</h3>
 	<p>
