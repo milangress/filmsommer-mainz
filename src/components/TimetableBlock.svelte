@@ -41,7 +41,7 @@
 			tabindex="0"
 			on:click={() => goToDate(date.date)}
 			on:keydown={() => goToDate(date.date)}
-			href="#{date.date}"
+			href="#date-{date.date}"
 		>
 			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>
 			{#each date.events as event}
