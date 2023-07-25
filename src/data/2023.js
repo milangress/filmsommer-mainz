@@ -9,7 +9,14 @@ const dates = [
 				title: 'Youloosie',
 				fskHidden: false,
 				content:
-					'Die Band Youloosie begeistert mit ihrem einzigartigen Mix aus energie- geladenem Rock und eingängigen Melodien. Ihre mitreißenden Live-Auftritte und charismatische Bühnenpräsenz machen sie zu einem unvergesslichen Erlebnis auf dem diesjährigen Festival. Eine mitreißende Show voller Energie, Leidenschaft und Rock’n’Roll.'
+					'Die Band Youloosie begeistert mit ihrem einzigartigen Mix aus energiegeladenem Rock und eingängigen Melodien. Ihre mitreißenden Live-Auftritte und charismatische Bühnenpräsenz machen sie zu einem unvergesslichen Erlebnis auf dem diesjährigen Festival. Eine mitreißende Show voller Energie, Leidenschaft und Rock’n’Roll.'
+			},
+			{
+				time: '20:00:00',
+				type: 'Eröffnung',
+				title: 'Offizielle Eröffnung Schirmherr Markus Müller',
+				fskHidden: false,
+				content: 'Der Schirmherr Markus Müller, Intendant des Staatstheaters Mainz eröffnet offiziell den Filmsommer Mainz 2023.'
 			},
 			{
 				time: '20:30:00',
@@ -162,7 +169,7 @@ const dates = [
 	{
 		id: 8,
 		date: '2023-08-24',
-		name: 'Politischer Filmabend',
+		name: 'Politischer Filmabend mit der Rosa Luxemburg Stiftung',
 		events: [
 			{
 				time: '18:00:00',
@@ -250,7 +257,7 @@ const dates = [
 	}
 ]
 const about = {
-	text: `<p>Liebe Freund*innen der Film- kultur und des Umsonst-und- draußen-Kinos, liebe treue Besucher*innen des Filmsommer Festival–Mainz, wir möchten mit euch feiern!</p>
+	text: `<p>Liebe Freund*innen der Filmkultur und des Umsonst-und- draußen-Kinos, liebe treue Besucher*innen des Filmsommer Festival–Mainz, wir möchten mit euch feiern!</p>
 <p>Ganze 10 Jahre ist es her, da startete der Filmsom­mer Mainz mit vier Filmen an vier Tagen und vier Locations. Mittlerweile umfasst er nicht nur – wie passend – 10 Tage mit 9 Filmen und einer Party, sondern er hat auch ein festes Zuhause: Die Kulturei an der Mainzer Zitadelle. Freut euch auch dieses Jahr auf wunderbare Sommerabende voller Filmkultur an einem der idyllischsten Spielorte der Stadt! Vom 18.08.2023 bis zum 26.08.2023 gibt es unser Jubiläumsprogramm mit unvergesslichen Filmen, toller Livemusik und verschiedenen Kunstaktionen. Der Eintritt ist frei, für Speisen und Getränke ist wie immer gesorgt. Also kommt vorbei, wir freuen uns auf euch!</p>
 Beste Grüße und „Film ab!“<br>
 Euer Filmsommer-Team<br>
