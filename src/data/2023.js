@@ -40,7 +40,7 @@ const dates = [
 	{
 		id: 2,
 		date: '2023-08-19',
-		name: 'Stummfilmabend und ...',
+		name: 'Stummfilmabend und Verleihung Albert Treber Preis',
 		events: [
 			{
 				time: '18:00:00',
@@ -59,7 +59,15 @@ const dates = [
 						<b>Regie & Drehbuch</b> Max Reichmann <br>
 						<b>Erscheinungsjahr</b> Deutschland 1926 <br>
 						<b>FSK 0</b><br><br>
-						<b>Kooperation: Medien.rlp</b>`,
+						<b>Kooperation: Medien.rlp</b> <br><br>
+						<h3>Verleihung Albert Treber Preis</h3>
+						<p>Wir sind stolz, den diesjährigen Albert Treber Preis auf dem Filmsommer Festival – Mainz verleihen zu dürfen!
+						</p><p>
+Zum zehnjährigen Jubiläum ehren wir erstmals eine Person für ihren herausragenden Einsatz und ihr Engagement für das Filmschaffen.
+</p><p>
+Der Preis würdigt die besondere Leidenschaft und den herausragenden Beitrag des/der Preistragenden zur Filmkunst.
+</p><p>
+Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten Filmförderer und Unterstützer von Nachwuchsfilmemachern. Sein Einsatz legte den Grundstein für die Filmförderung in Rheinland-Pfalz.</p>`,
 				pathText: 'Stummfilm'
 			}
 		],
