@@ -127,6 +127,7 @@
 		background-color: var(--pink);
 		z-index: -1;
 		transition: transform ease-in-out 0.5s;
+		scale: 1.3;
 	}
 
 	.left-row {
