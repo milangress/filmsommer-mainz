@@ -68,11 +68,11 @@ p + p {
 a:not(.button) {
 	color: inherit;
 	text-decoration: underline;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 a:not(.button):hover {
 	color: var(--green);
 	text-decoration: underline;
-	transform: translate(-2px, -2px);
-	text-shadow: black 4px 4px 0;
+	transform: translate(0, 2px);
+	/*text-shadow: black 4px 4px 0;*/
 }

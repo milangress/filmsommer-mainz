@@ -52,7 +52,7 @@
 	<main>
 	<EssenTrinkenModal />
 
-
+<a href="#kunstaktion" class="timetable-extra">
 		<div class="content inner bg-green">
 		<h3>18.–26. 08.</h3>
 		<p>
@@ -60,6 +60,7 @@
 		DAS BETT, Zu sehen im Gewölbe der Kulturei
 		</p>
 		</div>
+</a>
 
 	<div class="content inner">{@html about.text}</div>
 
@@ -208,5 +209,16 @@
 	}
 	.bg-green {
 		background-color: var(--green);
+	}
+	.timetable-extra {
+		text-decoration: none;
+		color: inherit;
+		transition: transform 0.1s ease-in-out;
+		display: block;
+	}
+	.timetable-extra:hover {
+		text-decoration: none;
+		color: inherit;
+		transform: scale(1.05);
 	}
 </style>
