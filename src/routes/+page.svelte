@@ -66,15 +66,6 @@
 
 	{#each dates as date}
 		<section>
-			{#if date.image}
-			<figure class="date-image">
-				<ImageComponent
-					imgSrc={getImage(date.image)}
-					altText="An Image from the {date.events[1].title} event"
-				/>
-				<figcaption>{date.events[1].title}</figcaption>
-			</figure>
-			{/if}
 
 			<HeadlineDynamic className="headline" id={'date-' + date.date}>
 				<h1>
@@ -113,6 +104,16 @@
 					{/each}
 				</div>
 			</div>
+
+			{#if date.image}
+				<figure class="date-image">
+					<ImageComponent
+						imgSrc={getImage(date.image)}
+						altText="An Image from the {date.events[1].title} event"
+					/>
+					<figcaption>{date.events[1].title}</figcaption>
+				</figure>
+			{/if}
 		</section>
 	{/each}
 
