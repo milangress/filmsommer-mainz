@@ -44,7 +44,7 @@ const dates = [
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJ Matt K',
 				content:
 					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben seiner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente.'
@@ -84,7 +84,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJ Shadi',
 				content:
 					'Elektronische Musik eines echten Elektro-Fanatikers. In Aleppo zum Leben erweckt, in Mainz erfahrbar gemacht. Von Experimental, Ambient, Dub und IDM bis hin zu Dancefloor House und Deep House, Breakbeats, Electro, Old School & Modern Trance – und alles dazwischen.'
@@ -122,7 +122,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJane Genie',
 				content:
 					'Ihr Sound ist so bunt wie die Farben der LGBTIQ+Flaggen. Sie gibt queeren Musiker*innen und Soundkreativen einen Raum und spielt eingängige Fem-Pop-Hymnen neben einer gehörigen Portion Disco-Grooves, Hip-Hop, House und Electronica.'
@@ -153,7 +153,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJane Løra Papi',
 				content:
 					'sorgt für einen Klangteppich aus bekannten und unbekannten Sounds. Eine treibende Mischung aus Indie, Pop und elektronischen Beats sorgt für die richtige Stimmung.'
@@ -214,7 +214,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJ Janeck',
 				content:
 					'Er prägt seit vielen Jahren das Rhein-Main Gebiet mit Projekten wie La Bolschevita, Oriental Tropical und Mach-Mal-Langsam im Bereich globale Rhythmen und Entschleunigung.'
@@ -244,7 +244,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 		events: [
 			{
 				time: '18:00:00',
-				type: 'Live-Musik',
+				type: 'Musik',
 				title: 'DJ Psycho-Jones',
 				content:
 					'Seit 1998 infiltriert Psycho-Jones das vorher eher eintönige Mainzer Nachtleben – von Anfang an illustriert  & gefärbt von seiner musikalisch und visuell einzigartigen Handschrift. Er bewegt sich zwischen 60s, Indie, Elektro, Pop & Trash, feinst abgestimmt mit Deko, Visuals, Livepercussion, Gameshows, Gast DJs, Liveacts uvm. • <a href="https://www.psycho-jones.com">psycho-jones.com</a>'
