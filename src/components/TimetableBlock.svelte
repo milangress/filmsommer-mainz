@@ -47,8 +47,15 @@
 			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>
 			{#each date.events as event}
 				<section class="event">
-					<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
-					<p>{event.title}</p>
+					{#if event.time && event.type}
+						<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
+						<p>{event.title}</p>
+					{:else if event.type}
+						<b>{event.type}</b>
+						<p>{event.title}</p>
+					{:else}
+						<b>{event.title}</b>
+					{/if}
 				</section>
 			{/each}
 		</a>

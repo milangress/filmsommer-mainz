@@ -47,7 +47,7 @@ const dates = [
 				type: 'Live-Musik',
 				title: 'DJ Matt K',
 				content:
-					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben sei- ner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente.'
+					'Matt K, mit bürgerlichem Namen Matthias Kornecki, ist ein erfahrener Musikproduzent und DJ. Durch seine zahlreichen Auftritte ist er ist er schon lange ein fester Bestandteil der Mainzer Musikszene. Neben seiner Tätigkeit als A&R bei dem Label You Are Strange ist er seit 2011 sein eigener Chef bei KorneckiDesign. Mit hohen Anspruch an Qualität, Sinn für Details und glühender Leidenschaft kreiert er für euch unvergessliche Musikmomente.'
 			},
 			{
 				time: '20:30:00',
@@ -59,17 +59,21 @@ const dates = [
 						<b>Regie & Drehbuch</b> Max Reichmann <br>
 						<b>Erscheinungsjahr</b> Deutschland 1926 <br>
 						<b>FSK 0</b><br><br>
-						<b>Kooperation: Medien.rlp</b> <br><br>
-						<h3>Verleihung Albert Treber Preis</h3>
-						<p>Wir sind stolz, den diesjährigen Albert Treber Preis auf dem Filmsommer Festival – Mainz verleihen zu dürfen!
+						<b>Kooperation: Medien.rlp</b>`,
+				pathText: 'Stummfilm'
+			},
+			{
+				type: 'Preisverleihung',
+				title: 'Albert Treber Preis',
+				content:
+					`<p>Wir sind stolz, den diesjährigen Albert Treber Preis auf dem Filmsommer Festival – Mainz verleihen zu dürfen!
 						</p><p>
 Zum zehnjährigen Jubiläum ehren wir erstmals eine Person für ihren herausragenden Einsatz und ihr Engagement für das Filmschaffen.
 </p><p>
 Der Preis würdigt die besondere Leidenschaft und den herausragenden Beitrag des/der Preistragenden zur Filmkunst.
 </p><p>
-Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten Filmförderer und Unterstützer von Nachwuchsfilmemachern. Sein Einsatz legte den Grundstein für die Filmförderung in Rheinland-Pfalz.</p>`,
-				pathText: 'Stummfilm'
-			}
+Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten Filmförderer und Unterstützer von Nachwuchsfilmemachern. Sein Einsatz legte den Grundstein für die Filmförderung in Rheinland-Pfalz.</p>`
+			},
 		],
 		image: 'DasBlumenwunderl_2.jpg'
 	},
@@ -129,13 +133,13 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				title: 'Die Mitte der Welt',
 				fsk: 'FSK 12',
 				content:
-					`Die Mitte der Welt – Ein turbulenter Mix aus Familienleben und schwärmerischen Gedanken. Regisseur Jakob M. Erwa jongliert mit Teenagererfahrungen und Familiengeheimnissen. Schnelle Bildabfolgen katapultieren uns in die Gefühlswelt des Protagonisten Phil, thematisieren seine Emotionen und seine Homosexualität. Louis Hofmann brilliert als verträumter Protagonist. Ein mitreißendes Comingof-Age-Drama zum Lachen und Mitfühlen.<br><br>
+					`Die Mitte der Welt – Ein turbulenter Mix aus Familienleben und schwärmerischen Gedanken. Regisseur Jakob M. Erwa jongliert mit Teenagererfahrungen und Familiengeheimnissen. Schnelle Bildabfolgen katapultieren uns in die Gefühlswelt des Protagonisten Phil, thematisieren seine Emotionen und seine Homosexualität. Louis Hofmann brilliert als verträumter Protagonist. Ein mitreißendes Coming-of-Age-Drama zum Lachen und Mitfühlen.<br><br>
 					<b>Buch & Regie</b> Jakob M. Erwa <br>
 					<b>Produktion</b> Neue Schönhauser Filmproduktion GmbH <br>
 					<b>Erscheinungsjahr</b> Deutschland/Österreich 2016 <br>
 					<b>FSK</b> ab 12<br>
 					<b>115 Min</b> <br><br>
-					<b>Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., Queernet&nbsp;RLP</b>`,
+					<b>Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., QueerNet-Rheinland-Pfalz&nbsp;e.V.</b>`,
 				pathText: 'Spielfilm',
 				// title_long: 'Die Mitte der Welt'
 			}

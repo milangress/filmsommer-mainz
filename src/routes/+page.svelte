@@ -88,8 +88,15 @@
 				<section class="event-box-wrapper" aria-label="Events for {getDate(date.date)}">
 					{#each date.events as event}
 						<div class="event-short">
-							<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
-							<p>{event.title}</p>
+							{#if event.time && event.type}
+								<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
+								<p>{event.title}</p>
+							{:else if event.type}
+								<b>{event.type}</b>
+								<p>{event.title}</p>
+							{:else}
+								<p>{event.title}</p>
+							{/if}
 						</div>
 					{/each}
 				</section>
@@ -128,7 +135,7 @@
 			<i>Text von Rebekka Schulte</i>
 			</p>
 			<p>
-				<b>Über die Künstlerin • www.lisa-schorr.de</b>
+				<b>Über die Künstlerin • <a href="https://www.lisa-schorr.de">www.lisa-schorr.de</a></b>
 			</p><p>
 		Lisa Schorr, geb. 1983, ist eine in Mainz lebende und arbeitende Künstlerin und Kuratorin. In ihren Arbeiten befasst sie sich mit der Sichtbarmachung von Farbräumen und den damit verbundenen Empfindungen von Atmosphären, hierfür lotet sie die Grenzen von Malerei, allgegenwärtigen Gegenständen und Raum aus.
 		</p><p>
