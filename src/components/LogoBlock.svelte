@@ -1,4 +1,6 @@
 <script>
+	import { lazyLoad } from "../util/lazyload.js";
+
 	let logos = []
 
 	/*async function fetchLogos() {
@@ -16,7 +18,7 @@
 	{/each}
 </div>-->
 <div class="logoblock">
-	<img src="logos.png" alt="logos">
+	<img use:lazyLoad="{'logos.png'}" alt="logos">
 </div>
 
 <style>

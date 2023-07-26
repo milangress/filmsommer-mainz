@@ -1,4 +1,5 @@
 <script>
+  import { lazyLoad } from "../util/lazyload.js"
 export let imgSrc = ''
 export let altText = ''
 
@@ -13,9 +14,8 @@ const imagePath = `${imgSrc}`
 
 
 <img
-  src={imagePath}
+  use:lazyLoad={imagePath}
   alt="{altText}"
-  loading="lazy"
 />
 
 <style>
