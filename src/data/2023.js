@@ -35,7 +35,8 @@ const dates = [
 				pathText: 'Spielfilm'
 			}
 		],
-		image: 'ALKIALKI_2_FLASCHE_peter_trabner_ANIKA_christina_grosse_TOBIAS_heiko_pinkowski_BETT.png'
+		image: 'ALKIALKI_2_FLASCHE_peter_trabner_ANIKA_christina_grosse_TOBIAS_heiko_pinkowski_BETT.png',
+		imageText: 'Alki Alki'
 	},
 	{
 		id: 2,

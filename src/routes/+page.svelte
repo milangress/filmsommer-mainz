@@ -111,7 +111,7 @@
 						imgSrc={getImage(date.image)}
 						altText="An Image from the {date.events[1].title} event"
 					/>
-					<figcaption>{date.events[1].title}</figcaption>
+					<figcaption>{date.imageText ? date.imageText : date.events[1].title}</figcaption>
 				</figure>
 			{/if}
 		</section>
