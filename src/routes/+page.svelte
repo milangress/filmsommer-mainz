@@ -65,10 +65,10 @@
 	<div class="content inner">{@html about.text}</div>
 
 	{#each dates as date}
-		<section>
+		<section aria-labelledby="{'section-' + date.date}">
 
 			<HeadlineDynamic className="headline" id={'date-' + date.date}>
-				<h1>
+				<h1 id={'section-' + date.date}>
 					<time class="date" datetime="{date.date}">{getDate(date.date)}</time>
 					<br />
 					<span class="name">{date.name}</span>
