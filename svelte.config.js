@@ -14,7 +14,7 @@ const config = {
 			pages: 'public',
 			assets: 'public',
 			fallback: undefined,
-			precompress: false,
+			precompress: true,
 			strict: true
 		}),
 		prerender: {
