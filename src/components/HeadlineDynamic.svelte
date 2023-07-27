@@ -1,45 +1,45 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from 'svelte'
 
-	let topRow = [];
-	let bottomRow = [];
-	let leftRow = [];
+	let topRow = []
+	let bottomRow = []
+	let leftRow = []
 	let amountOfElems = {
 		top: 0,
 		bottom: 0,
 		left: 0
-	};
+	}
 
-	let headlineRef;
-	export let className = '';
-	export let id = '';
+	let headlineRef
+	export let className = ''
+	export let id = 'UNSET-' + Math.random()
 
 	onMount(() => {
-		reloadAllRows();
-	});
+		reloadAllRows()
+	})
 
 	function reloadAllRows() {
-		const { width, height } = headlineRef.getBoundingClientRect();
+		const { width, height } = headlineRef.getBoundingClientRect()
 		amountOfElems = {
 			top: Math.ceil(width / 100),
 			bottom: Math.ceil(width / 100),
 			left: Math.ceil(height / 100)
-		};
-		setTopRow();
-		setBottomRow();
-		setLeftRow();
+		}
+		setTopRow()
+		setBottomRow()
+		setLeftRow()
 	}
 
 	function setTopRow() {
-		topRow = Array.from({ length: amountOfElems.top }, () => Math.random() - 0.5);
+		topRow = Array.from({ length: amountOfElems.top }, () => Math.random() - 0.5)
 	}
 
 	function setBottomRow() {
-		bottomRow = Array.from({ length: amountOfElems.bottom }, () => Math.random() - 0.5);
+		bottomRow = Array.from({ length: amountOfElems.bottom }, () => Math.random() - 0.5)
 	}
 
 	function setLeftRow() {
-		leftRow = Array.from({ length: amountOfElems.left }, () => Math.random() - 0.5);
+		leftRow = Array.from({ length: amountOfElems.left }, () => Math.random() - 0.5)
 	}
 </script>
 
@@ -51,7 +51,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="top-row">
@@ -59,7 +59,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -67,7 +67,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -75,7 +75,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<slot />
@@ -84,7 +84,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 	<div class="bottom-row">
@@ -92,7 +92,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			/>
+			></div>
 		{/each}
 	</div>
 </div>
@@ -105,15 +105,8 @@
 		margin-block: 6rem;
 		line-height: 1.2;
 		contain: layout;
-	}
 
-	:global(.headline-dynamic h1) {
-		padding: 0;
-		margin-block-start: -0.4em;
-		margin-block-end: -0.3em;
-		margin-left: -0.1em;
-		display: inline-block;
-		font-size: 3.3rem;
+		scroll-margin-top: 10vh;
 	}
 
 	.top-row,
@@ -134,6 +127,7 @@
 		background-color: var(--pink);
 		z-index: -1;
 		transition: transform ease-in-out 0.5s;
+		scale: 1.3;
 	}
 
 	.left-row {

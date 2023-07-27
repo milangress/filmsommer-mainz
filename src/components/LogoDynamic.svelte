@@ -8,7 +8,7 @@
 	<defs>
 		<style>
 			.cls-1 {
-				fill: #f9d1e4;
+				fill: var(--pink);
 			}
 
 			.cls-2,
@@ -369,4 +369,38 @@
 			transform="translate(-0.9)"
 		/>
 	</g>
+	<image
+		href="FS_Website_Stern_Schriftzug.svg"
+		width="110px"
+		height="110px"
+		x="250px"
+		y="0px"
+		id="stern10jahre"
+	/>
 </svg>
+<object data="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" title="10 Jahre Filmsommer" type="image/svg+xml"></object>
+
+<style>
+	#stern10jahre {
+		position: absolute;
+		/*box-shadow: #1d1d1b 1px 1px 5px;*/
+		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
+	}
+	#stern10jahre-mobil {
+		display: none;
+		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
+	}
+	@media (max-width: 768px) {
+		#stern10jahre {
+			display: none;
+		}
+		#stern10jahre-mobil {
+			width: 35vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			top: 35vw;
+			left: 5vw;
+		}
+	}
+</style>

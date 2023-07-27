@@ -1,15 +1,15 @@
 <script>
-	let y;
+	let y
 
-	$: isVisible = y > 1500;
+	$: isVisible = y > 1500
 
 	function scrollToTop() {
-		const el = document.querySelector(`#timetable`);
-		console.log(el);
-		if (!el) return;
+		const el = document.querySelector(`#timetable`)
+		console.log(el)
+		if (!el) return
 		el.scrollIntoView({
 			behavior: 'smooth'
-		});
+		})
 	}
 </script>
 
@@ -36,12 +36,14 @@
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 		cursor: pointer;
 		transition: all 0.2s ease-in-out;
+		border: 0;
 	}
 
 	.backToTopButton:hover {
 		transform: scale(1.1);
 		background-color: var(--green);
 		color: white;
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 	}
 
 	.slideTop-enter-active,

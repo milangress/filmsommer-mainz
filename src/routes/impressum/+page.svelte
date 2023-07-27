@@ -1,20 +1,23 @@
 <script>
-	import HeadlineDynamic from '../../components/HeadlineDynamic.svelte';
+	import HeadlineDynamic from '../../components/HeadlineDynamic.svelte'
 </script>
 
+<br />
+<br />
 <HeadlineDynamic>
 	<h1>Impressum</h1>
 </HeadlineDynamic>
 
 <div class="content inner">
-	<h2>IMPRESSUM</h2>
 	<h3>ANGABEN GEMÄSS § 5 TMG:</h3>
 	<p>TIDI VON TIEDEMANN KONTRASTFILM GMBH &amp; CO. KG WALLSTRASSE 11 HINTERHAUS 55122 MAINZ</p>
 	<h3>KONTAKT:</h3>
 	<p>
-		Telefon: +49 (0) 6131 90 60 781<br />Telefax: +49 (0) 6131 90 60 780<br />E-Mail:
-		filmsommer@kontrastfilm.de.de<br />Facebook<br />Umsatzsteuer-ID:<br />Steuernummer:
-		26/092/6369/6<br />USt-ID: DE 232 748 589
+		Telefon: +49 (0) 6131 90 60 781<br />
+		Telefax: +49 (0) 6131 90 60 780<br />
+		E-Mail: filmsommer@kontrastfilm.de<br />
+		Steuernummer: 26/092/6369/6<br />
+		USt-ID: DE 232 748 589
 	</p>
 	<p>Finanzamt Mainz Mitte</p>
 	<h3>VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV:</h3>
@@ -24,15 +27,38 @@
 			class="">55122 Mainz</span
 		>
 	</p>
+</div>
+<div class="content inner">
+	<h3>Design & Code</h3>
 	<p>
-		Design &amp; Code<br />Pisa Peng<br /><a
-			href="https://pisapeng.de/"
-			target="_blank"
-			rel="noopener">pisapeng.de</a
-		><br />Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
+		Design: Pisa Peng<br /><a href="https://pisapeng.de/" target="_blank" rel="noopener"
+			>pisapeng.de</a
+		><br />
+		Code: Milan Gress<br /><a href="http://milangress.de/" target="_blank" rel="noopener"
 			>milangress.de</a
 		>
 	</p>
+	<h3>Bildnachweise</h3>
+	Markus Müller: Andreas Etter<br>
+	Michael Ebling: MdI RLP/T. Silz<br>
+	Katrin Eder: MKUEM/Heike Rost<br>
+	18.08. Live-Musik: Youloosie – Uzi Mayer<br>
+	Film: Copyright ZDF/ Dennis Pauls<br>
+	19.08. Live-Musik: Matthias Kornecki<br>
+	Film: absolut MEDIEN GmbH<br>
+	21.08. Live-Musik: DJ Shadi<br>
+	Film: FILMZ e.V.<br>
+	22.08. Live-Musik: DJane Genie<br>
+	Film: Screenshots ©Diana Keienburg<br>
+	23.08. Live-Musik: DJane Løra Papi<br>
+	Film: ZDF/Valentin Selmke<br>
+	24.08. Live-Musik: Dario Ölke<br>
+	Film: ©One Two Films GmbH<br>
+	25.08. Live-Musik: DJ Janeck<br>
+	Film: ©Neue Visionen Filmverleih<br>
+	26.08. Live-Musik: Dominik Asbach<br>
+</div>
+<div class="content inner">
 	<h3>HAFTUNG FÜR INHALTE</h3>
 	<p>
 		Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
@@ -298,3 +324,6 @@
 		(https://www.privacyshield.gov/participant?id=a2zt0000000TNo9AAG&amp;status=Active).
 	</p>
 </div>
+<br />
+<br />
+<br />

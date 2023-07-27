@@ -1,55 +1,66 @@
 <script>
-	import { DateTime } from 'luxon';
+	import { DateTime } from 'luxon'
 
 	function getTime(time) {
-		return DateTime.fromISO(time).toFormat('HH:mm');
+		return DateTime.fromISO(time).toFormat('HH:mm')
 	}
 
 	function getDate(date) {
-		const weekday = DateTime.fromISO(date).weekdayShort;
-		const day = DateTime.fromISO(date).toFormat('dd.MM');
-		return `${weekday}, ${day}`;
+		const weekday = DateTime.fromISO(date).weekdayShort
+		const day = DateTime.fromISO(date).toFormat('dd.MM')
+		return `${weekday}, ${day}`
 	}
 
 	function goToDate(date) {
-		const el = document.querySelector(`#date-${date}`);
-		if (!el) return;
+		const el = document.querySelector(`#date-${date}`)
+		if (!el) return
 		el.scrollIntoView({
 			behavior: 'smooth'
-		});
+		})
 	}
 
 	function isDateToday(date) {
-		const today = DateTime.local();
-		return DateTime.fromISO(date).toISODate() === today.toISODate();
+		const today = DateTime.local()
+		return DateTime.fromISO(date).toISODate() === today.toISODate()
 	}
 
 	function isDatePast(date) {
-		const today = DateTime.local();
-		const thisDate = DateTime.fromISO(date);
-		const diff = today.diff(thisDate, 'days').toObject().days;
-		return diff > 1 && diff < 20;
+		const today = DateTime.local()
+		const thisDate = DateTime.fromISO(date)
+		const diff = today.diff(thisDate, 'days').toObject().days
+		return diff > 1 && diff < 20
 	}
 
-	export let allDates = [];
+	export let allDates = []
 </script>
 
-<div class="timetable" id="timetable">
+<nav class="timetable" id="timetable">
+	<h2 class="visually-hidden">Timetable</h2>
 	{#each allDates as date}
-		<div
+		<a
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
+			tabindex="0"
 			on:click={() => goToDate(date.date)}
+			on:keydown={() => goToDate(date.date)}
+			href="#date-{date.date}"
 		>
-			<h2>{getDate(date.date)}</h2>
+			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>
 			{#each date.events as event}
-				<div class="event">
-					<strong>{getTime(event.time)} {event.type}</strong>
-					<p>{event.title}</p>
-				</div>
+				<section class="event">
+					{#if event.time && event.type}
+						<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
+						<p>{event.title}</p>
+					{:else if event.type}
+						<b>{event.type}</b>
+						<p>{event.title}</p>
+					{:else}
+						<b>{event.title}</b>
+					{/if}
+				</section>
 			{/each}
-		</div>
+		</a>
 	{/each}
-</div>
+</nav>
 
 <style>
 	.timetable {
@@ -58,18 +69,31 @@
 		margin: 0 auto;
 		background-color: var(--pink);
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-auto-rows: auto;
-		grid-gap: 2rem;
+		grid-gap: 1rem;
+		line-height: 1.25;
+
+		scroll-margin-top: 15vh;
 	}
-	@media (max-width: 1100px) {
+	@media (max-width: 700px) {
+		.timetable {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+	@media (max-width: 500px) {
 		.timetable {
 			grid-template-columns: 1fr 1fr;
 		}
 	}
 
-	h2 {
+	.timetable a {
+		text-decoration: none;
+		display: block;
+	}
+	h3 {
 		padding-block-end: 1rem;
+		/*font-family: 'Obviously', sans-serif;*/
 	}
 
 	.day {
@@ -78,35 +102,51 @@
 		padding: 0.5rem;
 		transition: transform 0.15s ease-in-out;
 		position: relative;
-		border: 1px solid transparent;
+		/*border: 5px solid transparent;*/
 	}
-	.day:after,
-	.day:before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		z-index: -1;
-		background-color: transparent;
-		border: 1px solid var(--green);
-		transition: transform 0.15s ease-in-out;
-	}
+	/*.day:after,*/
+	/*.day:before {*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	inset: 0;*/
+	/*	z-index: -1;*/
+	/*	background-color: transparent;*/
+	/*	border: 1px solid var(--green);*/
+	/*	transition: transform 0.15s ease-in-out;*/
+	/*}*/
 	.isToday {
-		border: 2px solid var(--green);
+		/*border-top: 2px solid black;*/
+		background-color: var(--green);
+	}
+	.isPast {
+		opacity: 0.7;
 	}
 	.day:hover {
 		background-color: var(--green);
-		color: var(--pink);
+		/*color: var(--pink);*/
 		z-index: 100;
-		border: 1px solid var(--pink);
-		transform: scale(1.1) translate(-10px, -10px);
+		/*border: 5px solid var(--pink);*/
+		transform: scale(1.1);
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+		color: unset;
+		text-decoration: none;
+		text-shadow: none;
 	}
-	.day:hover:after {
-		transform: translate(5px, 5px);
-	}
-	.day:hover:before {
-		transform: translate(10px, 10px);
-	}
+	/*.day:hover:after {*/
+	/*	transform: translate(5px, 5px);*/
+	/*}*/
+	/*.day:hover:before {*/
+	/*	transform: translate(10px, 10px);*/
+	/*}*/
 	.event {
 		min-height: 5em;
+	}
+	.visually-hidden {
+		position: absolute;
+		left:     -10000px;
+		top:      auto;
+		width:    1px;
+		height:   1px;
+		overflow: hidden;
 	}
 </style>

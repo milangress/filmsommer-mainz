@@ -21,7 +21,7 @@ const dates = [
 				pathText: 'test'
 			}
 		],
-		image: '85d2f7fe-5464-49d0-ba47-484c8245fbef'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 2,
@@ -41,11 +41,11 @@ const dates = [
 				title: 'ZU KRASS',
 				fsk: true,
 				content:
-					'\u003Cp class="p2"\u003EEs geht um Rebellion, darum geh&ouml;rt zu werden, eigene Entscheidungen zu treffen und die Dynamiken, die sich daraus ergeben. Das klingt vielleicht nach sehr egoistischen Protagonist*innen \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Esind sie aber nicht, zumindest nicht nur. Und sie haben etwas zu sagen. Mal voller Wut, manchmal auch leise, aber immer mit Gef&uuml;hl. Protest, Aktion, Mut, Freundschaft, Brisanz, Eigenleben, Raserei und auch Liebe \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Edas alles ist \u003Cstrong\u003E\u003Cem\u003ETraces of Youth &ndash; Eine Spur zu krass\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003E&nbsp;\u003C\u002Fp\u003E\n\u003Cp\u003E\u003Ca title="" href="www.shortfilm.com&nbsp;" target="_blank" rel="noopener"\u003Ewww.shortfilm.com&nbsp;\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EFilme \u003Cem\u003EFest\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EShe-Pack\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003ETrain Robbers\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EThree Centimetres\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EEmpreintes &ndash; Abdr&uuml;cke\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EFuck You \u003Cbr \u002F\u003E\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003Everschiedene Regisseure \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u003C\u002Fstrong\u003EKurzfilmagentur HH \u003Cbr \u002F\u003E\u003Cstrong\u003ELizenzgebiet \u003C\u002Fstrong\u003EDeutschland \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 16 \u003Cbr \u002F\u003E\u003Cstrong\u003E140 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
+					'\u003Cp class="p2"\u003EEs geht um Rebellion, darum geh&ouml;rt zu werden, eigene Entscheidungen zu treffen und die Dynamiken, die sich daraus ergeben. Das klingt vielleicht nach sehr egoistischen Protagonist*innen \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Esind sie aber nicht, zumindest nicht nur. Und sie haben etwas zu sagen. Mal voller Wut, manchmal auch leise, aber immer mit Gef&uuml;hl. Protest, Aktion, Mut, Freundschaft, Brisanz, Eigenleben, Raserei und auch Liebe \u003Cstrong\u003E\u003Cem\u003E&ndash; \u003C\u002Fem\u003E\u003C\u002Fstrong\u003Edas alles ist \u003Cstrong\u003E\u003Cem\u003ETraces of Youth &ndash; Eine Spur zu krass\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E.\u003Cspan class="Apple-converted-space"\u003E&nbsp;\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003E&nbsp;\u003C\u002Fp\u003E\n\u003Cp\u003E\u003Ca title="" href="https://www.shortfilm.com" target="_blank" rel="noopener"\u003Ewww.shortfilm.com&nbsp;\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n\u003Cp class="p2"\u003E\u003Cstrong\u003EFilme \u003Cem\u003EFest\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EShe-Pack\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003ETrain Robbers\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EThree Centimetres\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EEmpreintes &ndash; Abdr&uuml;cke\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EFuck You \u003Cbr \u002F\u003E\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E\u003Cstrong\u003ERegie \u003C\u002Fstrong\u003Everschiedene Regisseure \u003Cbr \u002F\u003E\u003Cstrong\u003EKooperationspartner \u003C\u002Fstrong\u003EKurzfilmagentur HH \u003Cbr \u002F\u003E\u003Cstrong\u003ELizenzgebiet \u003C\u002Fstrong\u003EDeutschland \u003Cbr \u002F\u003E\u003Cstrong\u003EFSK \u003C\u002Fstrong\u003Eab 16 \u003Cbr \u002F\u003E\u003Cstrong\u003E140 Min\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E',
 				pathText: 'asdfc'
 			}
 		],
-		image: '6e9a8dab-5280-471e-b55b-4ad02fd17761'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 5,
@@ -69,7 +69,7 @@ const dates = [
 				title_long: 'test'
 			}
 		],
-		image: '35253a0c-7738-48ce-8814-f75b010bb62a'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 5,
@@ -94,7 +94,7 @@ const dates = [
 				title_long: 'Nosferatu – Eine Symphonie des Grauens'
 			}
 		],
-		image: '77700253-b251-4155-9302-1849ff5e80c4'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 7,
@@ -118,7 +118,7 @@ const dates = [
 				pathText: 'sdafsdsa'
 			}
 		],
-		image: '73ce90c0-b2ba-4cc6-b091-a101489ff669'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 8,
@@ -142,7 +142,7 @@ const dates = [
 				pathText: 'afs'
 			}
 		],
-		image: '31d19acd-d2d0-483e-a19b-13fc7c94e73c'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 9,
@@ -166,7 +166,7 @@ const dates = [
 				pathText: 'Drama • Familienfilm'
 			}
 		],
-		image: 'e5c7f8ad-cd04-487a-8357-d173cd1f1c4e'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 10,
@@ -190,7 +190,7 @@ const dates = [
 				pathText: 'sdfg'
 			}
 		],
-		image: '5bc87951-2448-4311-8ed7-f14f6b7cbb43'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		id: 11,
@@ -214,7 +214,7 @@ const dates = [
 				pathText: 'adf'
 			}
 		],
-		image: 'e5d59603-6b12-4001-8ad9-622c30432424'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	},
 	{
 		date: '2022-08-27',
@@ -245,11 +245,11 @@ const dates = [
 				title_long: 'wfa'
 			}
 		],
-		image: 'd8b40bc2-5c19-4e67-bba0-51e410ec542b'
+		image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	}
-];
+]
 const about = {
 	text: '\u003Cp class="p2"\u003EHerzlich willkommen zum 9. Filmsommer in Mainz. Wir werden bunter, lauter, vielf&auml;ltiger und legen in diesem Jahr einen besonderen Fokus auf die Nachhaltigkeit.\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EWir freuen uns, vom 16. &ndash; 27. August an unserem wundersch&ouml;nen Spielort \u003Cstrong\u003E\u003Cem\u003EKulturei\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, \u003Cstrong\u003E\u003Cem\u003EZitadelle Mainz\u003C\u002Fem\u003E\u003C\u002Fstrong\u003E, wieder gelebte Filmkultur zu pr&auml;sentieren. Livemusik, Kunst, Film und ganz viel Lebensfreude &hellip; Sommerwetter trifft Filmkultur &ndash; ein Genuss!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003ENach 2 Jahren Pandemie starten wir wieder voll durch. Der Eintritt zu unseren Veranstaltungen ist wie immer frei, f&uuml;r Speis und Trank ist bestens gesorgt. Seid herzlich willkommen bei unserer tollen Open-Air-Reihe!\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EBeste Gr&uuml;&szlig;e und &bdquo;Film ab!&ldquo;\u003C\u002Fp\u003E\n\u003Cp class="p3"\u003EEuer Filmsommer-Team\u003C\u002Fp\u003E'
-};
+}
 
-export { about, dates };
+export { about, dates }
