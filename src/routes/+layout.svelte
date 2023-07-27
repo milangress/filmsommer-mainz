@@ -1,4 +1,7 @@
 <script>
+	import '../assets/css/fonts.css'
+	import '../assets/css/reset.css'
+	import '../assets/css/styles.css'
 	import BackgroundBackBack from '../components/BackgroundBackBack.svelte'
 
 	export let data
