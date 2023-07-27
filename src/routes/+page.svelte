@@ -50,7 +50,6 @@
 	<TimetableBlock allDates={dates} />
 
 	<main>
-	<EssenTrinkenModal />
 
 <a href="#kunstaktion" class="timetable-extra">
 		<div class="content inner bg-green">
@@ -62,7 +61,9 @@
 		</div>
 </a>
 
-	<div class="content inner">{@html about.text}</div>
+		<EssenTrinkenModal />
+
+		<div class="content inner">{@html about.text}</div>
 
 	{#each dates as date}
 		<section aria-labelledby="{'section-' + date.date}">
