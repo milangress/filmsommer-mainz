@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1000"
+     viewBox="0 0 1920 1000">
+    <defs>
+        <style>.cls-1{fill:#93d5f6;}.cls-2{fill:#37ad60;}.cls-3{fill:#ffd500;}</style>
+    </defs>
+    <g id="Ebene_2" data-name="Ebene 2">
+        <g id="Ebene_1-2" data-name="Ebene 1">
+            <g id="FS24_Website_Hintergrund-cut">
+                <path id="Pfad_224" data-name="Pfad 224" class="cls-1"
+                      d="M314.1,1000H628.18V0H314.1Z"/>
+                <path id="Pfad_225" data-name="Pfad 225" class="cls-2"
+                      d="M94.1,1000h220V0H94.1Z"/>
+                <path id="Pfad_226" data-name="Pfad 226" class="cls-3"
+                      d="M628.18,1000h473.46V0H628.18Z"/>
+                <path id="Pfad_227" data-name="Pfad 227" class="cls-3"
+                      d="M1637.94,1000h174.19V0H1637.94Z"/>
+                <path id="Pfad_228" data-name="Pfad 228" class="cls-2"
+                      d="M1101.65,1000H1205V0H1101.65Z"/>
+                <path id="Pfad_229" data-name="Pfad 229" class="cls-1"
+                      d="M1302.23,1000h336.63V0H1302.23Z"/>
+                <path id="Pfad_230" data-name="Pfad 230" class="cls-3"
+                      d="M0,1000H94.1V0H0Z"/>
+                <path id="Pfad_231" data-name="Pfad 231" class="cls-3"
+                      d="M1205,1000h97.27V0H1205Z"/>
+                <path id="Pfad_232" data-name="Pfad 232" class="cls-2"
+                      d="M1812.13,1000H1920V0H1812.13Z"/>
+            </g>
+        </g>
+    </g>
+</svg>
