@@ -376,6 +376,7 @@
 
 <style>
 	#stern10jahre {
+		display: none;
 		position: absolute;
 		/*box-shadow: #1d1d1b 1px 1px 5px;*/
 		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));
