@@ -115,11 +115,11 @@
 		width: fit-content;
 		padding: 2rem;
 		margin: 2rem;
-		/*background-color: var(--green);*/
+		/*background-color: var(--fs-color-2);*/
 		/*box-shadow: 5px 5px 0px 0px black;*/
-		background-color: var(--green);
-		color: var(--pink);
-		/*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
+		background-color: var(--fs-color-2);
+		color: var(--fs-color-1);
+		/*box-shadow: 0 0 0.5rem 0.5rem var(--fs-color-2);*/
 		position: relative;
 		contain: layout;
 	}
@@ -130,7 +130,7 @@
 		z-index: -1;
 		background-color: transparent;
 		transform: translate(5px, 5px);
-		border: 1px solid var(--green);
+		border: 1px solid var(--fs-color-2);
 	}
 	.event-box-wrapper:before {
 		content: '';
@@ -139,7 +139,7 @@
 		z-index: -1;
 		background-color: transparent;
 		transform: translate(10px, 10px);
-		border: 1px solid var(--green);
+		border: 1px solid var(--fs-color-2);
 	}
 	.events-text-wrapper {
 	}

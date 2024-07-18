@@ -41,7 +41,7 @@
 
 	.backToTopButton:hover {
 		transform: scale(1.1);
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 		color: white;
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 	}

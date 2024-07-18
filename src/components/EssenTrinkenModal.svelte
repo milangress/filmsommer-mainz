@@ -39,8 +39,8 @@
 
 	@media (max-width: 800px) {
 		.EssenTrinkenBtn {
-			/*background-color: var(--green);*/
-			box-shadow: 0 0.5rem 1rem var(--green);
+			/*background-color: var(--fs-color-2);*/
+			box-shadow: 0 0.5rem 1rem var(--fs-color-2);
 			font-size: 1.6rem;
 			display: block;
 			margin-block: 3rem;
@@ -62,7 +62,7 @@
 
 	.EssenTrinkenBtn:hover {
 		transform: scale(1.1);
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 		color: white;
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 	}

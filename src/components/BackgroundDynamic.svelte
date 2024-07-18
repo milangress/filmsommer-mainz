@@ -2,10 +2,11 @@
 	import { onMount } from 'svelte'
 
 	let bars = [
-		{ color: '#F9D1E4', width: '1' },
-		{ color: '#E4DF00', width: '2' },
-		{ color: '#37AD60', width: '1' },
-		{ color: '#F9D1E4', width: '1' }
+		{ color: '#93D5F6', width: '314' },
+		{ color: '#FFD500', width: '473' },
+		{ color: '#37AD60', width: '103' },
+		{ color: '#FFD500', width: '97' },
+		{ color: '#93D5F6', width: '336' }
 	]
 
 	function setBar() {
@@ -58,12 +59,12 @@
 	.bar-left {
 		height: 100%;
 		flex-grow: 1;
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 	}
 
 	.bar-right {
 		height: 100%;
 		flex-grow: 1;
-		background-color: var(--yellow);
+		background-color: var(--fs-color-3);
 	}
 </style>

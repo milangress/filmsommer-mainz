@@ -71,7 +71,7 @@ a:not(.button) {
 	transition: all 0.1s ease-in-out;
 }
 a:not(.button):hover {
-	color: var(--green);
+	color: var(--fs-color-2);
 	text-decoration: underline;
 	transform: translate(0, 2px);
 	/*text-shadow: black 4px 4px 0;*/

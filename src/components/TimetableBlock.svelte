@@ -67,7 +67,7 @@
 		padding: 0.5rem;
 		width: var(--width-outer);
 		margin: 0 auto;
-		background-color: var(--pink);
+		background-color: var(--fs-color-1);
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-auto-rows: auto;
@@ -98,7 +98,7 @@
 
 	.day {
 		cursor: pointer;
-		background-color: var(--pink);
+		background-color: var(--fs-color-1);
 		padding: 0.5rem;
 		transition: transform 0.15s ease-in-out;
 		position: relative;
@@ -111,21 +111,21 @@
 	/*	inset: 0;*/
 	/*	z-index: -1;*/
 	/*	background-color: transparent;*/
-	/*	border: 1px solid var(--green);*/
+	/*	border: 1px solid var(--fs-color-2);*/
 	/*	transition: transform 0.15s ease-in-out;*/
 	/*}*/
 	.isToday {
 		/*border-top: 2px solid black;*/
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 	}
 	.isPast {
 		opacity: 0.7;
 	}
 	.day:hover {
-		background-color: var(--green);
-		/*color: var(--pink);*/
+		background-color: var(--fs-color-2);
+		/*color: var(--fs-color-1);*/
 		z-index: 100;
-		/*border: 5px solid var(--pink);*/
+		/*border: 5px solid var(--fs-color-1);*/
 		transform: scale(1.1);
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 		color: unset;

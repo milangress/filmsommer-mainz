@@ -12,6 +12,7 @@
 	import Footer from "/src/components/Footer.svelte";
 	import EssenTrinkenModal from "../components/EssenTrinkenModal.svelte";
 	import ImageComponent from "../components/ImageComponent.svelte";
+	import BackgroundDynamic from '../components/BackgroundDynamic.svelte'
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -38,6 +39,7 @@
 </script>
 
 <div>
+	<BackgroundDynamic></BackgroundDynamic>
 	<header>
 		<BackToTopButton />
 
@@ -185,11 +187,11 @@
 		width: fit-content;
 		padding: 2rem;
 		margin: 2rem 0;
-		/*background-color: var(--green);*/
+		/*background-color: var(--fs-color-2);*/
 		/*box-shadow: 5px 5px 0px 0px black;*/
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 		color: black;
-		/*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
+		/*box-shadow: 0 0 0.5rem 0.5rem var(--fs-color-2);*/
 		position: relative;
 		contain: layout;
 	}
@@ -203,7 +205,7 @@
 	/*	z-index: -1;*/
 	/*	background-color: transparent;*/
 	/*	transform: translate(5px, 5px);*/
-	/*	border: 1px solid var(--green);*/
+	/*	border: 1px solid var(--fs-color-2);*/
 	/*}*/
 	/*.event-box-wrapper:before {*/
 	/*	content: '';*/
@@ -212,12 +214,12 @@
 	/*	z-index: -1;*/
 	/*	background-color: transparent;*/
 	/*	transform: translate(10px, 10px);*/
-	/*	border: 1px solid var(--green);*/
+	/*	border: 1px solid var(--fs-color-2);*/
 	/*}*/
 	.events-text-wrapper {
 	}
 	.bg-green {
-		background-color: var(--green);
+		background-color: var(--fs-color-2);
 	}
 	.timetable-extra {
 		text-decoration: none;

@@ -1,10 +1,10 @@
 :root {
 	--width-outer: 90vw;
 	--width-inner: 815px;
-	--pink: #c8d500;
-	--green: #31ac62;
-	--yellow: #c8d500;
-	--red: #ef6f1f;
+	--fs-color-1: #c8d500;
+	--fs-color-2: #31ac62;
+	--fs-color-3: #c8d500;
+	--fs-color-4: #ef6f1f;
 }
 @media (min-width: 1600px) {
 	:root {
@@ -23,8 +23,8 @@
 }
 
 ::selection {
-	color: var(--yellow);
-	background: var(--red);
+	color: var(--fs-color-3);
+	background: var(--fs-color-4);
 }
 
 html {
@@ -78,7 +78,7 @@ body {
 	margin: 0 auto;
 }
 .content {
-	background-color: var(--pink);
+	background-color: var(--fs-color-1);
 	margin-block: 3rem;
 	padding: 1rem 2rem;
 	font-size: 1.2rem;

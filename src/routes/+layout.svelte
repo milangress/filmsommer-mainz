@@ -2,7 +2,7 @@
 	import '../assets/css/fonts.css'
 	import '../assets/css/reset.css'
 	import '../assets/css/styles.css'
-	import BackgroundBackBack from '../components/BackgroundBackBack.svelte'
+	// import BackgroundBackBack from '../components/BackgroundBackBack.svelte'
 
 	export let data
 </script>
@@ -26,7 +26,5 @@
 	<meta name="robots" content={data.noIndexOnVercel} />
 </svelte:head>
 <div>
-	<BackgroundBackBack>
 		<slot />
-	</BackgroundBackBack>
 </div>
