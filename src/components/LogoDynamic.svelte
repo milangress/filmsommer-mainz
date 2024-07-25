@@ -143,7 +143,15 @@
 			width="18.89"
 			height="10.34"
 			vector-effect="non-scaling-stroke"
-		/>
+		>
+			<animateTransform
+				attributeName="transform"
+				begin="1s"
+				dur="5s"
+				type="translate"
+				from="0 0"
+				to="-2 -2" />
+		</rect>
 		<rect
 			class="cls-3"
 			x="61.72"

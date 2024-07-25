@@ -36,6 +36,9 @@
 
 <nav class="timetable" id="timetable">
 	<h2 class="visually-hidden">Timetable</h2>
+	<div class="day flat bg-star">
+		<h3>Eröffnungs-<br>abend</h3>
+	</div>
 	{#each allDates as date}
 		<a
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
@@ -97,13 +100,18 @@
 	}
 
 	.day {
-		cursor: pointer;
 		background-color: var(--fs-color-1);
 		padding: 0.5rem;
 		transition: transform 0.15s ease-in-out;
 		position: relative;
 		/*border: 5px solid transparent;*/
 	}
+	.day:not(.flat) {
+      cursor: pointer;
+  }
+	.bg-star {
+      background: url("/FS24-stern.svg") no-repeat center center;
+  }
 	/*.day:after,*/
 	/*.day:before {*/
 	/*	content: '';*/
@@ -121,7 +129,7 @@
 	.isPast {
 		opacity: 0.7;
 	}
-	.day:hover {
+	.day:hover:not(.flat){
 		background-color: var(--fs-color-2);
 		/*color: var(--fs-color-1);*/
 		z-index: 100;
