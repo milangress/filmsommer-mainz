@@ -52,7 +52,7 @@
 
 	<main>
 
-<a href="#kunstaktion" class="timetable-extra">
+<!--<a href="#kunstaktion" class="timetable-extra">
 		<div class="content inner bg-green">
 		<h3>18.–26. 08.</h3>
 		<p>
@@ -60,7 +60,7 @@
 		DAS BETT, Zu sehen im Gewölbe der Kulturei
 		</p>
 		</div>
-</a>
+</a>-->
 
 		<EssenTrinkenModal />
 
@@ -111,9 +111,9 @@
 				<figure class="date-image">
 					<ImageComponent
 						imgSrc={getImage(date.image)}
-						altText="An Image from the {date.events[1].title} event"
+						altText="An Image from the {date.events[1]?.title} event"
 					/>
-					<figcaption>{date.imageText ? date.imageText : date.events[1].title}</figcaption>
+					<figcaption>{date.imageText ? date.imageText : date.events[1]?.title}</figcaption>
 				</figure>
 			{/if}
 		</section>
