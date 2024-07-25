@@ -4,6 +4,8 @@
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 404.83 229.93"
 	class="logo"
+	role="img"
+	aria-labelledby="FilmSommerLogo-titel"
 >
 	<defs>
 		<style>
@@ -28,6 +30,7 @@
 			}
 		</style>
 	</defs>
+	<title id="FilmSommerLogo-titel">Logo Filmsommer Festival Mainz</title>
 	<g id="Background" shape-rendering="crispEdges">
 		<rect class="cls-1" x="103.95" y="15.38" width="56.16" height="30.75" />
 		<rect class="cls-1" x="229.97" y="60.03" width="56.16" height="30.75" />

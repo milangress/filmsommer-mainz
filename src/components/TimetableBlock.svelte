@@ -11,7 +11,8 @@
 		return `${weekday}, ${day}`
 	}
 
-	function goToDate(date) {
+	function goToDate(event, date) {
+		if (event.key && event.key !== 'Enter') return
 		const el = document.querySelector(`#date-${date}`)
 		if (!el) return
 		el.scrollIntoView({
@@ -34,7 +35,7 @@
 	export let allDates = []
 </script>
 
-<nav class="timetable" id="timetable">
+<nav class="timetable" id="timetable" aria-label="Timetable Navigation (gleiche Seite aber scrollt zu Tag & Event)">
 	<h2 class="visually-hidden">Timetable</h2>
 	<div class="day flat bg-star">
 		<h3>Eröffnungs-<br>abend</h3>
@@ -43,8 +44,8 @@
 		<a
 			class="day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
 			tabindex="0"
-			on:click={() => goToDate(date.date)}
-			on:keydown={() => goToDate(date.date)}
+			on:click={(event) => goToDate(event, date.date)}
+			on:keydown={(event) => goToDate(event, date.date)}
 			href="#date-{date.date}"
 		>
 			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>

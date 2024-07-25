@@ -1,5 +1,6 @@
 <script>
 	export let showModal // boolean
+	export let modalHeadlineID
 
 	let dialog // HTMLDialogElement
 
@@ -8,12 +9,18 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
+	aria-modal=true
 	bind:this={dialog}
+	aria-labelledby="{modalHeadlineID}"
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-autofocus -->
-	<button autofocus on:click={() => dialog.close()}>×</button>
+	<button
+		autofocus
+		on:click={() => dialog.close()}
+		aria-label="Close"
+	>×</button>
 
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation>

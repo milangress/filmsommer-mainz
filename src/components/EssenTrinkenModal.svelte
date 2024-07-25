@@ -5,10 +5,14 @@
 	import image from "/src/assets/essentrinken.svg"
 </script>
 
-<Modal bind:showModal>
+<Modal
+	id="EssenTrinkenModal"
+	modalHeadlineID="e-d-modal-headline"
+	bind:showModal
+>
 	<object data="{image}" width="80%" title="Essen und Trinken Headline" type="image/svg+xml"></object>
 	<br />
-	<h3>Kulturei Festivaltheke</h3>
+	<h3 id="e-d-modal-headline">Kulturei Festivaltheke</h3>
 	<p>
 		Wir freuen uns auf regionale, biozertifizierte Weine aus Rheinhessen aus dem Weingut Gutzler, auf Wasser, Saftschorlen und Bier aus der Region und vieles mehr.
 	</p>
@@ -21,7 +25,12 @@
 
 </Modal>
 
-<button class="EssenTrinkenBtn" on:click={() => (showModal = true)}>
+<button
+	class="EssenTrinkenBtn"
+	on:click={() => (showModal = true)}
+	aria-label="Öffne Essen & Trinken"
+	aria-haspopup="dialog"
+>
 	<span>Essen & Trinken</span>
 </button>
 
