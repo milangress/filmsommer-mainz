@@ -1,5 +1,5 @@
 <script>
-	import Modal from './Modal.svelte'
+	import Modal from '../Modal.svelte'
 	let showModal = false
 
 	import image from "/src/assets/essentrinken.svg"

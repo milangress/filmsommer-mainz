@@ -1,5 +1,5 @@
 <script>
-	import { lazyLoad } from "../util/lazyload.js";
+	import { lazyLoad } from "../../util/lazyload.js";
 
 	let logos = []
 
