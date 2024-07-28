@@ -1,36 +1,6 @@
 <script>
-	import { DateTime } from 'luxon'
 
-	function getTime(time) {
-		return DateTime.fromISO(time).toFormat('HH:mm')
-	}
-
-	function getDate(date) {
-		const weekday = DateTime.fromISO(date).weekdayShort
-		const day = DateTime.fromISO(date).toFormat('dd.MM')
-		return `${weekday}, ${day}`
-	}
-
-	function goToDate(event, date) {
-		if (event.key && event.key !== 'Enter') return
-		const el = document.querySelector(`#date-${date}`)
-		if (!el) return
-		el.scrollIntoView({
-			behavior: 'smooth'
-		})
-	}
-
-	function isDateToday(date) {
-		const today = DateTime.local()
-		return DateTime.fromISO(date).toISODate() === today.toISODate()
-	}
-
-	function isDatePast(date) {
-		const today = DateTime.local()
-		const thisDate = DateTime.fromISO(date)
-		const diff = today.diff(thisDate, 'days').toObject().days
-		return diff > 1 && diff < 20
-	}
+	import {getTime, getDate, goToDate, isDateToday, isDatePast} from '../../util/dateUtils'
 
 	export let allDates = []
 </script>

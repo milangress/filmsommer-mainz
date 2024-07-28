@@ -1,14 +1,14 @@
 <script xmlns="http://www.w3.org/1999/html">
 	import { DateTime } from "luxon";
-	import LogoDynamic from "/src/components/Sections/LogoDynamic.svelte";
+	import LogoDynamic from "/src/components/Sections/LogoSectionDynamic.svelte";
 	import BackToTopButton from "/src/components/UniqueButtons/BackToTopButton.svelte";
 	import HeadlineDynamic from "/src/components/HeadlineDynamic.svelte";
-	import TimetableBlock from "/src/components/Sections/TimetableBlock.svelte";
+	import TimetableBlock from "/src/components/Sections/TimetableSection.svelte";
 	import PathText from "/src/components/PathText.svelte";
-	import LogoBlock from "/src/components/Sections/LogoBlock.svelte";
+	import LogoBlock from "/src/components/Sections/LogoSection.svelte";
 
 	import { dates, about } from "/src/data/2024.js";
-	import Footer from "/src/components/Landmarks/Footer.svelte";
+	import Footer from "/src/components/Landmarks/FooterSection.svelte";
 	import EssenTrinkenModal from "../components/UniqueButtons/EssenTrinkenModal.svelte";
 	import ImageComponent from "../components/ImageComponent.svelte";
 	import BackgroundDynamic from '../components/Uniques/BackgroundDynamic.svelte'
