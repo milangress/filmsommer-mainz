@@ -12,6 +12,7 @@
 	import EssenTrinkenModal from "../components/UniqueButtons/EssenTrinkenModal.svelte";
 	import ImageComponent from "../components/ImageComponent.svelte";
 	import BackgroundDynamic from '../components/Uniques/BackgroundDynamic.svelte'
+	import SkipToContent from '../components/UniqueButtons/SkipToContent.svelte'
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -40,6 +41,7 @@
 <div>
 	<BackgroundDynamic></BackgroundDynamic>
 	<header>
+		<SkipToContent />
 		<BackToTopButton />
 
 		<LogoDynamic />
@@ -50,7 +52,7 @@
 
 	<TimetableBlock allDates={dates} />
 
-	<main>
+	<main id="main">
 
 <!--<a href="#kunstaktion" class="timetable-extra">
 		<div class="content inner bg-green">
