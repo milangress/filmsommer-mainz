@@ -1,6 +1,7 @@
 <script>
 
 	import {getTime, getDate, goToDate, isDateToday, isDatePast} from '../../util/dateUtils'
+	import TimetableEvent from './TimetableEvent.svelte'
 
 	export let allDates = []
 </script>
@@ -20,17 +21,7 @@
 		>
 			<h3><time datetime="{date.date}">{getDate(date.date)}</time></h3>
 			{#each date.events as event}
-				<section class="event">
-					{#if event.time && event.type}
-						<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
-						<p>{event.title}</p>
-					{:else if event.type}
-						<b>{event.type}</b>
-						<p>{event.title}</p>
-					{:else}
-						<b>{event.title}</b>
-					{/if}
-				</section>
+				<TimetableEvent event={event}></TimetableEvent>
 			{/each}
 		</a>
 	{/each}
@@ -117,9 +108,7 @@
 	/*.day:hover:before {*/
 	/*	transform: translate(10px, 10px);*/
 	/*}*/
-	.event {
-		min-height: 5em;
-	}
+	
 	.visually-hidden {
 		position: absolute;
 		left:     -10000px;

@@ -15,3 +15,10 @@
         <b>{event.title}</b>
     {/if}
 </section>
+
+
+<style>
+    .event {
+        min-height: 5em;
+    }
+</style>
