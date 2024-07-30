@@ -42,11 +42,6 @@
 		}
 	}
 
-	.timetable a {
-		text-decoration: none;
-		display: block;
-	}
-
 
 	.bg-star {
       background: url("/FS24-stern.svg") no-repeat center center;
