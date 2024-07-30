@@ -1,10 +1,11 @@
 <script>
     export let event
     import {getTime} from '../../util/dateUtils'
+    $: shouldSpanTwoCells = event.length >= 4;
 </script>
 
 
-<section class="event">
+<section class="event {shouldSpanTwoCells ? 'span-two' : ''}">
     {#if event.time && event.type}
         <b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
         <p>{event.title}</p>
@@ -20,5 +21,11 @@
 <style>
     .event {
         min-height: 5em;
+        display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: auto;
+    }
+    .event.span-two {
+        grid-template-columns: 1fr 1fr;
     }
 </style>

@@ -1,6 +1,5 @@
 <script>
-	import { getDate, goToDate, isDatePast, isDateToday } from '../../util/dateUtils.js'
-	import TimetableEvent from './TimetableEvent.svelte'
+	import { getDate, goToDate, isDatePast, isDateToday, getTime } from '../../util/dateUtils.js'
 	import { onMount } from 'svelte'
 
 	export let heading = '';
@@ -21,7 +20,7 @@
 	function handleMouseUp() {
 		const up = Date.now();
 		if ((up - down) < 200) {
-			const link = cardElement.querySelector('h2 a');
+			const link = cardElement.querySelector('a');
 			if (link) link.click();
 		}
 	}
@@ -29,14 +28,20 @@
 	onMount(() => {
 		cardElement.style.cursor = 'pointer';
 	});
+
+	$: shouldSpanTwoCells = date.events.length >= 4;
 </script>
 
-
+<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <li
 	bind:this={cardElement}
 	on:mousedown={handleMouseDown}
 	on:mouseup={handleMouseUp}
-	class="card day {isDateToday(date.date) ? 'isToday' : ''} {isDatePast(date.date) ? 'isPast' : ''}"
+	class="
+	card day 
+	{isDateToday(date.date) ? 'isToday' : ''} 
+	{isDatePast(date.date) ? 'isPast' : ''}
+	{shouldSpanTwoCells ? 'span-two' : ''}"
 
 >
 	<h3>
@@ -51,9 +56,21 @@
 		</a>
 	</h3>
 
+	<section class="events">
 		{#each date.events as event}
-			<TimetableEvent event={event}></TimetableEvent>
+			<div class="event">
+				{#if event.time && event.type}
+					<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
+					<p>{event.title}</p>
+				{:else if event.type}
+					<b>{event.type}</b>
+					<p>{event.title}</p>
+				{:else}
+					<b>{event.title}</b>
+				{/if}
+			</div>
 		{/each}
+	</section>
 
 	  {#if link && link !== ''}
 		<h2>
@@ -67,10 +84,11 @@
 
 
 <style>
-		.card {
-				list-style: none;
-				position: relative;
-    }
+	.card {
+		list-style: none;
+		position: relative;
+		display: contents;
+	}
 
     .day {
         background-color: var(--fs-color-1);
@@ -78,7 +96,33 @@
         transition: transform 0.15s ease-in-out;
         position: relative;
         /*border: 5px solid transparent;*/
+		grid-column: span 1;
+    	display: flex;
+    	flex-direction: column;
     }
+	.day.span-two {
+		grid-column: span 2;
+  	}
+
+	  .span-two .events {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
+	.event {
+        min-height: 5em;
+    }
+
+@media (max-width: 700px) {
+  .span-two {
+    grid-column: span 1;
+  }
+  
+  .span-two .event {
+    grid-template-columns: 1fr;
+  }
+}
+
     .day:not(.flat) {
         cursor: pointer;
     }
