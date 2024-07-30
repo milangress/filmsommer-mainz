@@ -1,7 +1,4 @@
 <script>
-
-	import {getDate, goToDate, isDateToday, isDatePast} from '../../util/dateUtils'
-	import TimetableEvent from './TimetableEvent.svelte'
 	import Card from './TimetableDay.svelte'
 
 	export let allDates = []
