@@ -46,8 +46,8 @@ const dates = [
     events: [
       {
         time: '20:30:00',
-        type: 'Best-of-Filme',
-        title: 'Best of FILMZ',
+        type: 'Filme',
+        title: 'Kurz- und Mittellanger Film',
         fsk: '12',
         content:
           `Als erstes Langfilmfestival in RLP präsentiert FILMZ seit dem Jahr 2001 alljährlich aktuelle, deutschsprachige Produktionen aus Deutschland, Österreich und der Schweiz. Neben dem Langfilm- und Kurzfilmwettbewerb veranstaltet FILMZ seit 2008 und 2010 auch Wettbewerbe in den Sektionen Mittellanger Film und Dokumentarfilm.<br><br>
@@ -69,20 +69,22 @@ const dates = [
     events: [
       {
         time: '18:00:00',
-        type: 'Einlass',
-        title: 'Schorle-Empfang',
+        type: 'Einlass & Schorle-Empfang',
+        title: '',
         content: ''
       },
       {
         time: '19:00:00',
         type: 'Begrüßung & Talk',
-        title: 'Kreativwirtschaft RLP: Impulse für die Demokratie',
+        title: '',
+        title_long: 'Kreativwirtschaft RLP: Impulse für die Demokratie',
         content: 'Begrüßung durch Wirtschaftsministerin RLP Daniela Schmitt. Moderatorin Eva Schmitt und Vertreter*innen der Branchen Design, Film, Medien, Games und Musik über Projekte zum Thema Demokratie.'
       },
       {
         time: '20:30:00',
-        type: 'RLP-Shorts',
-        title: 'Kurzfilme & Trailer von Medien-Talents aus Rheinland-Pfalz',
+        type: 'Filme',
+        title: 'Kurzfilme & Trailer',
+        title_long: 'Kurzfilme & Trailer von Medien-Talents aus Rheinland-Pfalz',
         content:
           'Die Branchen Design, Games, Film und Medien sind herzlich eingeladen zum Sommerempfang der Kreativforen RLP 2024. Das Designforum Rheinland-Pfalz, Game Up! Gamesforum Rheinland-Pfalz und das Film- und Medienforum Rheinland-Pfalz laden im Rahmen des Filmsommer Festival Mainz in Kooperation mit Kultur & Vergnügen zum Talk mit Vertreter*innen der Branchen und anschließendem Netzwerken unter freiem Himmel.'
       }
