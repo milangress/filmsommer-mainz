@@ -63,8 +63,27 @@ const dates = [
         pathText: 'Mittellange- & Kurzfilme'
       }
     ],
-    image: 'Auf Sand gebaut_still.png',
-    imageText: 'Auf Sand gebaut'
+    image: [{
+      url: 'Auf Sand gebaut_still.png',
+      imageText: 'Auf Sand gebaut'
+    },
+    {
+      url: 'I_was_never_really_here.png',
+        imageText: 'I was never really here'
+      },
+      {
+        url: 'Lost_and_found.png',
+        imageText: 'Lost and found'
+      },
+      {
+        url: 'Machs_Licht_aus.png',
+        imageText: 'Machs Licht aus'
+      },
+      {
+        url: 'Die_Telefonzelle.png',
+        imageText: 'Die Telefonzelle'
+      }
+    ],
   },
   {
     id: 3,

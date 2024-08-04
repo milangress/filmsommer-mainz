@@ -14,6 +14,9 @@
 	import BackgroundDynamic from '../components/Uniques/BackgroundDynamic.svelte'
 	import SkipToContent from '../components/UniqueButtons/SkipToContent.svelte'
 
+	import { browser } from '$app/environment';
+	import Carousel from 'svelte-carousel'
+
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
 	//     dates = await dataDates.data;
@@ -110,6 +113,23 @@
 			</div>
 
 			{#if date.image}
+			{#if Array.isArray(date.image) && browser}
+			<div class="date-image">
+			<Carousel arrows={false}>
+					{#each date.image as image}
+						<figure>
+							<ImageComponent
+								imgSrc={getImage(image.url)}
+								altText={image.altText || ''}
+							/>
+							{#if image.imageText}
+								<figcaption>{image.imageText}</figcaption>
+							{/if}
+						</figure>
+					{/each}
+				</Carousel>
+			</div>	
+			{:else}
 				<figure class="date-image">
 					<ImageComponent
 						imgSrc={getImage(date.image)}
@@ -117,6 +137,7 @@
 					/>
 					<figcaption>{date.imageText ? date.imageText : date.events[1]?.title}</figcaption>
 				</figure>
+			{/if}
 			{/if}
 		</section>
 	{/each}
