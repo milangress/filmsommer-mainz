@@ -83,7 +83,7 @@
 			</HeadlineDynamic>
 
 			<div class="content inner">
-				<section class="event-box-wrapper" aria-label="Events for {getDate(date.date)}">
+				<section class="event-box-wrapper" aria-label="Uhrzeiten für {getDate(date.date)}">
 					{#each date.events as event}
 						<div class="event-short">
 							{#if event.time && event.type}
