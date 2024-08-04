@@ -49,7 +49,7 @@
 
 		<LogoDynamic />
 		<HeadlineDynamic>
-			<h1>Es geht weiter und wir legen wieder los!</h1>
+			<h1>Seid herzlich willkommen bei unserer Open-Air-Reihe!</h1>
 		</HeadlineDynamic>
 	</header>
 
