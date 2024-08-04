@@ -50,7 +50,7 @@ const dates = [
       {
         time: '20:30:00',
         type: 'Filme',
-        title: 'Kurz- und Mittellanger Film',
+        title: 'Best of FILMZ',
         fsk: '12',
         content:
           `Als erstes Langfilmfestival in RLP präsentiert FILMZ seit dem Jahr 2001 alljährlich aktuelle, deutschsprachige Produktionen aus Deutschland, Österreich und der Schweiz. Neben dem Langfilm- und Kurzfilmwettbewerb veranstaltet FILMZ seit 2008 und 2010 auch Wettbewerbe in den Sektionen Mittellanger Film und Dokumentarfilm.<br><br>
@@ -73,24 +73,28 @@ const dates = [
     events: [
       {
         time: '18:00:00',
-        type: 'Einlass & Schorle-Empfang',
-        title: '',
+        type: 'Einlass',
+        title: 'Schorle-Empfang',
         content: ''
       },
       {
         time: '19:00:00',
         type: 'Begrüßung & Talk',
         title: '',
-        title_long: 'Kreativwirtschaft RLP: Impulse für die Demokratie',
-        content: 'Begrüßung durch Wirtschaftsministerin RLP Daniela Schmitt. Moderatorin Eva Schmitt und Vertreter*innen der Branchen Design, Film, Medien, Games und Musik über Projekte zum Thema Demokratie.'
+        title_long: 'Begrüßung & Kreativwirtschaft RLP: Impulse für die Demokratie',
+        content: `Begrüßung durch Wirtschaftsministerin RLP Daniela Schmitt. <br><br>
+        Moderatorin Eva Schmitt und Vertreter*innen der Branchen Design, Film, Medien, Games und Musik über Projekte zum Thema Demokratie.`
       },
       {
         time: '20:30:00',
-        type: 'Filme',
+        type: 'RLP-Shorts',
+        pathText: 'Kurzfilme & Trailer',
         title: 'Kurzfilme & Trailer',
-        title_long: 'Kurzfilme & Trailer von Medien-Talents aus Rheinland-Pfalz',
+        title_long: 'RLP-Shorts: Kurzfilme & Trailer von Medien-Talents aus Rheinland-Pfalz',
         content:
-          'Die Branchen Design, Games, Film und Medien sind herzlich eingeladen zum Sommerempfang der Kreativforen RLP 2024. Das Designforum Rheinland-Pfalz, Game Up! Gamesforum Rheinland-Pfalz und das Film- und Medienforum Rheinland-Pfalz laden im Rahmen des Filmsommer Festival Mainz in Kooperation mit Kultur & Vergnügen zum Talk mit Vertreter*innen der Branchen und anschließendem Netzwerken unter freiem Himmel.'
+          `Die Branchen Design, Games, Film und Medien sind herzlich eingeladen zum Sommerempfang der Kreativforen RLP 2024. Das Designforum Rheinland-Pfalz, Game Up! Gamesforum Rheinland-Pfalz und das Film- und Medienforum Rheinland-Pfalz laden im Rahmen des Filmsommer Festival Mainz in Kooperation mit Kultur & Vergnügen zum Talk mit Vertreter*innen der Branchen und anschließendem Netzwerken unter freiem Himmel.
+          <br><br>
+          Anmeldung: <a href="http://www.designforum-rlp.de">www.designforum-rlp.de</a>`
       }
     ],
     image: 'Kreativforen_RLP.png',
@@ -139,14 +143,15 @@ const dates = [
         title: 'GEORGIE',
         fsk: '6',
         content:
-          `ES BRAUCHT EIN GANZES DORF, UM EIN KIND ZU ERZIEHEN? VON WEGEN! GEORGIE ERZIEHT SICH GANZ ALLEIN!<br><br>
+          `<i>Originaltitel: Scrapper (englisch für „Schläger“) ist ein britisches Jugendfilm-Drama.</i><br><br>
+          ES BRAUCHT EIN GANZES DORF, UM EIN KIND ZU ERZIEHEN? VON WEGEN! GEORGIE ERZIEHT SICH GANZ ALLEIN!<br><br>
           Georgie braucht niemanden, schon gar keinen Erwachsenen, der ihr sagt, was sie tun oder lassen soll. Seit dem Tod ihrer Mutter lebt die Zwölfjährige allein in der Sozialbau­wohnung in London und wimmelt trickreich Anrufe besorgter Sozialarbeiterinnen ab. Mit Diebstählen verdient sie ein wenig Geld. Nur manchmal ist Georgie traurig, wenn sie sich eine alte Sprachnachricht ihrer Mutter anhört. Dann steht eines Tages ein fremder Mann vor der Tür und behauptet, ihr Vater zu sein. Ist er ein Gangster? Oder gar ein Vampir? Langsam lässt sie sich auf Jason ein, der manchmal viel mehr Kind ist, als sie selbst. Sommerlich leicht und voller Humor erzählt der Film von der Annäherung der beiden und dem gemeinsamen Erwachsen­ und wieder Kindwerden.<br><br>
           <b>Buch & Regie</b> Charlotte Regan <br>
           <b>FSK</b> 6 <br>
           <b>83 Min</b> <br>
           <b>OmU</b><br><br>
-          2023 Großer Preis der Jury für den besten ausländischen Spielfilm beim Sundance Film Festival<br>
-          2023 European Young Audience Award bei den European Film Awards<br><br>
+          <b>2023</b> <i>Großer Preis der Jury</i> für den besten ausländischen Spielfilm beim Sundance Film Festival<br>
+          <b>2023</b> <i>European Young Audience Award</i> bei den European Film Awards<br><br>
           <b>Kooperation: LUCAS – Internationales Festival für junge Filmfans</b>`,
         pathText: 'Jugendfilm-Drama'
       }
@@ -175,6 +180,15 @@ const dates = [
           `Wir freuen uns, zum zweiten Mal die Gewinner des Albert Treber Preises im Rahmen des Filmsommer Festivals Mainz bekannt zu geben. Dieser Preis ehrt Personen oder Institutionen für ihren herausragenden Einsatz und ihr Engagement im Bereich des Filmschaffens.<br><br>
           Albert Treber, nach dem der Preis benannt ist, war ein engagierter Mainzer Filmförderer und Unterstützer von Nachwuchsfilmemacher*innen. Sein Beitrag legte den Grundstein für die Filmförderung in Rheinland-Pfalz. Der Preis wurde geschaffen, um das Erbe von Albert Treber zu würdigen und die besondere Leidenschaft und den herausragenden Beitrag der Preisträger*innen zur Filmkunst anzuerkennen.<br><br>
           Der Albert Treber Preis wird vom medien . rlp – Institut für Medien und Pädagogik e. V. gestiftet und von dem Künstler Johannes Grünthal gestaltet.<br><br>
+          Die fachkundige Jury wird darüber entscheiden, an welche Person oder Institution der Preis verliehen wird. Wir sind gespannt auf die diesjährige Auswahl und freuen uns auf die feierliche Preisverleihung beim Filmsommer Festival Mainz.<br><br>
+          <b>Jurymitglieder</b><br>
+          <ul>
+          <li><b>Ursula Simgen-Buch</b> vom Provinz Programmkino Enkenbach (Preisträgerin des letzten Jahres)</li>
+          <li><b>Stephan Falk</b> (Autor, Grimme-Preisträger, Gewinner des Deutschen Filmpreises Lola)</li>
+          <li><b>Uli Holzhausen</b> (Musiker, Aktivist und Grün- dungsmitglied des Open Ohr Festivals)</li>
+          <li><b>Mario von Wantoch-Rekowski</b> (medien.rlp – Institut für Medien und Pädagogik e.V., Geschäftsführer von medien.rlp)</li>
+          </ul>
+          <br>
           <b>Kooperation: medien . rlp – Institut für Medien und Pädagogik e.V., Rosa Luxemburg Stiftung RLP</b>`
       },
       {
@@ -189,7 +203,7 @@ const dates = [
           <b>FSK</b> 16 <br>
           <b>117 Min</b> <br>
           <b>OmU</b><br><br>
-          2024 Deutscher Filmpreis`,
+          <b>2024</b> Deutscher Filmpreis`,
         pathText: 'Mystery-Thriller'
       },
       {
@@ -197,7 +211,7 @@ const dates = [
         type: 'Jubiläumsparty',
         title: 'mit DJ Janeck – Oriental Tropical',
         content:
-          'Im Bereich globale Rhythmen prägt er seit vielen Jahren das Rhein-Main-Gebiet mit Projekten wie La Bolschevita, Oriental Tropical und Mach-Mal-Langsam.'
+          'Im Bereich globale Rhythmen prägt er seit vielen Jahren das Rhein-Main-Gebiet mit Projekten wie <i>La Bolschevita, Oriental Tropical</i> und <i>Mach-Mal-Langsam</i>.'
       }
     ],
     image: 'Im_toten_Winkel.png',
