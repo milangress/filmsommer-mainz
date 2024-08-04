@@ -1,3 +1,5 @@
+export const year = 2024
+
 const dates = [
   {
     date: '2024-08-26',

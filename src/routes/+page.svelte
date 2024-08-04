@@ -7,7 +7,7 @@
 	import PathText from "/src/components/PathText.svelte";
 	import LogoBlock from "/src/components/Sections/LogoSection.svelte";
 
-	import { dates, about } from "/src/data/2024.js";
+	import { dates, about, year } from "/src/data/2024.js";
 	import Footer from "/src/components/Landmarks/FooterSection.svelte";
 	import EssenTrinkenModal from "../components/UniqueButtons/EssenTrinkenModal.svelte";
 	import ImageComponent from "../components/ImageComponent.svelte";
@@ -24,7 +24,7 @@
 
 	function getImage(fileId) {
 		// const url = new URL(`/fotos2023/${fileId}`);
-		return `/fotos2023/${fileId}`;
+		return `/fotos${year}/${fileId}`;
 	}
 
 	function getTime(time) {
