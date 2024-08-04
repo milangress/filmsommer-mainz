@@ -8,17 +8,17 @@
 </script>
 
 <svelte:head>
-	<title>Filmsommer 2023 – 10. FILMSOMMER FESTIVAL MAINZ</title>
+	<title>Filmsommer 2024 – FILMSOMMER FESTIVAL MAINZ</title>
 	<meta
 		name="description"
 		content="Der Filmsommer Mainz ist die beste Open-Air-Kinoreihe im Rhein-Main-Gebiet. Umsonst und unter freiem Himmel."
 	/>
 	<meta property="og:image" content="https://www.filmsommer-mainz.de/og-filmsommer.png" />
 	<meta property="og:image:alt" content="Logo des Filmsommer Mainz" />
-	<meta property="og:title" content="10. FILMSOMMER FESTIVAL MAINZ – Filmsommer 2023" />
+	<meta property="og:title" content="FILMSOMMER FESTIVAL MAINZ – Filmsommer 2024" />
 	<meta
 		property="og:description"
-		content="Wir feiern 10 Jahre Filmsommer vom 18.8. bis 26.8.2013. Der Filmsommer Mainz ist die beste Open-Air-Kinoreihe im Rhein-Main-Gebiet. Umsonst und unter freiem Himmel."
+		content="Filmsommer Mainz vom 26.8. bis 31.8.2024. Der Filmsommer Mainz ist die beste Open-Air-Kinoreihe im Rhein-Main-Gebiet. Umsonst und unter freiem Himmel."
 	/>
 	<meta property="og:url" content="https://www.filmsommer-mainz.de" />
 	<meta property="og:type" content="website" />
