@@ -121,33 +121,6 @@
 		</section>
 	{/each}
 
-		<HeadlineDynamic id="kunstaktion">
-			<h1>Kunstaktion „DAS BETT“ Künstlerin Lisa Schorr</h1>
-		</HeadlineDynamic>
-
-		<div class="content inner">
-			<p>
-			Ein Bett. Im leeren Raum. Hingebungsvoll, fein säuberlich gemacht.
-			</p><p>
-			Die Kissen sind aufgeschüttelt. Die Decken sind geschichtet, glatt gestrichen und gelegt. Farbige Flächen bilden immer neue einladende Kompositionen.
-		</p><p>
-			Der sich wiederholende Akt ein klärendes Ritual. Das Tun trennt die Nacht vom Tage und bereitet den Ort. Verändert ihn auf gleiche Weise, immer neu. Für alles, was da kommen mag.
-		</p><p>
-			So steht es da. Das Bett. Gemacht.
-		</p><p>
-			Ganz still dem alltäglichen Kontext entzogen. Aufgeschlagen lädt es so zum Betrachten, Erinnern und Projizieren ein.
-			</p><p>
-			<i>Text von Rebekka Schulte</i>
-			</p>
-			<p>
-				<b>Über die Künstlerin • <a href="https://www.lisa-schorr.de">www.lisa-schorr.de</a></b>
-			</p><p>
-		Lisa Schorr, geb. 1983, ist eine in Mainz lebende und arbeitende Künstlerin und Kuratorin. In ihren Arbeiten befasst sie sich mit der Sichtbarmachung von Farbräumen und den damit verbundenen Empfindungen von Atmosphären, hierfür lotet sie die Grenzen von Malerei, allgegenwärtigen Gegenständen und Raum aus.
-		</p><p>
-			Neben der eigenen künstlerischen Praxis leitet und kuratiert sie seit 2020, in Zusammenarbeit mit dem Kameramann und Musiker Heiner Brink, die Galerie Haus zum Stein in Mainz.
-			</p>
-		</div>
-
 	</main>
 
 	<aside aria-labelledby="unsere-partner">
