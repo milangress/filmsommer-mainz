@@ -38,7 +38,8 @@ const dates = [
         pathText: 'Tragikomödie'
       }
     ],
-    image: 'FRANKY_FIVE_STAR_01.jpg',
+    image: 'FRANKY_FIVE_STAR_01.png',
+    imageAlt: 'Film still aus Franky Five Star. Franky Zusammen mit ihrem Nachbar vor einem verschwommenen romantischen Hintergrund (Jahrmarkt)',
     imageText: 'Franky Five Star'
   },
   {
@@ -62,7 +63,8 @@ const dates = [
         pathText: 'Mittellange- & Kurzfilme'
       }
     ],
-    image: 'FILMZ_Festival.jpg'
+    image: 'Auf Sand gebaut_still.png',
+    imageText: 'Auf Sand gebaut'
   },
   {
     id: 3,
@@ -91,7 +93,8 @@ const dates = [
           'Die Branchen Design, Games, Film und Medien sind herzlich eingeladen zum Sommerempfang der Kreativforen RLP 2024. Das Designforum Rheinland-Pfalz, Game Up! Gamesforum Rheinland-Pfalz und das Film- und Medienforum Rheinland-Pfalz laden im Rahmen des Filmsommer Festival Mainz in Kooperation mit Kultur & Vergnügen zum Talk mit Vertreter*innen der Branchen und anschließendem Netzwerken unter freiem Himmel.'
       }
     ],
-    image: 'Kreativforen_RLP.jpg'
+    image: 'Kreativforen_RLP.png',
+    imageAlt: '',
   },
   {
     id: 4,
@@ -121,7 +124,9 @@ const dates = [
           'Jazz, Swing & Bossa – die Jazzband mit Stil. Sympathisch, stilvoll, elegant und unaufdringlich in der Untermalung vertont die Band live und ganz individuell unseren Stummfilm.'
       }
     ],
-    image: 'Das_historische_Mainz.jpg'
+    image: 'Das_historische_Mainz.png',
+    imageAlt: 'Schwarzweiß Film still aus Das historische Mainz. Straßenbild mit auto und marktplatz',
+    imageText: 'Das historische Mainz'
   },
   {
     id: 5,
@@ -146,7 +151,9 @@ const dates = [
         pathText: 'Jugendfilm-Drama'
       }
     ],
-    image: 'GEORGIE.jpg'
+    image: 'GEORGIE.png',
+    imageAlt: 'Film still aus Georgie. Ein Teenager und ein junges mädchen zeigen aufeinander vor einem mit pflanzen überwachsenen Platz.',
+    imageText: 'Georgie'
   },
   {
     id: 6,
@@ -193,7 +200,9 @@ const dates = [
           'Im Bereich globale Rhythmen prägt er seit vielen Jahren das Rhein-Main-Gebiet mit Projekten wie La Bolschevita, Oriental Tropical und Mach-Mal-Langsam.'
       }
     ],
-    image: 'Im_toten_Winkel.jpg'
+    image: 'Im_toten_Winkel.png',
+    imageAlt: 'Film still aus Im toten Winkel. Zwei Frauen blicken besorgt auf einen Mann der nur am unteren rand des Bildes zu sehen ist.',
+    imageText: 'Im toten Winkel'
   }
 ]
 
