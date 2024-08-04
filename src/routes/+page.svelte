@@ -72,11 +72,11 @@
 		<section aria-labelledby="{'section-' + date.date}">
 
 			<HeadlineDynamic className="headline" id={'date-' + date.date}>
-				<h1 id={'section-' + date.date}>
+				<h2 id={'section-' + date.date}>
 					<time class="date" datetime="{date.date}">{getDate(date.date)}</time>
 					<br />
 					<span class="name">{date.name}</span>
-				</h1>
+				</h2>
 			</HeadlineDynamic>
 
 			<div class="content inner">
@@ -102,7 +102,7 @@
 							{#if typeof event.pathText === 'string'}
 								<PathText text={event.pathText} />
 							{/if}
-							<h2>{event.title_long ? event.title_long : event.title}</h2>
+							<h3>{event.title_long ? event.title_long : event.title}</h3>
 							<p>{@html event.content}</p>
 						</section>
 					{/each}
@@ -152,7 +152,7 @@
 
 	<aside aria-labelledby="unsere-partner">
 		<HeadlineDynamic id="unsere-partner">
-			<h1>Unsere Partner*innen</h1>
+			<h2>Unsere Partner*innen</h2>
 		</HeadlineDynamic>
 		<div class="content inner">
 			<LogoBlock />
