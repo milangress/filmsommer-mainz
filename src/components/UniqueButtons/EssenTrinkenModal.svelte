@@ -14,13 +14,18 @@
 	<br />
 	<h3 id="e-d-modal-headline">Kulturei Festivaltheke</h3>
 	<p>
-		Wir freuen uns auf regionale, biozertifizierte Weine aus Rheinhessen aus dem Weingut Gutzler, auf Wasser, Saftschorlen und Bier aus der Region und vieles mehr.
+		Mit regionalen, bio-zertifizierten Weinen aus Rheinhessen, Saftschorlen und vielem mehr. Wir sagen schonmal Prost!	
 	</p>
 	<p>
-		Ganz bewusst legen wir bei Speisen & Getränken den Fokus auf regionale Anbieter*innen, mit dem Schwerpunkt saisonal, biologisch, vegetarisch bzw. vegan, fair hergestellt und fair gehandelt.
+		Ganz bewusst legen wir bei den Getränken den Fokus auf regionale Anbieter*innen, mit dem Schwerpunkt saisonal, vegetarisch bzw. vegan, biologisch, fair gehandelt und fair hergestellt. Schon bei ökologisch vermeintlich unbedeutenden Freizeitaktivitäten können wir ALLE einen wesentlichen Beitrag zum Umweltschutz leisten.
 	</p>
 	<p>
-		Schon bei ökologisch vermeintlich harmlosen Freizeitaktivitäten können wir durch ein bewusstes Planen ALLE einen wesentlichen Beitrag zum Umweltschutz leisten.
+		<b>Weingut Gunderloch</b>
+		<br />
+		Lage: Der Rothenberg – Roten Hang, Nackenheim
+	</p>
+	<p>
+		<b>Bringt euch euer Picknick zum Essen gerne mit!</b>
 	</p>
 
 </Modal>
