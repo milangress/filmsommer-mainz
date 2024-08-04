@@ -23,7 +23,7 @@
 }
 
 ::selection {
-	color: var(--fs-color-3);
+	color: var(--fs-color-2);
 	background: var(--fs-color-4);
 }
 
