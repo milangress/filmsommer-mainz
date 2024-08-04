@@ -38,5 +38,6 @@
 		/*transform: translateX(-60%);*/
 		/*mix-blend-mode: difference;*/
 		z-index: 5;
+		padding-block-start: 1em;
 	}
 </style>
