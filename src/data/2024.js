@@ -19,7 +19,8 @@ const dates = [
 				title: 'Offizielle Eröffnung',
 				fskHidden: false,
 				content:
-					'Mit dem Schirmherrn Markus Müller sowie den Festivalmacher*innen Tidi von Tiedemann und Yvonne Wuttke.'
+					`Mit dem Schirmherrn Markus Müller sowie den Festivalmacher*innen Tidi von Tiedemann und Yvonne Wuttke.<br>
+					Grußwort Umweltminister RLP Katrin Eder.`
 			},
 			{
 				time: '20:30:00',
