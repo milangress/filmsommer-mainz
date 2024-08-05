@@ -1,3 +1,4 @@
+export const year = 2022
 const dates = [
 	{
 		date: '2022-08-16',

@@ -39,24 +39,23 @@
 		>
 	</p>
 	<h3>Bildnachweise</h3>
-	Markus Müller: Andreas Etter<br>
-	Michael Ebling: MdI RLP/T. Silz<br>
-	Katrin Eder: MKUEM/Heike Rost<br>
-	18.08. Live-Musik: Youloosie – Uzi Mayer<br>
-	Film: Copyright ZDF/ Dennis Pauls<br>
-	19.08. Live-Musik: Matthias Kornecki<br>
-	Film: absolut MEDIEN GmbH<br>
-	21.08. Live-Musik: DJ Shadi<br>
-	Film: FILMZ e.V.<br>
-	22.08. Live-Musik: DJane Genie<br>
-	Film: Screenshots ©Diana Keienburg<br>
-	23.08. Live-Musik: DJane Løra Papi<br>
-	Film: ZDF/Valentin Selmke<br>
-	24.08. Live-Musik: Dario Ölke<br>
-	Film: ©One Two Films GmbH<br>
-	25.08. Live-Musik: DJ Janeck<br>
-	Film: ©Neue Visionen Filmverleih<br>
-	26.08. Live-Musik: Dominik Asbach<br>
+	<p>
+		Markus Müller: Andreas Etter<br />
+		Katrin Eder: MKUEM/Christof Mattes<br />
+		26.08. Live-Musik: Navid Mirzazadeh, Ayouva Island<br />
+		Film: Sami Kuokkanen<br />
+		27.08. Film: 1. Bardamu Film München<br />
+		2. Frithjof Stückemann<br />
+		3. HFF Hochschule für Fernsehen und Film München<br />
+		4. Lukas März<br />
+		5. Apollonia Film<br />
+		28.08. Film: Film- und Medienforum RLP<br />
+		29.08. Live-Musik: Florian Wehse<br />
+		Film: Stadtmedia<br />
+		30.08. Film: ©Chris Harris<br />
+		31.08. Live-Musik: Dario Ölke, DJ Janeck<br />
+		Film: missingFILMs GmbH<br />
+	</p>
 </div>
 <div class="content inner">
 	<h3>HAFTUNG FÜR INHALTE</h3>

@@ -1,15 +1,15 @@
 <script>
 	import { DateTime } from 'luxon'
-	import LogoDynamic from '/src/components/LogoDynamic.svelte'
-	import BackToTopButton from '/src/components/BackToTopButton.svelte'
+	import LogoDynamic from '/src/components/Sections/LogoSectionDynamic.svelte'
+	import BackToTopButton from '/src/components/UniqueButtons/BackToTopButton.svelte'
 	import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte'
-	import TimetableBlock from '/src/components/TimetableBlock.svelte'
+	import TimetableBlock from '/src/components/Sections/TimetableSection.svelte'
 	import PathText from '/src/components/PathText.svelte'
-	import LogoBlock from '/src/components/LogoBlock.svelte'
+	import LogoBlock from '/src/components/Sections/LogoSection.svelte'
 
 	import { dates } from '/src/data/2022.js'
 	import { about } from '/src/data/2022.js'
-	import Footer from '../../components/Footer.svelte'
+	import Footer from '../../components/Landmarks/FooterSection.svelte'
 
 	// onMount(async () => {
 	//     const dataDates = await fetch(process.env.baseUrl + 'items/Dates').then((response) => response.json());
@@ -115,11 +115,11 @@
 		width: fit-content;
 		padding: 2rem;
 		margin: 2rem;
-		/*background-color: var(--green);*/
+		/*background-color: var(--fs-color-2);*/
 		/*box-shadow: 5px 5px 0px 0px black;*/
-		background-color: var(--green);
-		color: var(--pink);
-		/*box-shadow: 0 0 0.5rem 0.5rem var(--green);*/
+		background-color: var(--fs-color-2);
+		color: var(--fs-color-1);
+		/*box-shadow: 0 0 0.5rem 0.5rem var(--fs-color-2);*/
 		position: relative;
 		contain: layout;
 	}
@@ -130,7 +130,7 @@
 		z-index: -1;
 		background-color: transparent;
 		transform: translate(5px, 5px);
-		border: 1px solid var(--green);
+		border: 1px solid var(--fs-color-2);
 	}
 	.event-box-wrapper:before {
 		content: '';
@@ -139,7 +139,7 @@
 		z-index: -1;
 		background-color: transparent;
 		transform: translate(10px, 10px);
-		border: 1px solid var(--green);
+		border: 1px solid var(--fs-color-2);
 	}
 	.events-text-wrapper {
 	}

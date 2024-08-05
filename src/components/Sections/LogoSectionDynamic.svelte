@@ -4,11 +4,13 @@
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 404.83 229.93"
 	class="logo"
+	role="img"
+	aria-labelledby="FilmSommerLogo-titel"
 >
 	<defs>
 		<style>
 			.cls-1 {
-				fill: var(--pink);
+				fill: var(--fs-color-1);
 			}
 
 			.cls-2,
@@ -28,6 +30,7 @@
 			}
 		</style>
 	</defs>
+	<title id="FilmSommerLogo-titel">Logo Filmsommer Festival Mainz</title>
 	<g id="Background" shape-rendering="crispEdges">
 		<rect class="cls-1" x="103.95" y="15.38" width="56.16" height="30.75" />
 		<rect class="cls-1" x="229.97" y="60.03" width="56.16" height="30.75" />
@@ -143,7 +146,16 @@
 			width="18.89"
 			height="10.34"
 			vector-effect="non-scaling-stroke"
-		/>
+		>
+			<animateTransform
+				attributeName="transform"
+				begin="1s"
+				dur="5s"
+				type="translate"
+				from="0 0"
+				to="-2 -2"
+			/>
+		</rect>
 		<rect
 			class="cls-3"
 			x="61.72"
@@ -372,10 +384,16 @@
 		id="stern10jahre"
 	/>
 </svg>
-<object data="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" title="10 Jahre Filmsommer" type="image/svg+xml"></object>
+<object
+	data="FS_Website_Stern_Schriftzug.svg"
+	id="stern10jahre-mobil"
+	title="10 Jahre Filmsommer"
+	type="image/svg+xml"
+/>
 
 <style>
 	#stern10jahre {
+		display: none;
 		position: absolute;
 		/*box-shadow: #1d1d1b 1px 1px 5px;*/
 		filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.2));

@@ -1,5 +1,6 @@
 <script>
 	export let showModal // boolean
+	export let modalHeadlineID
 
 	let dialog // HTMLDialogElement
 
@@ -8,12 +9,14 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
+	aria-modal="true"
 	bind:this={dialog}
+	aria-labelledby={modalHeadlineID}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-autofocus -->
-	<button autofocus on:click={() => dialog.close()}>×</button>
+	<button autofocus on:click={() => dialog.close()} aria-label="Close">×</button>
 
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation>
@@ -29,7 +32,7 @@
 		border: none;
 		padding: 0;
 		top: auto;
-		background: var(--pink);
+		background: var(--fs-color-1);
 		contain: layout;
 		box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
 	}
@@ -54,12 +57,12 @@
 		padding: 0.25em 0.5em;
 		cursor: pointer;
 		color: black;
-		box-shadow: var(--green) 3px 3px 5px;
+		box-shadow: var(--fs-color-2) 3px 3px 5px;
 		aspect-ratio: 1;
 		transition: transform 0.2s ease-out;
 	}
 	button:hover {
-		background: var(--green);
+		background: var(--fs-color-2);
 		color: white;
 		transform: scale(1.1);
 	}

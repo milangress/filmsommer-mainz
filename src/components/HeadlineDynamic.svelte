@@ -51,7 +51,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 	<div class="top-row">
@@ -59,7 +59,7 @@
 			<div
 				class="top-row--item"
 				style="transform: translate({Math.random() * 50}%, {item * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -67,7 +67,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 	<div class="left-row">
@@ -75,7 +75,7 @@
 			<div
 				class="left-row--item"
 				style="transform: translate({item * 50}%, {Math.random() * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 	<slot />
@@ -84,7 +84,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 	<div class="bottom-row">
@@ -92,7 +92,7 @@
 			<div
 				class="bottom-row--item"
 				style="transform: translate({-Math.random() * 50}%, {item * 50}%)"
-			></div>
+			/>
 		{/each}
 	</div>
 </div>
@@ -101,7 +101,7 @@
 	.headline-dynamic {
 		width: var(--width-outer);
 		margin: 0 auto;
-		background-color: var(--pink);
+		background-color: var(--fs-color-1);
 		margin-block: 6rem;
 		line-height: 1.2;
 		contain: layout;
@@ -124,7 +124,7 @@
 	.bottom-row--item {
 		width: 200px;
 		aspect-ratio: 16/9;
-		background-color: var(--pink);
+		background-color: var(--fs-color-1);
 		z-index: -1;
 		transition: transform ease-in-out 0.5s;
 		scale: 1.3;
@@ -146,7 +146,7 @@
 	.left-row--item {
 		height: 100px;
 		aspect-ratio: 16/9;
-		background-color: var(--pink);
+		background-color: var(--fs-color-1);
 		z-index: -1;
 		transition: transform ease-in-out 0.5s;
 	}

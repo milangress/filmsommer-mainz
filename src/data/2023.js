@@ -1,3 +1,5 @@
+export const year = 2023
+
 const dates = [
 	{
 		date: '2023-08-18',
@@ -16,7 +18,8 @@ const dates = [
 				type: 'Eröffnung',
 				title: 'Offizielle Eröffnung Schirmherr Markus Müller',
 				fskHidden: false,
-				content: 'Der Schirmherr Markus Müller, Intendant des Staatstheaters Mainz eröffnet offiziell den Filmsommer Mainz 2023.'
+				content:
+					'Der Schirmherr Markus Müller, Intendant des Staatstheaters Mainz eröffnet offiziell den Filmsommer Mainz 2023.'
 			},
 			{
 				time: '20:30:00',
@@ -35,7 +38,8 @@ const dates = [
 				pathText: 'Spielfilm'
 			}
 		],
-		image: 'ALKIALKI_2_FLASCHE_peter_trabner_ANIKA_christina_grosse_TOBIAS_heiko_pinkowski_BETT.png',
+		image:
+			'ALKIALKI_2_FLASCHE_peter_trabner_ANIKA_christina_grosse_TOBIAS_heiko_pinkowski_BETT.png',
 		imageText: 'Alki Alki'
 	},
 	{
@@ -55,8 +59,7 @@ const dates = [
 				type: 'Stummfilm',
 				title: 'Das Blumenwunder',
 				fsk: true,
-				content:
-					`<i>Das Blumenwunder</i> – Ein „Erstes Mal“, ein Zeitraffer-Erlebnis, durch das das Wunder der Pflanzenwelt, das Wachstum, die fließenden Bewegungen in noch nie dagewesener Weise filmisch erlebt werden konnten. Ursprünglich als Werbefilm für ein Düngemittel geplant, entwickelte sich das Material, montiert mit Solisten-Tanzszenen der Berliner Staatsoper, zu einem einzigartigen Kinoerlebnis und ist mittlerweile ein Kultfilm. Der Filmsommer Mainz nimmt euch mit auf diese einzigartige Reise, auf der der renommierte DJ Matt K diesen Stummfilm von Max Reichmann aus dem Jahr 1925 neu vertont.<br><br>
+				content: `<i>Das Blumenwunder</i> – Ein „Erstes Mal“, ein Zeitraffer-Erlebnis, durch das das Wunder der Pflanzenwelt, das Wachstum, die fließenden Bewegungen in noch nie dagewesener Weise filmisch erlebt werden konnten. Ursprünglich als Werbefilm für ein Düngemittel geplant, entwickelte sich das Material, montiert mit Solisten-Tanzszenen der Berliner Staatsoper, zu einem einzigartigen Kinoerlebnis und ist mittlerweile ein Kultfilm. Der Filmsommer Mainz nimmt euch mit auf diese einzigartige Reise, auf der der renommierte DJ Matt K diesen Stummfilm von Max Reichmann aus dem Jahr 1925 neu vertont.<br><br>
 						<b>Regie & Drehbuch</b> Max Reichmann <br>
 						<b>Erscheinungsjahr</b> Deutschland 1926 <br>
 						<b>FSK 0</b><br><br>
@@ -66,15 +69,14 @@ const dates = [
 			{
 				type: 'Preisverleihung',
 				title: 'Albert Treber Preis',
-				content:
-					`<p>Wir sind stolz, den diesjährigen Albert Treber Preis auf dem Filmsommer Festival – Mainz verleihen zu dürfen!
+				content: `<p>Wir sind stolz, den diesjährigen Albert Treber Preis auf dem Filmsommer Festival – Mainz verleihen zu dürfen!
 						</p><p>
 Zum zehnjährigen Jubiläum ehren wir erstmals eine Person für ihren herausragenden Einsatz und ihr Engagement für das Filmschaffen.
 </p><p>
 Der Preis würdigt die besondere Leidenschaft und den herausragenden Beitrag des/der Preistragenden zur Filmkunst.
 </p><p>
 Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten Filmförderer und Unterstützer von Nachwuchsfilmemachern. Sein Einsatz legte den Grundstein für die Filmförderung in Rheinland-Pfalz.</p>`
-			},
+			}
 		],
 		image: 'DasBlumenwunderl_2.jpg'
 	},
@@ -94,8 +96,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				time: '20:30:00',
 				type: 'Doku & Best-of-Filme',
 				title: 'Das zieh ich an wenn ich tot bin & Best-of-Filme',
-				content:
-					`<h3>Das zieh ich an wenn ich tot bin</h3>
+				content: `<h3>Das zieh ich an wenn ich tot bin</h3>
 					Drei über-80-Jährige erzählen auf einfühlsame und persönliche Weise von ihren Gedanken über das Unausweichliche, das, was schon war, das Leben, das sie gelebt haben und über die, die schon vorausgegangen sind. <br><br>
 					<b>Regie</b> Marvin Menné <br>
 					<b>Erscheinungsjahr</b> 2022 <br>
@@ -133,15 +134,14 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				type: 'Spielfilm',
 				title: 'Die Mitte der Welt',
 				fsk: 'FSK 12',
-				content:
-					`Die Mitte der Welt – Ein turbulenter Mix aus Familienleben und schwärmerischen Gedanken. Regisseur Jakob M. Erwa jongliert mit Teenagererfahrungen und Familiengeheimnissen. Schnelle Bildabfolgen katapultieren uns in die Gefühlswelt des Protagonisten Phil, thematisieren seine Emotionen und seine Homosexualität. Louis Hofmann brilliert als verträumter Protagonist. Ein mitreißendes Coming-of-Age-Drama zum Lachen und Mitfühlen.<br><br>
+				content: `Die Mitte der Welt – Ein turbulenter Mix aus Familienleben und schwärmerischen Gedanken. Regisseur Jakob M. Erwa jongliert mit Teenagererfahrungen und Familiengeheimnissen. Schnelle Bildabfolgen katapultieren uns in die Gefühlswelt des Protagonisten Phil, thematisieren seine Emotionen und seine Homosexualität. Louis Hofmann brilliert als verträumter Protagonist. Ein mitreißendes Coming-of-Age-Drama zum Lachen und Mitfühlen.<br><br>
 					<b>Buch & Regie</b> Jakob M. Erwa <br>
 					<b>Produktion</b> Neue Schönhauser Filmproduktion GmbH <br>
 					<b>Erscheinungsjahr</b> Deutschland/Österreich 2016 <br>
 					<b>FSK</b> ab 12<br>
 					<b>115 Min</b> <br><br>
 					<b>Kooperation: Bar&nbsp;jeder&nbsp;Sicht, Schwuguntia&nbsp;e.V., QueerNet-Rheinland-Pfalz&nbsp;e.V.</b>`,
-				pathText: 'Spielfilm',
+				pathText: 'Spielfilm'
 				// title_long: 'Die Mitte der Welt'
 			}
 		],
@@ -164,8 +164,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				type: 'Spielfilm',
 				title: 'The Ordinaries',
 				fsk: 'FSK 12',
-				content:
-					`Das Mainzer Team des SI STAR Filmpreis, der seit 2015 an herausragende Regisseurinnen verliehen wird, präsentiert die junge Regisseurin Sophie Linnenbaum mit ihrem preisgekrönten Spielfilmdebüt The Ordinaries. Eine originell erzählte Geschichte über eine junge Heldin, die sich in einer besonderen Welt durchsetzt und dabei gesellschaftlicher Ausgrenzung und großem Anpassungsdruck trotzt. Die Produzentin Britta Strampe wird vor Ort sein, ebenso die SI STAR Jury: ein Abend mit starken Filmfrauen in Mainz!<br><br>
+				content: `Das Mainzer Team des SI STAR Filmpreis, der seit 2015 an herausragende Regisseurinnen verliehen wird, präsentiert die junge Regisseurin Sophie Linnenbaum mit ihrem preisgekrönten Spielfilmdebüt The Ordinaries. Eine originell erzählte Geschichte über eine junge Heldin, die sich in einer besonderen Welt durchsetzt und dabei gesellschaftlicher Ausgrenzung und großem Anpassungsdruck trotzt. Die Produzentin Britta Strampe wird vor Ort sein, ebenso die SI STAR Jury: ein Abend mit starken Filmfrauen in Mainz!<br><br>
 					<b>Buch</b> Sophie Linnenbaum, Michael Fetter Nathansky <br>
 					<b>Regie</b> Sophie Linnenbaum <br>
 					<b>Produktion</b> Bandenfilm <br>
@@ -196,8 +195,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				type: 'Thriller',
 				title: 'Holy Spider',
 				fsk: 'FSK 16',
-				content:
-					`Ein vermeintlich gewöhnlicher Familienvater entpuppt sich als Serienmörder im Namen Gottes. Journalistin Rahimi aus Teheran will dem „Spinnenmörder“ auf die Spur kommen. Doch Behörden und Bewohner feiern ihn. Basierend auf einem wahren Fall feierte der Film auf den 75. Filmfestspielen in Cannes Premiere und setzt ein Zeichen gegen Femizide und für mutigen Journalismus inmitten der iranischen Proteste seit September 2022.<br><br>
+				content: `Ein vermeintlich gewöhnlicher Familienvater entpuppt sich als Serienmörder im Namen Gottes. Journalistin Rahimi aus Teheran will dem „Spinnenmörder“ auf die Spur kommen. Doch Behörden und Bewohner feiern ihn. Basierend auf einem wahren Fall feierte der Film auf den 75. Filmfestspielen in Cannes Premiere und setzt ein Zeichen gegen Femizide und für mutigen Journalismus inmitten der iranischen Proteste seit September 2022.<br><br>
 					<b>Buch & Regie</b> Ali Abbasi <br>
 					<b>Erscheinungsjahr</b> Dänemark, Deutschland, Schweden, Frankreich 2022 <br>
 					<b>FSK</b> 16<br>
@@ -225,8 +223,7 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				type: 'Spielfilm',
 				title: 'SONNE',
 				fsk: 'FSK 12',
-				content:
-					`Ein virales Tik-Tok-Video mit Hijab-tragenden Freundinnen führt zu plötzlichem Ruhm und fragwürdigen Auftritten als A-cappella-Trio. Für Yesmin, die gläubige Muslima, wird es kompliziert. Regisseurin Kurdwin Ayub präsentiert in SONNE ein wildes Gen-Z-Porträt. Ein kraftvoller Film, der den besten Erstlingsfilm-Preis auf der Berlinale gewann und Religion, Freundschaft und Identitätsspiele eindringlich thematisiert.<br><br>
+				content: `Ein virales Tik-Tok-Video mit Hijab-tragenden Freundinnen führt zu plötzlichem Ruhm und fragwürdigen Auftritten als A-cappella-Trio. Für Yesmin, die gläubige Muslima, wird es kompliziert. Regisseurin Kurdwin Ayub präsentiert in SONNE ein wildes Gen-Z-Porträt. Ein kraftvoller Film, der den besten Erstlingsfilm-Preis auf der Berlinale gewann und Religion, Freundschaft und Identitätsspiele eindringlich thematisiert.<br><br>
 					<b>Buch und Regie</b> Kurdwin Ayub <br>
 					<b>Produktion</b> Ulrich Seidl Filmproduktion GmbH <br>
 					<b>Erscheinungsjahr</b> Österreich 2022 <br>
@@ -254,9 +251,8 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				time: '20:30:00',
 				type: 'Musikvideos',
 				title: 'Musikvideos',
-				content:
-					`Der Ventil Verlag präsentiert eine Reise in die Welt der Musikvideos. Taucht ein in eine Welt voller spannender, klingender Bildwelten. Unser Musikvideo-Abend nimmt euch mit auf eine Reise zu fesselnden Klängen und visuellen Meisterwerken. Einführend wird der Filmwissenschaftler und langjährige Ventil-Autor Dr. Andreas Rauscher einen kurzen Vortrag zur Geschichte des Musikvideos halten; Bücher des Ventil Verlags gibt es vor Ort zu erwerben.<br><br>
-					Kooperation: Ventil Verlag`,
+				content: `Der Ventil Verlag präsentiert eine Reise in die Welt der Musikvideos. Taucht ein in eine Welt voller spannender, klingender Bildwelten. Unser Musikvideo-Abend nimmt euch mit auf eine Reise zu fesselnden Klängen und visuellen Meisterwerken. Einführend wird der Filmwissenschaftler und langjährige Ventil-Autor Dr. Andreas Rauscher einen kurzen Vortrag zur Geschichte des Musikvideos halten; Bücher des Ventil Verlags gibt es vor Ort zu erwerben.<br><br>
+					Kooperation: Ventil Verlag`
 			},
 			{
 				time: '22:00:00',
@@ -264,8 +260,8 @@ Mit dieser Auszeichnung ehren wir das Erbe von Albert Treber, einem engagierten 
 				title: 'mit DJ Psycho-Jones',
 				content:
 					'Heute zelebriert Mr. PJ zusammen mit dem Team vom Filmsommer Festival – Mainz das Jubiläum im Gewölbe!'
-			},
-		],
+			}
+		]
 		// image: 'DSQ_Schuetz_Hueller_Matschenz_Copyright_GordonATimpen.jpg'
 	}
 ]
