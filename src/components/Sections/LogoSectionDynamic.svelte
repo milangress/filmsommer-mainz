@@ -153,7 +153,8 @@
 				dur="5s"
 				type="translate"
 				from="0 0"
-				to="-2 -2" />
+				to="-2 -2"
+			/>
 		</rect>
 		<rect
 			class="cls-3"
@@ -383,7 +384,12 @@
 		id="stern10jahre"
 	/>
 </svg>
-<object data="FS_Website_Stern_Schriftzug.svg" id="stern10jahre-mobil" title="10 Jahre Filmsommer" type="image/svg+xml"></object>
+<object
+	data="FS_Website_Stern_Schriftzug.svg"
+	id="stern10jahre-mobil"
+	title="10 Jahre Filmsommer"
+	type="image/svg+xml"
+/>
 
 <style>
 	#stern10jahre {

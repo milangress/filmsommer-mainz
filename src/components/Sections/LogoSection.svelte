@@ -1,5 +1,5 @@
 <script>
-	import { lazyLoad } from "../../util/lazyload.js";
+	import { lazyLoad } from '../../util/lazyload.js'
 
 	let logos = []
 
@@ -18,7 +18,7 @@
 	{/each}
 </div>-->
 <div class="logoblock">
-	<img use:lazyLoad="{'logos.png'}" alt="logos">
+	<img use:lazyLoad={'logos.png'} alt="logos" />
 </div>
 
 <style>

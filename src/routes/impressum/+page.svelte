@@ -40,21 +40,21 @@
 	</p>
 	<h3>Bildnachweise</h3>
 	<p>
-		Markus Müller: Andreas Etter<br>
-		Katrin Eder: MKUEM/Christof Mattes<br>
-		26.08. Live-Musik: Navid Mirzazadeh, Ayouva Island<br>	
-		Film: Sami Kuokkanen<br>
-		27.08. Film: 1. Bardamu Film München<br>
-		2. Frithjof Stückemann<br>
-		3. HFF Hochschule für Fernsehen und Film München<br>
-		4. Lukas März<br>
-		5. Apollonia Film<br>
-		28.08. Film: Film- und Medienforum RLP<br>
-		29.08. Live-Musik: Florian Wehse<br>
-		Film: Stadtmedia<br>
-		30.08. Film: ©Chris Harris<br>
-		31.08. Live-Musik: Dario Ölke, DJ Janeck<br>
-		Film: missingFILMs GmbH<br>
+		Markus Müller: Andreas Etter<br />
+		Katrin Eder: MKUEM/Christof Mattes<br />
+		26.08. Live-Musik: Navid Mirzazadeh, Ayouva Island<br />
+		Film: Sami Kuokkanen<br />
+		27.08. Film: 1. Bardamu Film München<br />
+		2. Frithjof Stückemann<br />
+		3. HFF Hochschule für Fernsehen und Film München<br />
+		4. Lukas März<br />
+		5. Apollonia Film<br />
+		28.08. Film: Film- und Medienforum RLP<br />
+		29.08. Live-Musik: Florian Wehse<br />
+		Film: Stadtmedia<br />
+		30.08. Film: ©Chris Harris<br />
+		31.08. Live-Musik: Dario Ölke, DJ Janeck<br />
+		Film: missingFILMs GmbH<br />
 	</p>
 </div>
 <div class="content inner">

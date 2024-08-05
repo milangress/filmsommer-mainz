@@ -2,22 +2,22 @@
 	import Modal from '../Modal.svelte'
 	let showModal = false
 
-	import image from "/src/assets/essentrinken.svg"
+	import image from '/src/assets/essentrinken.svg'
 </script>
 
-<Modal
-	id="EssenTrinkenModal"
-	modalHeadlineID="e-d-modal-headline"
-	bind:showModal
->
-	<object data="{image}" width="80%" title="Essen und Trinken Headline" type="image/svg+xml"></object>
+<Modal id="EssenTrinkenModal" modalHeadlineID="e-d-modal-headline" bind:showModal>
+	<object data={image} width="80%" title="Essen und Trinken Headline" type="image/svg+xml" />
 	<br />
 	<h3 id="e-d-modal-headline">Kulturei Festivaltheke</h3>
 	<p>
-		Mit regionalen, bio-zertifizierten Weinen aus Rheinhessen, Saftschorlen und vielem mehr. Wir sagen schonmal Prost!	
+		Mit regionalen, bio-zertifizierten Weinen aus Rheinhessen, Saftschorlen und vielem mehr. Wir
+		sagen schonmal Prost!
 	</p>
 	<p>
-		Ganz bewusst legen wir bei den Getränken den Fokus auf regionale Anbieter*innen, mit dem Schwerpunkt saisonal, vegetarisch bzw. vegan, biologisch, fair gehandelt und fair hergestellt. Schon bei ökologisch vermeintlich unbedeutenden Freizeitaktivitäten können wir ALLE einen wesentlichen Beitrag zum Umweltschutz leisten.
+		Ganz bewusst legen wir bei den Getränken den Fokus auf regionale Anbieter*innen, mit dem
+		Schwerpunkt saisonal, vegetarisch bzw. vegan, biologisch, fair gehandelt und fair hergestellt.
+		Schon bei ökologisch vermeintlich unbedeutenden Freizeitaktivitäten können wir ALLE einen
+		wesentlichen Beitrag zum Umweltschutz leisten.
 	</p>
 	<p>
 		<b>Weingut Gunderloch</b>
@@ -27,7 +27,6 @@
 	<p>
 		<b>Bringt euch euer Picknick zum Essen gerne mit!</b>
 	</p>
-
 </Modal>
 
 <button

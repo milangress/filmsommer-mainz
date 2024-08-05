@@ -4,10 +4,14 @@
 	export let allDates = []
 </script>
 
-<nav class="timetable" id="timetable" aria-label="Timetable Navigation (gleiche Seite aber scrollt zu Tag & Event)">
+<nav
+	class="timetable"
+	id="timetable"
+	aria-label="Timetable Navigation (gleiche Seite aber scrollt zu Tag & Event)"
+>
 	<h2 class="visually-hidden">Timetable</h2>
 	<div class="day flat bg-star">
-		<h3>Eröffnungs-<br>abend</h3>
+		<h3>Eröffnungs-<br />abend</h3>
 	</div>
 	{#each allDates as date}
 		<Card {date} />
@@ -39,10 +43,9 @@
 		}
 	}
 
-
 	.bg-star {
-      background: url("/FS24-stern.svg") no-repeat center center;
-  }
+		background: url('/FS24-stern.svg') no-repeat center center;
+	}
 	/*.day:after,*/
 	/*.day:before {*/
 	/*	content: '';*/
@@ -63,10 +66,10 @@
 
 	.visually-hidden {
 		position: absolute;
-		left:     -10000px;
-		top:      auto;
-		width:    1px;
-		height:   1px;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
 		overflow: hidden;
 	}
 </style>

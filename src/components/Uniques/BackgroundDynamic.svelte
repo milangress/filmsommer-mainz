@@ -63,22 +63,22 @@
 		flex-grow: 0.6;
 		background-color: var(--fs-color-2);
 	}
-  .bar-left-out {
-    height: 100%;
-    flex-grow: 0.3;
-    background-color: var(--fs-color-3);
-  }
+	.bar-left-out {
+		height: 100%;
+		flex-grow: 0.3;
+		background-color: var(--fs-color-3);
+	}
 
 	.bar-right {
 		height: 100%;
 		flex-grow: 0.6;
 		background-color: var(--fs-color-3);
 	}
-  .bar-right-out {
-    height: 100%;
-    flex-grow: 0.3;
-    background-color: var(--fs-color-2);
-  }
+	.bar-right-out {
+		height: 100%;
+		flex-grow: 0.3;
+		background-color: var(--fs-color-2);
+	}
 	@media (max-width: 1100px) {
 		.out {
 			display: none;

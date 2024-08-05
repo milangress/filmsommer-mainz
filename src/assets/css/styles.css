@@ -1,10 +1,10 @@
 :root {
 	--width-outer: 90vw;
 	--width-inner: 815px;
-	--fs-color-1: #93D5F6;
-	--fs-color-2: #37AD60;
-	--fs-color-3: #FFD500;
-	--fs-color-4: #FFD500;
+	--fs-color-1: #93d5f6;
+	--fs-color-2: #37ad60;
+	--fs-color-3: #ffd500;
+	--fs-color-4: #ffd500;
 }
 @media (min-width: 1600px) {
 	:root {

@@ -1,20 +1,20 @@
 <script xmlns="http://www.w3.org/1999/html">
-	import { DateTime } from "luxon";
-	import LogoDynamic from "/src/components/Sections/LogoSectionDynamic.svelte";
-	import BackToTopButton from "/src/components/UniqueButtons/BackToTopButton.svelte";
-	import HeadlineDynamic from "/src/components/HeadlineDynamic.svelte";
-	import TimetableBlock from "/src/components/Sections/TimetableSection.svelte";
-	import PathText from "/src/components/PathText.svelte";
-	import LogoBlock from "/src/components/Sections/LogoSection.svelte";
+	import { DateTime } from 'luxon'
+	import LogoDynamic from '/src/components/Sections/LogoSectionDynamic.svelte'
+	import BackToTopButton from '/src/components/UniqueButtons/BackToTopButton.svelte'
+	import HeadlineDynamic from '/src/components/HeadlineDynamic.svelte'
+	import TimetableBlock from '/src/components/Sections/TimetableSection.svelte'
+	import PathText from '/src/components/PathText.svelte'
+	import LogoBlock from '/src/components/Sections/LogoSection.svelte'
 
-	import { dates, about, year } from "/src/data/2024.js";
-	import Footer from "/src/components/Landmarks/FooterSection.svelte";
-	import EssenTrinkenModal from "../components/UniqueButtons/EssenTrinkenModal.svelte";
-	import ImageComponent from "../components/ImageComponent.svelte";
+	import { dates, about, year } from '/src/data/2024.js'
+	import Footer from '/src/components/Landmarks/FooterSection.svelte'
+	import EssenTrinkenModal from '../components/UniqueButtons/EssenTrinkenModal.svelte'
+	import ImageComponent from '../components/ImageComponent.svelte'
 	import BackgroundDynamic from '../components/Uniques/BackgroundDynamic.svelte'
 	import SkipToContent from '../components/UniqueButtons/SkipToContent.svelte'
 
-	import { browser } from '$app/environment';
+	import { browser } from '$app/environment'
 	import Carousel from 'svelte-carousel'
 
 	// onMount(async () => {
@@ -27,22 +27,22 @@
 
 	function getImage(fileId) {
 		// const url = new URL(`/fotos2023/${fileId}`);
-		return `/fotos${year}/${fileId}`;
+		return `/fotos${year}/${fileId}`
 	}
 
 	function getTime(time) {
-		return DateTime.fromISO(time).toFormat("HH:mm");
+		return DateTime.fromISO(time).toFormat('HH:mm')
 	}
 
 	function getDate(date) {
-		const weekday = DateTime.fromISO(date).weekdayShort;
-		const day = DateTime.fromISO(date).toFormat("dd.MM");
-		return `${weekday}, ${day}`;
+		const weekday = DateTime.fromISO(date).weekdayShort
+		const day = DateTime.fromISO(date).toFormat('dd.MM')
+		return `${weekday}, ${day}`
 	}
 </script>
 
 <div>
-	<BackgroundDynamic></BackgroundDynamic>
+	<BackgroundDynamic />
 	<header>
 		<SkipToContent />
 		<BackToTopButton />
@@ -56,8 +56,7 @@
 	<TimetableBlock allDates={dates} />
 
 	<main id="main">
-
-<!--<a href="#kunstaktion" class="timetable-extra">
+		<!--<a href="#kunstaktion" class="timetable-extra">
 		<div class="content inner bg-green">
 		<h3>18.–26. 08.</h3>
 		<p>
@@ -71,77 +70,72 @@
 
 		<div class="content inner">{@html about.text}</div>
 
-	{#each dates as date}
-		<section aria-labelledby="{'section-' + date.date}">
+		{#each dates as date}
+			<section aria-labelledby={'section-' + date.date}>
+				<HeadlineDynamic className="headline" id={'date-' + date.date}>
+					<h2 id={'section-' + date.date}>
+						<time class="date" datetime={date.date}>{getDate(date.date)}</time>
+						<br />
+						<span class="name">{date.name}</span>
+					</h2>
+				</HeadlineDynamic>
 
-			<HeadlineDynamic className="headline" id={'date-' + date.date}>
-				<h2 id={'section-' + date.date}>
-					<time class="date" datetime="{date.date}">{getDate(date.date)}</time>
-					<br />
-					<span class="name">{date.name}</span>
-				</h2>
-			</HeadlineDynamic>
+				<div class="content inner">
+					<section class="event-box-wrapper" aria-label="Uhrzeiten für {getDate(date.date)}">
+						{#each date.events as event}
+							<div class="event-short">
+								{#if event.time && event.type}
+									<b><time datetime={event.time}>{getTime(event.time)}</time> • {event.type}</b>
+									<p>{event.title}</p>
+								{:else if event.type}
+									<b>{event.type}</b>
+									<p>{event.title}</p>
+								{:else}
+									<p>{event.title}</p>
+								{/if}
+							</div>
+						{/each}
+					</section>
 
-			<div class="content inner">
-				<section class="event-box-wrapper" aria-label="Uhrzeiten für {getDate(date.date)}">
-					{#each date.events as event}
-						<div class="event-short">
-							{#if event.time && event.type}
-								<b><time datetime="{event.time}">{getTime(event.time)}</time> • {event.type}</b>
-								<p>{event.title}</p>
-							{:else if event.type}
-								<b>{event.type}</b>
-								<p>{event.title}</p>
-							{:else}
-								<p>{event.title}</p>
-							{/if}
-						</div>
-					{/each}
-				</section>
-
-				<div class="events-text-wrapper">
-					{#each date.events as event}
-						<section class="event">
-							{#if typeof event.pathText === 'string'}
-								<PathText text={event.pathText} />
-							{/if}
-							<h3>{event.title_long ? event.title_long : event.title}</h3>
-							<p>{@html event.content}</p>
-						</section>
-					{/each}
+					<div class="events-text-wrapper">
+						{#each date.events as event}
+							<section class="event">
+								{#if typeof event.pathText === 'string'}
+									<PathText text={event.pathText} />
+								{/if}
+								<h3>{event.title_long ? event.title_long : event.title}</h3>
+								<p>{@html event.content}</p>
+							</section>
+						{/each}
+					</div>
 				</div>
-			</div>
 
-			{#if date.image}
-			{#if Array.isArray(date.image) && browser}
-			<div class="date-image">
-			<Carousel arrows={false}>
-					{#each date.image as image}
-						<figure>
+				{#if date.image}
+					{#if Array.isArray(date.image) && browser}
+						<div class="date-image">
+							<Carousel arrows={false}>
+								{#each date.image as image}
+									<figure>
+										<ImageComponent imgSrc={getImage(image.url)} altText={image.altText || ''} />
+										{#if image.imageText}
+											<figcaption>{image.imageText}</figcaption>
+										{/if}
+									</figure>
+								{/each}
+							</Carousel>
+						</div>
+					{:else}
+						<figure class="date-image">
 							<ImageComponent
-								imgSrc={getImage(image.url)}
-								altText={image.altText || ''}
+								imgSrc={getImage(date.image)}
+								altText="An Image from the {date.events[1]?.title} event"
 							/>
-							{#if image.imageText}
-								<figcaption>{image.imageText}</figcaption>
-							{/if}
+							<figcaption>{date.imageText ? date.imageText : date.events[1]?.title}</figcaption>
 						</figure>
-					{/each}
-				</Carousel>
-			</div>	
-			{:else}
-				<figure class="date-image">
-					<ImageComponent
-						imgSrc={getImage(date.image)}
-						altText="An Image from the {date.events[1]?.title} event"
-					/>
-					<figcaption>{date.imageText ? date.imageText : date.events[1]?.title}</figcaption>
-				</figure>
-			{/if}
-			{/if}
-		</section>
-	{/each}
-
+					{/if}
+				{/if}
+			</section>
+		{/each}
 	</main>
 
 	<aside aria-labelledby="unsere-partner">
