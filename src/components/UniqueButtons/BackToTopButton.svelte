@@ -46,7 +46,7 @@
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 	}
 
-	.slideTop-enter-active,
+	/* .slideTop-enter-active,
 	.slideTop-leave-active {
 		transition: all 0.6s ease-in-out;
 	}
@@ -54,5 +54,5 @@
 	.slideTop-enter,
 	.slideTop-leave-to {
 		transform: translateY(50px);
-	}
+	} */
 </style>

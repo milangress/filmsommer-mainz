@@ -68,7 +68,9 @@
 
 		<EssenTrinkenModal />
 
-		<div class="content inner">{@html about.text}</div>
+		<div class="content inner">
+			{@html about.text}
+		</div>
 
 		{#each dates as date}
 			<section aria-labelledby={'section-' + date.date}>
